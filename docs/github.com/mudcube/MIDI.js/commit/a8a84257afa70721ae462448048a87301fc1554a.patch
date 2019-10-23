@@ -1,0 +1,22 @@
+From a8a84257afa70721ae462448048a87301fc1554a Mon Sep 17 00:00:00 2001
+From: Michael Deal <mudcube@gmail.com>
+Date: Mon, 13 Jul 2015 15:08:59 -0700
+Subject: [PATCH] catch typo
+
+---
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index b2ed739..8f69341 100644
+--- a/README.md
++++ b/README.md
+@@ -17,7 +17,7 @@
+ * [Spiral Keyboard](http://spiral.qet.me/) by Patrick Snels
+ * [VexFlow](http://my.vexflow.com/articles/53) by Mohit Muthanna @11111110b
+ 
+-## Related respositories
++## Related repositories
+ 
+ * [MIDI Pictures](https://github.com/andruo11/midi-pictures): Pictures of the 128 standard instruments on MIDI piano keyboards
+ * [MIDI Soundfonts](https://github.com/gleitz/midi-js-soundfonts): Pre-rendered General MIDI soundfonts that can be used immediately with MIDI.js

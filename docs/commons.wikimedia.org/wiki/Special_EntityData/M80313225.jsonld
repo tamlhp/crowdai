@@ -1,0 +1,3215 @@
+{
+    "@graph": [
+        {
+            "@id": "data:M80313225",
+            "@type": "schema:Dataset",
+            "about": "wd:M80313225",
+            "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "softwareVersion": "1.0.0",
+            "version": 357742910,
+            "dateModified": "2019-07-10T21:26:10Z"
+        },
+        {
+            "@id": "wd:M80313225",
+            "@type": [
+                "wikibase:Mediainfo",
+                "schema:MediaObject",
+                "schema:ImageObject"
+            ],
+            "encodingFormat": "image/jpeg",
+            "contentUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Sinistral_Helix_pomatia_Linnaeus_1758_1.jpg",
+            "contentSize": 780380,
+            "height": 1318,
+            "width": 1272,
+            "caption": {
+                "@language": "en",
+                "@value": "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"
+            },
+            "label": {
+                "@language": "en",
+                "@value": "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"
+            },
+            "P180": [
+                "d:Q308841",
+                "d:Q2497260",
+                "d:Q3285695"
+            ],
+            "dp:P180": "s:M80313225-2067987a-479f-a84b-c2a3-94ec1af80703"
+        },
+        {
+            "@id": "s:M80313225-2067987a-479f-a84b-c2a3-94ec1af80703",
+            "@type": [
+                "wikibase:Statement",
+                "wikibase:BestRank"
+            ],
+            "rank": "wikibase:NormalRank",
+            "dps:P180": "d:Q308841"
+        },
+        {
+            "@id": "wd:M80313225",
+            "dp:P180": "s:M80313225-4198244c-4f50-34ce-63a0-cb90f4b59a72"
+        },
+        {
+            "@id": "s:M80313225-4198244c-4f50-34ce-63a0-cb90f4b59a72",
+            "@type": [
+                "wikibase:Statement",
+                "wikibase:BestRank"
+            ],
+            "rank": "wikibase:NormalRank",
+            "dps:P180": "d:Q2497260"
+        },
+        {
+            "@id": "wd:M80313225",
+            "dp:P180": "s:M80313225-01a489af-466a-6f09-966e-213242c028de"
+        },
+        {
+            "@id": "s:M80313225-01a489af-466a-6f09-966e-213242c028de",
+            "@type": [
+                "wikibase:Statement",
+                "wikibase:BestRank"
+            ],
+            "rank": "wikibase:NormalRank",
+            "dps:P180": "d:Q3285695"
+        },
+        {
+            "@id": "d:Q308841",
+            "@type": "wikibase:Item",
+            "label": [
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "zh-cn",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-sg",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-tw",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "eu",
+                    "@value": "Barraskilo"
+                },
+                {
+                    "@language": "qu",
+                    "@value": "Ch'uru"
+                },
+                {
+                    "@language": "es",
+                    "@value": "@unaxs.j"
+                },
+                {
+                    "@language": "ta",
+                    "@value": "\u0ba8\u0ba4\u0bcd\u0ba4\u0bc8"
+                },
+                {
+                    "@language": "oc",
+                    "@value": "Cagaraula"
+                },
+                {
+                    "@language": "ms",
+                    "@value": "Siput"
+                },
+                {
+                    "@language": "pdc",
+                    "@value": "Schneck"
+                },
+                {
+                    "@language": "sw",
+                    "@value": "Konokono"
+                },
+                {
+                    "@language": "bn",
+                    "@value": "\u09b6\u09be\u09ae\u09c1\u0995"
+                },
+                {
+                    "@language": "br",
+                    "@value": "Melc'hwed-krogennek"
+                },
+                {
+                    "@language": "el",
+                    "@value": "\u03a3\u03b1\u03bb\u03b9\u03b3\u03ba\u03ac\u03c1\u03b9"
+                },
+                {
+                    "@language": "cdo",
+                    "@value": "Ng\u00f9-m\u014d\u0324-ng\u00f9-gi\u0101ng"
+                },
+                {
+                    "@language": "pnb",
+                    "@value": "\u06a9\u0648\u0646\u06af\u0627"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u062d\u0644\u0632\u0648\u0646"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "caracol"
+                },
+                {
+                    "@language": "eo",
+                    "@value": "Heliko"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0423\u043b\u0438\u0442\u043a\u0430"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "Salyangoz"
+                },
+                {
+                    "@language": "sn",
+                    "@value": "Hozhwa"
+                },
+                {
+                    "@language": "frp",
+                    "@value": "Lemace"
+                },
+                {
+                    "@language": "io",
+                    "@value": "Heliko"
+                },
+                {
+                    "@language": "mzn",
+                    "@value": "\u0644\u06cc\u0633\u06a9"
+                },
+                {
+                    "@language": "az",
+                    "@value": "\u0130lbiz"
+                },
+                {
+                    "@language": "lmo",
+                    "@value": "L\u00fcmaga"
+                },
+                {
+                    "@language": "tl",
+                    "@value": "Kuhol"
+                },
+                {
+                    "@language": "vec",
+                    "@value": "Sci\u00f9s"
+                },
+                {
+                    "@language": "wa",
+                    "@value": "Caracole"
+                },
+                {
+                    "@language": "nah",
+                    "@value": "Tecciztli"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "escargot"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub2ec\ud33d\uc774"
+                },
+                {
+                    "@language": "eml",
+                    "@value": "Lum\u00e8ga"
+                },
+                {
+                    "@language": "it",
+                    "@value": "chiocciola"
+                },
+                {
+                    "@language": "gl",
+                    "@value": "Caracol"
+                },
+                {
+                    "@language": "ay",
+                    "@value": "Ch'uru"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d12\u0d1a\u0d4d\u0d1a\u0d4d"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u30ab\u30bf\u30c4\u30e0\u30ea"
+                },
+                {
+                    "@language": "vi",
+                    "@value": "\u1ed0c"
+                },
+                {
+                    "@language": "en",
+                    "@value": "snail"
+                },
+                {
+                    "@language": "scn",
+                    "@value": "Vavaluci"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "\u0938\u094d\u0925\u0932\u0940\u092f \u0918\u094b\u0902\u0918\u093e"
+                },
+                {
+                    "@language": "ht",
+                    "@value": "Kalmason"
+                },
+                {
+                    "@language": "gn",
+                    "@value": "Jatyta"
+                },
+                {
+                    "@language": "cv",
+                    "@value": "\u0428\u0443\u0439\u0441\u0435\u043c"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "Melc"
+                },
+                {
+                    "@language": "th",
+                    "@value": "\u0e2b\u0e2d\u0e22\u0e17\u0e32\u0e01"
+                },
+                {
+                    "@language": "ca",
+                    "@value": "Cargol de terra"
+                },
+                {
+                    "@language": "la",
+                    "@value": "Cochlea"
+                },
+                {
+                    "@language": "os",
+                    "@value": "\u0421\u00e6\u0442\u00e6\u043b\u00e6\u0433"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062d\u0644\u0632\u0648\u0646"
+                },
+                {
+                    "@language": "mr",
+                    "@value": "\u0917\u094b\u0917\u0932\u0917\u093e\u092f"
+                },
+                {
+                    "@language": "bg",
+                    "@value": "\u043e\u0445\u043b\u044e\u0432"
+                },
+                {
+                    "@language": "te",
+                    "@value": "\u0c28\u0c24\u0c4d\u0c24"
+                },
+                {
+                    "@language": "ur",
+                    "@value": "\u06af\u06be\u0648\u0646\u06af\u06be\u0627"
+                },
+                {
+                    "@language": "lt",
+                    "@value": "Sraig\u0117"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "Gliemezis"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "uk",
+                    "@value": "\u0420\u0430\u0432\u043b\u0438\u043a"
+                },
+                {
+                    "@language": "nap",
+                    "@value": "Babbaluscia"
+                },
+                {
+                    "@language": "de",
+                    "@value": "Schnecke"
+                },
+                {
+                    "@language": "ga",
+                    "@value": "Seilide"
+                },
+                {
+                    "@language": "an",
+                    "@value": "Caragol"
+                },
+                {
+                    "@language": "cy",
+                    "@value": "Malwen"
+                },
+                {
+                    "@language": "yue",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "ia",
+                    "@value": "Coclea"
+                },
+                {
+                    "@language": "sco",
+                    "@value": "snail"
+                },
+                {
+                    "@language": "za",
+                    "@value": "Saehaexma"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "\u015alimak"
+                },
+                {
+                    "@language": "sgs",
+                    "@value": "Sr\u0101gis"
+                },
+                {
+                    "@language": "nan",
+                    "@value": "L\u014d\u0358-l\u00ea"
+                },
+                {
+                    "@language": "id",
+                    "@value": "Siput"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "slak"
+                },
+                {
+                    "@language": "kn",
+                    "@value": "\u0cac\u0cb8\u0cb5\u0ca8 \u0cb9\u0cc1\u0cb3\u0cc1"
+                },
+                {
+                    "@language": "ce",
+                    "@value": "\u0410\u044c\u0442\u0442\u0430\u043c\u0430\u044c\u0433\u04c0\u0430\u0433"
+                },
+                {
+                    "@language": "olo",
+                    "@value": "Eden\u00f6i"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "snigel"
+                },
+                {
+                    "@language": "gd",
+                    "@value": "seilcheag"
+                },
+                {
+                    "@language": "ne",
+                    "@value": "\u0936\u0902\u0916\u0947\u0915\u0940\u0930\u093e"
+                },
+                {
+                    "@language": "ast",
+                    "@value": "Cascoxu"
+                },
+                {
+                    "@language": "azb",
+                    "@value": "\u0627\u06cc\u0644\u0628\u06cc\u0632"
+                },
+                {
+                    "@language": "sr",
+                    "@value": "\u041f\u0443\u0436\u0435\u0432\u0438"
+                },
+                {
+                    "@language": "atj",
+                    "@value": "Pimerikockwatcic"
+                },
+                {
+                    "@language": "am",
+                    "@value": "\u1240\u1295\u12f5 \u12a0\u12cd\u1323"
+                },
+                {
+                    "@language": "bcl",
+                    "@value": "Atol"
+                },
+                {
+                    "@language": "got",
+                    "@value": "\ud800\udf43\ud800\udf3d\ud800\udf30\ud800\udf32\ud800\udf39\ud800\udf3b\ud800\udf43"
+                },
+                {
+                    "@language": "be",
+                    "@value": "\u0421\u043b\u0456\u043c\u0430\u043a"
+                },
+                {
+                    "@language": "as",
+                    "@value": "\u09b6\u09be\u09ae\u09c1\u0995"
+                },
+                {
+                    "@language": "war",
+                    "@value": "Kuhol"
+                },
+                {
+                    "@language": "kk",
+                    "@value": "\u04b0\u043b\u0443\u043b\u0430\u0440"
+                },
+                {
+                    "@language": "kab",
+                    "@value": "A\u025barus"
+                },
+                {
+                    "@language": "wuu",
+                    "@value": "\u8717\u725b"
+                }
+            ],
+            "prefLabel": [
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "zh-cn",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-sg",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-tw",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "eu",
+                    "@value": "Barraskilo"
+                },
+                {
+                    "@language": "qu",
+                    "@value": "Ch'uru"
+                },
+                {
+                    "@language": "es",
+                    "@value": "@unaxs.j"
+                },
+                {
+                    "@language": "ta",
+                    "@value": "\u0ba8\u0ba4\u0bcd\u0ba4\u0bc8"
+                },
+                {
+                    "@language": "oc",
+                    "@value": "Cagaraula"
+                },
+                {
+                    "@language": "ms",
+                    "@value": "Siput"
+                },
+                {
+                    "@language": "pdc",
+                    "@value": "Schneck"
+                },
+                {
+                    "@language": "sw",
+                    "@value": "Konokono"
+                },
+                {
+                    "@language": "bn",
+                    "@value": "\u09b6\u09be\u09ae\u09c1\u0995"
+                },
+                {
+                    "@language": "br",
+                    "@value": "Melc'hwed-krogennek"
+                },
+                {
+                    "@language": "el",
+                    "@value": "\u03a3\u03b1\u03bb\u03b9\u03b3\u03ba\u03ac\u03c1\u03b9"
+                },
+                {
+                    "@language": "cdo",
+                    "@value": "Ng\u00f9-m\u014d\u0324-ng\u00f9-gi\u0101ng"
+                },
+                {
+                    "@language": "pnb",
+                    "@value": "\u06a9\u0648\u0646\u06af\u0627"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u062d\u0644\u0632\u0648\u0646"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "caracol"
+                },
+                {
+                    "@language": "eo",
+                    "@value": "Heliko"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0423\u043b\u0438\u0442\u043a\u0430"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "Salyangoz"
+                },
+                {
+                    "@language": "sn",
+                    "@value": "Hozhwa"
+                },
+                {
+                    "@language": "frp",
+                    "@value": "Lemace"
+                },
+                {
+                    "@language": "io",
+                    "@value": "Heliko"
+                },
+                {
+                    "@language": "mzn",
+                    "@value": "\u0644\u06cc\u0633\u06a9"
+                },
+                {
+                    "@language": "az",
+                    "@value": "\u0130lbiz"
+                },
+                {
+                    "@language": "lmo",
+                    "@value": "L\u00fcmaga"
+                },
+                {
+                    "@language": "tl",
+                    "@value": "Kuhol"
+                },
+                {
+                    "@language": "vec",
+                    "@value": "Sci\u00f9s"
+                },
+                {
+                    "@language": "wa",
+                    "@value": "Caracole"
+                },
+                {
+                    "@language": "nah",
+                    "@value": "Tecciztli"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "escargot"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub2ec\ud33d\uc774"
+                },
+                {
+                    "@language": "eml",
+                    "@value": "Lum\u00e8ga"
+                },
+                {
+                    "@language": "it",
+                    "@value": "chiocciola"
+                },
+                {
+                    "@language": "gl",
+                    "@value": "Caracol"
+                },
+                {
+                    "@language": "ay",
+                    "@value": "Ch'uru"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d12\u0d1a\u0d4d\u0d1a\u0d4d"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u30ab\u30bf\u30c4\u30e0\u30ea"
+                },
+                {
+                    "@language": "vi",
+                    "@value": "\u1ed0c"
+                },
+                {
+                    "@language": "en",
+                    "@value": "snail"
+                },
+                {
+                    "@language": "scn",
+                    "@value": "Vavaluci"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "\u0938\u094d\u0925\u0932\u0940\u092f \u0918\u094b\u0902\u0918\u093e"
+                },
+                {
+                    "@language": "ht",
+                    "@value": "Kalmason"
+                },
+                {
+                    "@language": "gn",
+                    "@value": "Jatyta"
+                },
+                {
+                    "@language": "cv",
+                    "@value": "\u0428\u0443\u0439\u0441\u0435\u043c"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "Melc"
+                },
+                {
+                    "@language": "th",
+                    "@value": "\u0e2b\u0e2d\u0e22\u0e17\u0e32\u0e01"
+                },
+                {
+                    "@language": "ca",
+                    "@value": "Cargol de terra"
+                },
+                {
+                    "@language": "la",
+                    "@value": "Cochlea"
+                },
+                {
+                    "@language": "os",
+                    "@value": "\u0421\u00e6\u0442\u00e6\u043b\u00e6\u0433"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062d\u0644\u0632\u0648\u0646"
+                },
+                {
+                    "@language": "mr",
+                    "@value": "\u0917\u094b\u0917\u0932\u0917\u093e\u092f"
+                },
+                {
+                    "@language": "bg",
+                    "@value": "\u043e\u0445\u043b\u044e\u0432"
+                },
+                {
+                    "@language": "te",
+                    "@value": "\u0c28\u0c24\u0c4d\u0c24"
+                },
+                {
+                    "@language": "ur",
+                    "@value": "\u06af\u06be\u0648\u0646\u06af\u06be\u0627"
+                },
+                {
+                    "@language": "lt",
+                    "@value": "Sraig\u0117"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "Gliemezis"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "uk",
+                    "@value": "\u0420\u0430\u0432\u043b\u0438\u043a"
+                },
+                {
+                    "@language": "nap",
+                    "@value": "Babbaluscia"
+                },
+                {
+                    "@language": "de",
+                    "@value": "Schnecke"
+                },
+                {
+                    "@language": "ga",
+                    "@value": "Seilide"
+                },
+                {
+                    "@language": "an",
+                    "@value": "Caragol"
+                },
+                {
+                    "@language": "cy",
+                    "@value": "Malwen"
+                },
+                {
+                    "@language": "yue",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "ia",
+                    "@value": "Coclea"
+                },
+                {
+                    "@language": "sco",
+                    "@value": "snail"
+                },
+                {
+                    "@language": "za",
+                    "@value": "Saehaexma"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "\u015alimak"
+                },
+                {
+                    "@language": "sgs",
+                    "@value": "Sr\u0101gis"
+                },
+                {
+                    "@language": "nan",
+                    "@value": "L\u014d\u0358-l\u00ea"
+                },
+                {
+                    "@language": "id",
+                    "@value": "Siput"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "slak"
+                },
+                {
+                    "@language": "kn",
+                    "@value": "\u0cac\u0cb8\u0cb5\u0ca8 \u0cb9\u0cc1\u0cb3\u0cc1"
+                },
+                {
+                    "@language": "ce",
+                    "@value": "\u0410\u044c\u0442\u0442\u0430\u043c\u0430\u044c\u0433\u04c0\u0430\u0433"
+                },
+                {
+                    "@language": "olo",
+                    "@value": "Eden\u00f6i"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "snigel"
+                },
+                {
+                    "@language": "gd",
+                    "@value": "seilcheag"
+                },
+                {
+                    "@language": "ne",
+                    "@value": "\u0936\u0902\u0916\u0947\u0915\u0940\u0930\u093e"
+                },
+                {
+                    "@language": "ast",
+                    "@value": "Cascoxu"
+                },
+                {
+                    "@language": "azb",
+                    "@value": "\u0627\u06cc\u0644\u0628\u06cc\u0632"
+                },
+                {
+                    "@language": "sr",
+                    "@value": "\u041f\u0443\u0436\u0435\u0432\u0438"
+                },
+                {
+                    "@language": "atj",
+                    "@value": "Pimerikockwatcic"
+                },
+                {
+                    "@language": "am",
+                    "@value": "\u1240\u1295\u12f5 \u12a0\u12cd\u1323"
+                },
+                {
+                    "@language": "bcl",
+                    "@value": "Atol"
+                },
+                {
+                    "@language": "got",
+                    "@value": "\ud800\udf43\ud800\udf3d\ud800\udf30\ud800\udf32\ud800\udf39\ud800\udf3b\ud800\udf43"
+                },
+                {
+                    "@language": "be",
+                    "@value": "\u0421\u043b\u0456\u043c\u0430\u043a"
+                },
+                {
+                    "@language": "as",
+                    "@value": "\u09b6\u09be\u09ae\u09c1\u0995"
+                },
+                {
+                    "@language": "war",
+                    "@value": "Kuhol"
+                },
+                {
+                    "@language": "kk",
+                    "@value": "\u04b0\u043b\u0443\u043b\u0430\u0440"
+                },
+                {
+                    "@language": "kab",
+                    "@value": "A\u025barus"
+                },
+                {
+                    "@language": "wuu",
+                    "@value": "\u8717\u725b"
+                }
+            ],
+            "name": [
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "zh-cn",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-sg",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "zh-tw",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "eu",
+                    "@value": "Barraskilo"
+                },
+                {
+                    "@language": "qu",
+                    "@value": "Ch'uru"
+                },
+                {
+                    "@language": "es",
+                    "@value": "@unaxs.j"
+                },
+                {
+                    "@language": "ta",
+                    "@value": "\u0ba8\u0ba4\u0bcd\u0ba4\u0bc8"
+                },
+                {
+                    "@language": "oc",
+                    "@value": "Cagaraula"
+                },
+                {
+                    "@language": "ms",
+                    "@value": "Siput"
+                },
+                {
+                    "@language": "pdc",
+                    "@value": "Schneck"
+                },
+                {
+                    "@language": "sw",
+                    "@value": "Konokono"
+                },
+                {
+                    "@language": "bn",
+                    "@value": "\u09b6\u09be\u09ae\u09c1\u0995"
+                },
+                {
+                    "@language": "br",
+                    "@value": "Melc'hwed-krogennek"
+                },
+                {
+                    "@language": "el",
+                    "@value": "\u03a3\u03b1\u03bb\u03b9\u03b3\u03ba\u03ac\u03c1\u03b9"
+                },
+                {
+                    "@language": "cdo",
+                    "@value": "Ng\u00f9-m\u014d\u0324-ng\u00f9-gi\u0101ng"
+                },
+                {
+                    "@language": "pnb",
+                    "@value": "\u06a9\u0648\u0646\u06af\u0627"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u062d\u0644\u0632\u0648\u0646"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "caracol"
+                },
+                {
+                    "@language": "eo",
+                    "@value": "Heliko"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0423\u043b\u0438\u0442\u043a\u0430"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "Salyangoz"
+                },
+                {
+                    "@language": "sn",
+                    "@value": "Hozhwa"
+                },
+                {
+                    "@language": "frp",
+                    "@value": "Lemace"
+                },
+                {
+                    "@language": "io",
+                    "@value": "Heliko"
+                },
+                {
+                    "@language": "mzn",
+                    "@value": "\u0644\u06cc\u0633\u06a9"
+                },
+                {
+                    "@language": "az",
+                    "@value": "\u0130lbiz"
+                },
+                {
+                    "@language": "lmo",
+                    "@value": "L\u00fcmaga"
+                },
+                {
+                    "@language": "tl",
+                    "@value": "Kuhol"
+                },
+                {
+                    "@language": "vec",
+                    "@value": "Sci\u00f9s"
+                },
+                {
+                    "@language": "wa",
+                    "@value": "Caracole"
+                },
+                {
+                    "@language": "nah",
+                    "@value": "Tecciztli"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "escargot"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub2ec\ud33d\uc774"
+                },
+                {
+                    "@language": "eml",
+                    "@value": "Lum\u00e8ga"
+                },
+                {
+                    "@language": "it",
+                    "@value": "chiocciola"
+                },
+                {
+                    "@language": "gl",
+                    "@value": "Caracol"
+                },
+                {
+                    "@language": "ay",
+                    "@value": "Ch'uru"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d12\u0d1a\u0d4d\u0d1a\u0d4d"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u30ab\u30bf\u30c4\u30e0\u30ea"
+                },
+                {
+                    "@language": "vi",
+                    "@value": "\u1ed0c"
+                },
+                {
+                    "@language": "en",
+                    "@value": "snail"
+                },
+                {
+                    "@language": "scn",
+                    "@value": "Vavaluci"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "\u0938\u094d\u0925\u0932\u0940\u092f \u0918\u094b\u0902\u0918\u093e"
+                },
+                {
+                    "@language": "ht",
+                    "@value": "Kalmason"
+                },
+                {
+                    "@language": "gn",
+                    "@value": "Jatyta"
+                },
+                {
+                    "@language": "cv",
+                    "@value": "\u0428\u0443\u0439\u0441\u0435\u043c"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "Melc"
+                },
+                {
+                    "@language": "th",
+                    "@value": "\u0e2b\u0e2d\u0e22\u0e17\u0e32\u0e01"
+                },
+                {
+                    "@language": "ca",
+                    "@value": "Cargol de terra"
+                },
+                {
+                    "@language": "la",
+                    "@value": "Cochlea"
+                },
+                {
+                    "@language": "os",
+                    "@value": "\u0421\u00e6\u0442\u00e6\u043b\u00e6\u0433"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062d\u0644\u0632\u0648\u0646"
+                },
+                {
+                    "@language": "mr",
+                    "@value": "\u0917\u094b\u0917\u0932\u0917\u093e\u092f"
+                },
+                {
+                    "@language": "bg",
+                    "@value": "\u043e\u0445\u043b\u044e\u0432"
+                },
+                {
+                    "@language": "te",
+                    "@value": "\u0c28\u0c24\u0c4d\u0c24"
+                },
+                {
+                    "@language": "ur",
+                    "@value": "\u06af\u06be\u0648\u0646\u06af\u06be\u0627"
+                },
+                {
+                    "@language": "lt",
+                    "@value": "Sraig\u0117"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "Gliemezis"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u8717\u725b"
+                },
+                {
+                    "@language": "uk",
+                    "@value": "\u0420\u0430\u0432\u043b\u0438\u043a"
+                },
+                {
+                    "@language": "nap",
+                    "@value": "Babbaluscia"
+                },
+                {
+                    "@language": "de",
+                    "@value": "Schnecke"
+                },
+                {
+                    "@language": "ga",
+                    "@value": "Seilide"
+                },
+                {
+                    "@language": "an",
+                    "@value": "Caragol"
+                },
+                {
+                    "@language": "cy",
+                    "@value": "Malwen"
+                },
+                {
+                    "@language": "yue",
+                    "@value": "\u8778\u725b"
+                },
+                {
+                    "@language": "ia",
+                    "@value": "Coclea"
+                },
+                {
+                    "@language": "sco",
+                    "@value": "snail"
+                },
+                {
+                    "@language": "za",
+                    "@value": "Saehaexma"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "\u015alimak"
+                },
+                {
+                    "@language": "sgs",
+                    "@value": "Sr\u0101gis"
+                },
+                {
+                    "@language": "nan",
+                    "@value": "L\u014d\u0358-l\u00ea"
+                },
+                {
+                    "@language": "id",
+                    "@value": "Siput"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "slak"
+                },
+                {
+                    "@language": "kn",
+                    "@value": "\u0cac\u0cb8\u0cb5\u0ca8 \u0cb9\u0cc1\u0cb3\u0cc1"
+                },
+                {
+                    "@language": "ce",
+                    "@value": "\u0410\u044c\u0442\u0442\u0430\u043c\u0430\u044c\u0433\u04c0\u0430\u0433"
+                },
+                {
+                    "@language": "olo",
+                    "@value": "Eden\u00f6i"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "snigel"
+                },
+                {
+                    "@language": "gd",
+                    "@value": "seilcheag"
+                },
+                {
+                    "@language": "ne",
+                    "@value": "\u0936\u0902\u0916\u0947\u0915\u0940\u0930\u093e"
+                },
+                {
+                    "@language": "ast",
+                    "@value": "Cascoxu"
+                },
+                {
+                    "@language": "azb",
+                    "@value": "\u0627\u06cc\u0644\u0628\u06cc\u0632"
+                },
+                {
+                    "@language": "sr",
+                    "@value": "\u041f\u0443\u0436\u0435\u0432\u0438"
+                },
+                {
+                    "@language": "atj",
+                    "@value": "Pimerikockwatcic"
+                },
+                {
+                    "@language": "am",
+                    "@value": "\u1240\u1295\u12f5 \u12a0\u12cd\u1323"
+                },
+                {
+                    "@language": "bcl",
+                    "@value": "Atol"
+                },
+                {
+                    "@language": "got",
+                    "@value": "\ud800\udf43\ud800\udf3d\ud800\udf30\ud800\udf32\ud800\udf39\ud800\udf3b\ud800\udf43"
+                },
+                {
+                    "@language": "be",
+                    "@value": "\u0421\u043b\u0456\u043c\u0430\u043a"
+                },
+                {
+                    "@language": "as",
+                    "@value": "\u09b6\u09be\u09ae\u09c1\u0995"
+                },
+                {
+                    "@language": "war",
+                    "@value": "Kuhol"
+                },
+                {
+                    "@language": "kk",
+                    "@value": "\u04b0\u043b\u0443\u043b\u0430\u0440"
+                },
+                {
+                    "@language": "kab",
+                    "@value": "A\u025barus"
+                },
+                {
+                    "@language": "wuu",
+                    "@value": "\u8717\u725b"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "mollusc"
+                },
+                {
+                    "@language": "de",
+                    "@value": "gebr\u00e4uchliche Bezeichnung f\u00fcr Tiere mit einem Schneckenhaus"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "mollusque"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "weekdier"
+                },
+                {
+                    "@language": "kn",
+                    "@value": "\u0cae\u0cc3\u0ca6\u0ccd\u0cb5\u0c82\u0c97\u0cbf\u0c97\u0cb3\u0cc1"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u062d\u0644\u0632\u0648\u0646 \u0628\u062d\u0631\u064a"
+                },
+                {
+                    "@language": "es",
+                    "@value": "molusco"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "Gastr\u00f3podes terrestres com concha"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d12\u0d30\u0d41 \u0d15\u0d3e\u0d32\u0d41\u0d33\u0d4d\u0d33 \u0d0f\u0d15 \u0d1c\u0d40\u0d35\u0d3f\u0d2f\u0d3e\u0d23\u0d4d \u0d12\u0d1a\u0d4d\u0d1a\u0d4d."
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0440\u043e\u0434 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0445 \u0441\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u0430 \u043c\u043e\u043b\u043b\u044e\u0441\u043a\u043e\u0432"
+                },
+                {
+                    "@language": "qu",
+                    "@value": "chruma jdhuue"
+                }
+            ]
+        },
+        {
+            "@id": "d:P180",
+            "@type": [
+                "wikibase:Property",
+                "wikibase:Property"
+            ],
+            "propertyType": "http://wikiba.se/ontology#WikibaseItem",
+            "directClaim": "dt:P180",
+            "claim": "dp:P180",
+            "statementProperty": "dps:P180",
+            "statementValue": "dpsv:P180",
+            "qualifier": "dpq:P180",
+            "qualifierValue": "dpqv:P180",
+            "reference": "dpr:P180",
+            "referenceValue": "dprv:P180",
+            "novalue": "dno:P180"
+        },
+        {
+            "@id": "dp:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dpsv:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dpqv:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dprv:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dt:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dps:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dpq:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dpr:P180",
+            "@type": "owl:ObjectProperty"
+        },
+        {
+            "@id": "dno:P180",
+            "@type": "owl:Class",
+            "complementOf": "_:genid1"
+        },
+        {
+            "@id": "_:genid1",
+            "@type": "owl:Restriction",
+            "onProperty": "dt:P180",
+            "someValuesFrom": "owl:Thing"
+        },
+        {
+            "@id": "d:P180",
+            "label": [
+                {
+                    "@language": "fr",
+                    "@value": "d\u00e9peint"
+                },
+                {
+                    "@language": "en",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "de",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "cs",
+                    "@value": "zobrazuje"
+                },
+                {
+                    "@language": "he",
+                    "@value": "\u05de\u05e6\u05d9\u05d2"
+                },
+                {
+                    "@language": "be",
+                    "@value": "\u0430\u0434\u043b\u044e\u0441\u0442\u0440\u043e\u045e\u0432\u0430\u0435"
+                },
+                {
+                    "@language": "ca",
+                    "@value": "subjecte representat"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u984c\u6750"
+                },
+                {
+                    "@language": "es",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "uk",
+                    "@value": "\u0437\u043e\u0431\u0440\u0430\u0436\u0443\u0454"
+                },
+                {
+                    "@language": "it",
+                    "@value": "raffigura"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "beeldt af"
+                },
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "att\u0113lo"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub2e4\uc74c\uc744 \ubb18\uc0ac\ud568"
+                },
+                {
+                    "@language": "sr",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0437\u0443\u0458\u0435"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0451\u043d\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "przedstawia"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062a\u0648\u0635\u06cc\u0641\u200c\u0647\u0627"
+                },
+                {
+                    "@language": "nb",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "nn",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "hu",
+                    "@value": "m\u0171 t\u00e1rgya"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "retrata"
+                },
+                {
+                    "@language": "af",
+                    "@value": "uitbeelding"
+                },
+                {
+                    "@language": "el",
+                    "@value": "\u03b1\u03c0\u03b5\u03b9\u03ba\u03bf\u03bd\u03af\u03b6\u03b5\u03b9"
+                },
+                {
+                    "@language": "da",
+                    "@value": "afbilder"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "subiectul reprezentat"
+                },
+                {
+                    "@language": "bs",
+                    "@value": "prikazuje"
+                },
+                {
+                    "@language": "nds",
+                    "@value": "wiest"
+                },
+                {
+                    "@language": "ka",
+                    "@value": "\u10d2\u10d0\u10db\u10dd\u10e1\u10d0\u10ee\u10e3\u10da\u10d8 \u10dd\u10d1\u10d8\u10d4\u10e5\u10e2\u10d8"
+                },
+                {
+                    "@language": "mk",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0436\u0443\u0432\u0430"
+                },
+                {
+                    "@language": "fi",
+                    "@value": "esitt\u00e4\u00e4"
+                },
+                {
+                    "@language": "ms",
+                    "@value": "menggambarkan"
+                },
+                {
+                    "@language": "pt-br",
+                    "@value": "retrata"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "be-tarask",
+                    "@value": "\u0430\u0434\u043b\u044e\u0441\u0442\u0440\u043e\u045e\u0432\u0430\u0435"
+                },
+                {
+                    "@language": "oc",
+                    "@value": "subj\u00e8cte representat"
+                },
+                {
+                    "@language": "en-gb",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "te",
+                    "@value": "\u0c1a\u0c3f\u0c24\u0c4d\u0c30\u0c23"
+                },
+                {
+                    "@language": "sk",
+                    "@value": "mot\u00edv"
+                },
+                {
+                    "@language": "sr-ec",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0437\u0443\u0458\u0435"
+                },
+                {
+                    "@language": "sr-el",
+                    "@value": "prikazuje"
+                },
+                {
+                    "@language": "ia",
+                    "@value": "depinge"
+                },
+                {
+                    "@language": "sco",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "sl",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "eu",
+                    "@value": "honako hau irudikatzen du"
+                },
+                {
+                    "@language": "ne",
+                    "@value": "\u091c\u0928\u093e\u0909\u0901\u091b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-cn",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-mo",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-my",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-sg",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-tw",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "gsw",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "cy",
+                    "@value": "yn portreadu"
+                },
+                {
+                    "@language": "eo",
+                    "@value": "montras"
+                },
+                {
+                    "@language": "et",
+                    "@value": "kujutab"
+                },
+                {
+                    "@language": "lt",
+                    "@value": "vaizduoja"
+                },
+                {
+                    "@language": "id",
+                    "@value": "gambaran dari"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u064a\u0635\u0648\u0631"
+                },
+                {
+                    "@language": "ku-latn",
+                    "@value": "mot\u00eev"
+                },
+                {
+                    "@language": "hy",
+                    "@value": "\u057a\u0561\u057f\u056f\u0565\u0580\u057e\u0561\u056e \u0585\u0562\u0575\u0565\u056f\u057f"
+                },
+                {
+                    "@language": "bn",
+                    "@value": "\u09af\u09be \u099a\u09bf\u09a4\u09cd\u09b0\u09bf\u09a4 \u0995\u09b0\u09c7"
+                },
+                {
+                    "@language": "tg-cyrl",
+                    "@value": "\u0430\u0448\u0451\u0438 \u0442\u0430\u0441\u0432\u0438\u0440\u0448\u0443\u0434\u0430"
+                },
+                {
+                    "@language": "bg",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0437\u0435\u043d \u043e\u0431\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "vi",
+                    "@value": "t\u1ea3"
+                },
+                {
+                    "@language": "ba",
+                    "@value": "\u04bb\u04af\u0440\u04d9\u0442\u043b\u04d9\u043d\u0433\u04d9\u043d \u043e\u0431\u044a\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "gl",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "betimler"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d38\u0d43\u0d37\u0d4d\u0d1f\u0d3f\u0d2f\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33\u0d24\u0d4d"
+                },
+                {
+                    "@language": "ast",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "sq",
+                    "@value": "p\u00ebrshkruan"
+                },
+                {
+                    "@language": "aln",
+                    "@value": "p\u00ebrshkruan"
+                },
+                {
+                    "@language": "hsb",
+                    "@value": "motiw"
+                },
+                {
+                    "@language": "lb",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "wa",
+                    "@value": "mostere"
+                },
+                {
+                    "@language": "tg",
+                    "@value": "\u0442\u0430\u0432\u0441\u0438\u0444\u04b3\u043e"
+                },
+                {
+                    "@language": "hr",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "frr",
+                    "@value": "motiif"
+                },
+                {
+                    "@language": "or",
+                    "@value": "\u0b26\u0b30\u0b4d\u0b36\u0b3e\u0b0f"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "\u091a\u093f\u0924\u094d\u0930\u0923"
+                },
+                {
+                    "@language": "ga",
+                    "@value": "taispe\u00e1nann s\u00e9/s\u00ed"
+                },
+                {
+                    "@language": "az",
+                    "@value": "t\u0259svir edir"
+                }
+            ],
+            "prefLabel": [
+                {
+                    "@language": "fr",
+                    "@value": "d\u00e9peint"
+                },
+                {
+                    "@language": "en",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "de",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "cs",
+                    "@value": "zobrazuje"
+                },
+                {
+                    "@language": "he",
+                    "@value": "\u05de\u05e6\u05d9\u05d2"
+                },
+                {
+                    "@language": "be",
+                    "@value": "\u0430\u0434\u043b\u044e\u0441\u0442\u0440\u043e\u045e\u0432\u0430\u0435"
+                },
+                {
+                    "@language": "ca",
+                    "@value": "subjecte representat"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u984c\u6750"
+                },
+                {
+                    "@language": "es",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "uk",
+                    "@value": "\u0437\u043e\u0431\u0440\u0430\u0436\u0443\u0454"
+                },
+                {
+                    "@language": "it",
+                    "@value": "raffigura"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "beeldt af"
+                },
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "att\u0113lo"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub2e4\uc74c\uc744 \ubb18\uc0ac\ud568"
+                },
+                {
+                    "@language": "sr",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0437\u0443\u0458\u0435"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0451\u043d\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "przedstawia"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062a\u0648\u0635\u06cc\u0641\u200c\u0647\u0627"
+                },
+                {
+                    "@language": "nb",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "nn",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "hu",
+                    "@value": "m\u0171 t\u00e1rgya"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "retrata"
+                },
+                {
+                    "@language": "af",
+                    "@value": "uitbeelding"
+                },
+                {
+                    "@language": "el",
+                    "@value": "\u03b1\u03c0\u03b5\u03b9\u03ba\u03bf\u03bd\u03af\u03b6\u03b5\u03b9"
+                },
+                {
+                    "@language": "da",
+                    "@value": "afbilder"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "subiectul reprezentat"
+                },
+                {
+                    "@language": "bs",
+                    "@value": "prikazuje"
+                },
+                {
+                    "@language": "nds",
+                    "@value": "wiest"
+                },
+                {
+                    "@language": "ka",
+                    "@value": "\u10d2\u10d0\u10db\u10dd\u10e1\u10d0\u10ee\u10e3\u10da\u10d8 \u10dd\u10d1\u10d8\u10d4\u10e5\u10e2\u10d8"
+                },
+                {
+                    "@language": "mk",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0436\u0443\u0432\u0430"
+                },
+                {
+                    "@language": "fi",
+                    "@value": "esitt\u00e4\u00e4"
+                },
+                {
+                    "@language": "ms",
+                    "@value": "menggambarkan"
+                },
+                {
+                    "@language": "pt-br",
+                    "@value": "retrata"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "be-tarask",
+                    "@value": "\u0430\u0434\u043b\u044e\u0441\u0442\u0440\u043e\u045e\u0432\u0430\u0435"
+                },
+                {
+                    "@language": "oc",
+                    "@value": "subj\u00e8cte representat"
+                },
+                {
+                    "@language": "en-gb",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "te",
+                    "@value": "\u0c1a\u0c3f\u0c24\u0c4d\u0c30\u0c23"
+                },
+                {
+                    "@language": "sk",
+                    "@value": "mot\u00edv"
+                },
+                {
+                    "@language": "sr-ec",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0437\u0443\u0458\u0435"
+                },
+                {
+                    "@language": "sr-el",
+                    "@value": "prikazuje"
+                },
+                {
+                    "@language": "ia",
+                    "@value": "depinge"
+                },
+                {
+                    "@language": "sco",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "sl",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "eu",
+                    "@value": "honako hau irudikatzen du"
+                },
+                {
+                    "@language": "ne",
+                    "@value": "\u091c\u0928\u093e\u0909\u0901\u091b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-cn",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-mo",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-my",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-sg",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-tw",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "gsw",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "cy",
+                    "@value": "yn portreadu"
+                },
+                {
+                    "@language": "eo",
+                    "@value": "montras"
+                },
+                {
+                    "@language": "et",
+                    "@value": "kujutab"
+                },
+                {
+                    "@language": "lt",
+                    "@value": "vaizduoja"
+                },
+                {
+                    "@language": "id",
+                    "@value": "gambaran dari"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u064a\u0635\u0648\u0631"
+                },
+                {
+                    "@language": "ku-latn",
+                    "@value": "mot\u00eev"
+                },
+                {
+                    "@language": "hy",
+                    "@value": "\u057a\u0561\u057f\u056f\u0565\u0580\u057e\u0561\u056e \u0585\u0562\u0575\u0565\u056f\u057f"
+                },
+                {
+                    "@language": "bn",
+                    "@value": "\u09af\u09be \u099a\u09bf\u09a4\u09cd\u09b0\u09bf\u09a4 \u0995\u09b0\u09c7"
+                },
+                {
+                    "@language": "tg-cyrl",
+                    "@value": "\u0430\u0448\u0451\u0438 \u0442\u0430\u0441\u0432\u0438\u0440\u0448\u0443\u0434\u0430"
+                },
+                {
+                    "@language": "bg",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0437\u0435\u043d \u043e\u0431\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "vi",
+                    "@value": "t\u1ea3"
+                },
+                {
+                    "@language": "ba",
+                    "@value": "\u04bb\u04af\u0440\u04d9\u0442\u043b\u04d9\u043d\u0433\u04d9\u043d \u043e\u0431\u044a\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "gl",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "betimler"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d38\u0d43\u0d37\u0d4d\u0d1f\u0d3f\u0d2f\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33\u0d24\u0d4d"
+                },
+                {
+                    "@language": "ast",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "sq",
+                    "@value": "p\u00ebrshkruan"
+                },
+                {
+                    "@language": "aln",
+                    "@value": "p\u00ebrshkruan"
+                },
+                {
+                    "@language": "hsb",
+                    "@value": "motiw"
+                },
+                {
+                    "@language": "lb",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "wa",
+                    "@value": "mostere"
+                },
+                {
+                    "@language": "tg",
+                    "@value": "\u0442\u0430\u0432\u0441\u0438\u0444\u04b3\u043e"
+                },
+                {
+                    "@language": "hr",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "frr",
+                    "@value": "motiif"
+                },
+                {
+                    "@language": "or",
+                    "@value": "\u0b26\u0b30\u0b4d\u0b36\u0b3e\u0b0f"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "\u091a\u093f\u0924\u094d\u0930\u0923"
+                },
+                {
+                    "@language": "ga",
+                    "@value": "taispe\u00e1nann s\u00e9/s\u00ed"
+                },
+                {
+                    "@language": "az",
+                    "@value": "t\u0259svir edir"
+                }
+            ],
+            "name": [
+                {
+                    "@language": "fr",
+                    "@value": "d\u00e9peint"
+                },
+                {
+                    "@language": "en",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "de",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "cs",
+                    "@value": "zobrazuje"
+                },
+                {
+                    "@language": "he",
+                    "@value": "\u05de\u05e6\u05d9\u05d2"
+                },
+                {
+                    "@language": "be",
+                    "@value": "\u0430\u0434\u043b\u044e\u0441\u0442\u0440\u043e\u045e\u0432\u0430\u0435"
+                },
+                {
+                    "@language": "ca",
+                    "@value": "subjecte representat"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u984c\u6750"
+                },
+                {
+                    "@language": "es",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "uk",
+                    "@value": "\u0437\u043e\u0431\u0440\u0430\u0436\u0443\u0454"
+                },
+                {
+                    "@language": "it",
+                    "@value": "raffigura"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "beeldt af"
+                },
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "att\u0113lo"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub2e4\uc74c\uc744 \ubb18\uc0ac\ud568"
+                },
+                {
+                    "@language": "sr",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0437\u0443\u0458\u0435"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0451\u043d\u043d\u044b\u0439 \u043e\u0431\u044a\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "przedstawia"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062a\u0648\u0635\u06cc\u0641\u200c\u0647\u0627"
+                },
+                {
+                    "@language": "nb",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "nn",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "hu",
+                    "@value": "m\u0171 t\u00e1rgya"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "retrata"
+                },
+                {
+                    "@language": "af",
+                    "@value": "uitbeelding"
+                },
+                {
+                    "@language": "el",
+                    "@value": "\u03b1\u03c0\u03b5\u03b9\u03ba\u03bf\u03bd\u03af\u03b6\u03b5\u03b9"
+                },
+                {
+                    "@language": "da",
+                    "@value": "afbilder"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "subiectul reprezentat"
+                },
+                {
+                    "@language": "bs",
+                    "@value": "prikazuje"
+                },
+                {
+                    "@language": "nds",
+                    "@value": "wiest"
+                },
+                {
+                    "@language": "ka",
+                    "@value": "\u10d2\u10d0\u10db\u10dd\u10e1\u10d0\u10ee\u10e3\u10da\u10d8 \u10dd\u10d1\u10d8\u10d4\u10e5\u10e2\u10d8"
+                },
+                {
+                    "@language": "mk",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0436\u0443\u0432\u0430"
+                },
+                {
+                    "@language": "fi",
+                    "@value": "esitt\u00e4\u00e4"
+                },
+                {
+                    "@language": "ms",
+                    "@value": "menggambarkan"
+                },
+                {
+                    "@language": "pt-br",
+                    "@value": "retrata"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "be-tarask",
+                    "@value": "\u0430\u0434\u043b\u044e\u0441\u0442\u0440\u043e\u045e\u0432\u0430\u0435"
+                },
+                {
+                    "@language": "oc",
+                    "@value": "subj\u00e8cte representat"
+                },
+                {
+                    "@language": "en-gb",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "te",
+                    "@value": "\u0c1a\u0c3f\u0c24\u0c4d\u0c30\u0c23"
+                },
+                {
+                    "@language": "sk",
+                    "@value": "mot\u00edv"
+                },
+                {
+                    "@language": "sr-ec",
+                    "@value": "\u043f\u0440\u0438\u043a\u0430\u0437\u0443\u0458\u0435"
+                },
+                {
+                    "@language": "sr-el",
+                    "@value": "prikazuje"
+                },
+                {
+                    "@language": "ia",
+                    "@value": "depinge"
+                },
+                {
+                    "@language": "sco",
+                    "@value": "depicts"
+                },
+                {
+                    "@language": "sl",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "eu",
+                    "@value": "honako hau irudikatzen du"
+                },
+                {
+                    "@language": "ne",
+                    "@value": "\u091c\u0928\u093e\u0909\u0901\u091b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-cn",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-mo",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "zh-my",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-sg",
+                    "@value": "\u63cf\u7ed8\u5185\u5bb9"
+                },
+                {
+                    "@language": "zh-tw",
+                    "@value": "\u63cf\u7e6a\u5167\u5bb9"
+                },
+                {
+                    "@language": "gsw",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "cy",
+                    "@value": "yn portreadu"
+                },
+                {
+                    "@language": "eo",
+                    "@value": "montras"
+                },
+                {
+                    "@language": "et",
+                    "@value": "kujutab"
+                },
+                {
+                    "@language": "lt",
+                    "@value": "vaizduoja"
+                },
+                {
+                    "@language": "id",
+                    "@value": "gambaran dari"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u064a\u0635\u0648\u0631"
+                },
+                {
+                    "@language": "ku-latn",
+                    "@value": "mot\u00eev"
+                },
+                {
+                    "@language": "hy",
+                    "@value": "\u057a\u0561\u057f\u056f\u0565\u0580\u057e\u0561\u056e \u0585\u0562\u0575\u0565\u056f\u057f"
+                },
+                {
+                    "@language": "bn",
+                    "@value": "\u09af\u09be \u099a\u09bf\u09a4\u09cd\u09b0\u09bf\u09a4 \u0995\u09b0\u09c7"
+                },
+                {
+                    "@language": "tg-cyrl",
+                    "@value": "\u0430\u0448\u0451\u0438 \u0442\u0430\u0441\u0432\u0438\u0440\u0448\u0443\u0434\u0430"
+                },
+                {
+                    "@language": "bg",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0437\u0435\u043d \u043e\u0431\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "vi",
+                    "@value": "t\u1ea3"
+                },
+                {
+                    "@language": "ba",
+                    "@value": "\u04bb\u04af\u0440\u04d9\u0442\u043b\u04d9\u043d\u0433\u04d9\u043d \u043e\u0431\u044a\u0435\u043a\u0442"
+                },
+                {
+                    "@language": "gl",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "betimler"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d38\u0d43\u0d37\u0d4d\u0d1f\u0d3f\u0d2f\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33\u0d24\u0d4d"
+                },
+                {
+                    "@language": "ast",
+                    "@value": "representa a"
+                },
+                {
+                    "@language": "sq",
+                    "@value": "p\u00ebrshkruan"
+                },
+                {
+                    "@language": "aln",
+                    "@value": "p\u00ebrshkruan"
+                },
+                {
+                    "@language": "hsb",
+                    "@value": "motiw"
+                },
+                {
+                    "@language": "lb",
+                    "@value": "Motiv"
+                },
+                {
+                    "@language": "wa",
+                    "@value": "mostere"
+                },
+                {
+                    "@language": "tg",
+                    "@value": "\u0442\u0430\u0432\u0441\u0438\u0444\u04b3\u043e"
+                },
+                {
+                    "@language": "hr",
+                    "@value": "motiv"
+                },
+                {
+                    "@language": "frr",
+                    "@value": "motiif"
+                },
+                {
+                    "@language": "or",
+                    "@value": "\u0b26\u0b30\u0b4d\u0b36\u0b3e\u0b0f"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "\u091a\u093f\u0924\u094d\u0930\u0923"
+                },
+                {
+                    "@language": "ga",
+                    "@value": "taispe\u00e1nann s\u00e9/s\u00ed"
+                },
+                {
+                    "@language": "az",
+                    "@value": "t\u0259svir edir"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "fr",
+                    "@value": "personne, lieu, objet ou \u00e9v\u00e9nement repr\u00e9sent\u00e9 par l\u2019\u0153uvre"
+                },
+                {
+                    "@language": "en",
+                    "@value": "depicted entity (see also P921: main subject)"
+                },
+                {
+                    "@language": "cs",
+                    "@value": "osoba, m\u00edsto, ud\u00e1lost nebo p\u0159edm\u011bt zobrazen\u00fd (nebo popsan\u00fd) v d\u00edle; pokud d\u00edlo n\u011bkoho p\u0159ipom\u00edn\u00e1, ale nezobrazuje, pou\u017eijte P547; viz t\u00e9\u017e hlavn\u00ed t\u00e9ma d\u00edla P921"
+                },
+                {
+                    "@language": "he",
+                    "@value": "\u05d1\u05e0\u05d9 \u05d0\u05d3\u05dd, \u05d7\u05e4\u05e6\u05d9\u05dd, \u05de\u05e7\u05d5\u05de\u05d5\u05ea \u05d5\u05d0\u05d9\u05e8\u05d5\u05e2\u05d9\u05dd \u05d4\u05de\u05ea\u05d5\u05d0\u05e8\u05d9\u05dd \u05d1\u05d9\u05e6\u05d9\u05e8\u05d4"
+                },
+                {
+                    "@language": "de",
+                    "@value": "Gegenstand der Darstellung (z. B. Person, Ort, Objekt oder Ereignis), siehe auch Schlagwort (P921)"
+                },
+                {
+                    "@language": "ca",
+                    "@value": "persona, lloc, objecte o esdeveniment representat"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u4f5c\u54c1\u306b\u63cf\u304b\u308c\u3066\u3044\u308b\uff08\u5199\u3057\u3068\u3089\u308c\u3066\u3044\u308b\uff09\u4eba\u3001\u5834\u6240\u3001\u7269\u3001\u4e8b\u8c61"
+                },
+                {
+                    "@language": "es",
+                    "@value": "persona, lugar, objeto o evento representado"
+                },
+                {
+                    "@language": "uk",
+                    "@value": "\u0437\u043e\u0431\u0440\u0430\u0436\u0443\u0432\u0430\u043d\u0456 \u0441\u0443\u0442\u043d\u043e\u0441\u0442\u0456: \u043e\u0441\u043e\u0431\u0438, \u043c\u0456\u0441\u0446\u044f, \u043f\u0440\u0435\u0434\u043c\u0435\u0442\u0438, \u043f\u043e\u0434\u0456\u0457 \u0442\u043e\u0449\u043e (\u0434\u0438\u0432. \u0442\u0430\u043a\u043e\u0436 P921: \u043e\u0441\u043d\u043e\u0432\u043d\u0430 \u0442\u0435\u043c\u0430)"
+                },
+                {
+                    "@language": "it",
+                    "@value": "persona, luogo, oggetto o evento raffigurato"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0451\u043d\u043d\u0430\u044f \u043f\u0435\u0440\u0441\u043e\u043d\u0430, \u043c\u0435\u0441\u0442\u043e, \u043e\u0431\u044a\u0435\u043a\u0442 \u0438\u043b\u0438 \u0441\u043e\u0431\u044b\u0442\u0438\u0435"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "att\u0113lotais objekts (skat\u012bt ar\u012b P921: galvenais temats)"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ud56d\ubaa9 \uc8fc\uc81c\uc778 \uc791\ud488\uc5d0\uc11c \ubb18\uc0ac\ud55c \uc0ac\ub78c, \uc7a5\uc18c, \ubb3c\uccb4, \uc0ac\uac74"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "miejsce, osoba lub inny element przedstawiony w tre\u015bci podmiotu"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062a\u0648\u0635\u06cc\u0641 \u06cc\u0627 \u0634\u0631\u062d \u0627\u0641\u0631\u0627\u062f\u060c \u0645\u06a9\u0627\u0646\u060c \u0627\u0634\u06cc\u0627 \u06cc\u0627 \u0631\u0648\u06cc\u062f\u0627\u062f\u0647\u0627"
+                },
+                {
+                    "@language": "nb",
+                    "@value": "fremstilling eller avbildning av noe, f.eks. en person, et sted eller en begivenhet"
+                },
+                {
+                    "@language": "hu",
+                    "@value": "\u00e1br\u00e1zolt szem\u00e9ly, hely, t\u00e1rgy vagy esem\u00e9ny"
+                },
+                {
+                    "@language": "pt",
+                    "@value": "pessoa, local, objeto ou evento retratado"
+                },
+                {
+                    "@language": "af",
+                    "@value": "beeld af"
+                },
+                {
+                    "@language": "el",
+                    "@value": "\u03c4\u03bf \u03b1\u03c0\u03b5\u03b9\u03ba\u03bf\u03bd\u03b9\u03b6\u03cc\u03bc\u03b5\u03bd\u03bf \u03c0\u03c1\u03cc\u03c3\u03c9\u03c0\u03bf, \u03bc\u03ad\u03c1\u03bf\u03c2, \u03b1\u03bd\u03c4\u03b9\u03ba\u03b5\u03af\u03bc\u03b5\u03bd\u03bf \u03ae \u03b3\u03b5\u03b3\u03bf\u03bd\u03cc\u03c2"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "persoana, locul, obiectul sau evenimentul reprezentat \u00een opera de art\u0103 respectiv\u0103"
+                },
+                {
+                    "@language": "pt-br",
+                    "@value": "pessoa, local, objeto ou evento retratado"
+                },
+                {
+                    "@language": "da",
+                    "@value": "afbildet person, sted, objekt eller begivenhed"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "afgebeeld of beschreven persoon, oord, object, of evenement, zie ook P921 (hoofdonderwerp van werk)"
+                },
+                {
+                    "@language": "en-gb",
+                    "@value": "depicted person, place, object or event (see also P921: subject heading)"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u4f5c\u54c1\u63cf\u8ff0\u7684\u4eba\u3001\u5730\u70b9\u3001\u7269\u4f53\u3001\u4e8b\u4ef6\u7b49 (\u53c2\u89c1P921:\u4f5c\u54c1\u4e3b\u9898)"
+                },
+                {
+                    "@language": "eu",
+                    "@value": "Irudikaturiko pertsona, objektu edo gertaera"
+                },
+                {
+                    "@language": "fi",
+                    "@value": "henkil\u00f6, paikka, aihe tai tapahtuma, jota teos esitt\u00e4\u00e4"
+                },
+                {
+                    "@language": "eo",
+                    "@value": "persono, loko, okaza\u0135o a\u016d a\u0135o montrita a\u016d priskribita en la verko"
+                },
+                {
+                    "@language": "et",
+                    "@value": "teoses kujutatav isik, koht v\u00f5i muu objekt"
+                },
+                {
+                    "@language": "id",
+                    "@value": "gambaran entitas (lihat pula P921: tajuk subjek)"
+                },
+                {
+                    "@language": "bg",
+                    "@value": "\u0438\u0437\u043e\u0431\u0440\u0430\u0437\u0435\u043d \u0447\u043e\u0432\u0435\u043a, \u043c\u044f\u0441\u0442\u043e, \u043e\u0431\u0435\u043a\u0442 \u0438\u043b\u0438 \u0441\u044a\u0431\u0438\u0442\u0438\u0435"
+                },
+                {
+                    "@language": "ba",
+                    "@value": "\u04bb\u04af\u0440\u04d9\u0442\u043b\u04d9\u043d\u0433\u04d9\u043d \u0448\u04d9\u0445\u0435\u0441, \u0443\u0440\u044b\u043d, \u043e\u0431\u044a\u0435\u043a\u0442 \u0439\u04d9\u043a\u0438 \u0432\u0430\u04a1\u0438\u0493\u0430"
+                },
+                {
+                    "@language": "gl",
+                    "@value": "persoa, lugar, obxeto ou evento representado"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "bir \u015feyi s\u00f6zle veya yaz\u0131yla anlatma, g\u00f6z \u00f6n\u00fcnde canland\u0131rmak i\u00e7in d\u00fc\u015f\u00fcn\u00fclen varl\u0131k (ana konusu i\u00e7in : P921'e bak\u0131n\u0131z)"
+                },
+                {
+                    "@language": "ml",
+                    "@value": "\u0d38\u0d43\u0d37\u0d4d\u0d1f\u0d3f\u0d2f\u0d3f\u0d32\u0d41\u0d33\u0d4d\u0d33 \u0d38\u0d3e\u0d27\u0d28\u0d02"
+                },
+                {
+                    "@language": "ast",
+                    "@value": "persona, llugar, oxetu o acontecimientu represent\u00e1u"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "avbildad entitet"
+                },
+                {
+                    "@language": "br",
+                    "@value": "en arc'hant e deir aval pin en gwad en o enep"
+                },
+                {
+                    "@language": "wa",
+                    "@value": "intrer l' discrijhaedje e walon"
+                },
+                {
+                    "@language": "frr",
+                    "@value": "wat det bil wiset"
+                },
+                {
+                    "@language": "be-tarask",
+                    "@value": "\u044f\u043a\u0430\u044f \u0456\u0441\u043d\u0430\u0441\u044c\u0446\u044c \u0430\u0434\u043b\u044e\u0441\u0442\u0440\u0430\u0432\u0430\u043d\u0430\u044f"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "\u091a\u093f\u0924\u094d\u0930\u093f\u0924 \u0938\u0902\u0938\u094d\u0925\u093e (P921 \u092d\u0940 \u0926\u0947\u0916\u0947\u0902: \u092e\u0941\u0916\u094d\u092f \u0935\u093f\u0937\u092f)"
+                }
+            ]
+        },
+        {
+            "@id": "d:Q2497260",
+            "@type": "wikibase:Item",
+            "label": [
+                {
+                    "@language": "nl",
+                    "@value": "sinistraal en dextraal"
+                },
+                {
+                    "@language": "da",
+                    "@value": "Sinistral og dextral"
+                },
+                {
+                    "@language": "en",
+                    "@value": "sinistral and dextral"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u0631\u0627\u0633\u062a\u200c\u0644\u063a\u0632 \u0648 \u0686\u067e\u200c\u0644\u063a\u0632"
+                },
+                {
+                    "@language": "nb",
+                    "@value": "sinistral og dekstral"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u5de6\u6372"
+                },
+                {
+                    "@language": "id",
+                    "@value": "Sinistral dan dekstral"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Sinistral y dextral"
+                }
+            ],
+            "prefLabel": [
+                {
+                    "@language": "nl",
+                    "@value": "sinistraal en dextraal"
+                },
+                {
+                    "@language": "da",
+                    "@value": "Sinistral og dextral"
+                },
+                {
+                    "@language": "en",
+                    "@value": "sinistral and dextral"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u0631\u0627\u0633\u062a\u200c\u0644\u063a\u0632 \u0648 \u0686\u067e\u200c\u0644\u063a\u0632"
+                },
+                {
+                    "@language": "nb",
+                    "@value": "sinistral og dekstral"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u5de6\u6372"
+                },
+                {
+                    "@language": "id",
+                    "@value": "Sinistral dan dekstral"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Sinistral y dextral"
+                }
+            ],
+            "name": [
+                {
+                    "@language": "nl",
+                    "@value": "sinistraal en dextraal"
+                },
+                {
+                    "@language": "da",
+                    "@value": "Sinistral og dextral"
+                },
+                {
+                    "@language": "en",
+                    "@value": "sinistral and dextral"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u0631\u0627\u0633\u062a\u200c\u0644\u063a\u0632 \u0648 \u0686\u067e\u200c\u0644\u063a\u0632"
+                },
+                {
+                    "@language": "nb",
+                    "@value": "sinistral og dekstral"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u5de6\u6372"
+                },
+                {
+                    "@language": "id",
+                    "@value": "Sinistral dan dekstral"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Sinistral y dextral"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "two types of chirality"
+                },
+                {
+                    "@language": "es",
+                    "@value": "Los dos tipos de quiralidad"
+                }
+            ]
+        },
+        {
+            "@id": "d:Q3285695",
+            "@type": "wikibase:Item",
+            "label": [
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u7a81\u53d8\u578b"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "en",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "th",
+                    "@value": "\u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c\u0e01\u0e25\u0e32\u0e22\u0e1e\u0e31\u0e19\u0e18\u0e38\u0e4c"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "Mutants"
+                },
+                {
+                    "@language": "cs",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062c\u0647\u0634\u200c\u06cc\u0627\u0641\u062a\u0647"
+                },
+                {
+                    "@language": "hr",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "da",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "war",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "tl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "it",
+                    "@value": "mutante"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "sq",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "bs",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u30df\u30e5\u30fc\u30bf\u30f3\u30c8"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub3cc\uc5f0\ubcc0\uc774\uccb4"
+                },
+                {
+                    "@language": "ky",
+                    "@value": "\u041c\u0443\u0442\u0430\u043d\u0442 -"
+                },
+                {
+                    "@language": "kk",
+                    "@value": "\u041c\u0443\u0442\u0430\u043d\u0442"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u0637\u0627\u0641\u0631 (\u0643\u0627\u0626\u0646 \u062d\u064a)"
+                },
+                {
+                    "@language": "sh",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u043c\u0443\u0442\u0430\u043d\u0442"
+                },
+                {
+                    "@language": "es",
+                    "@value": "mutante"
+                },
+                {
+                    "@language": "nn",
+                    "@value": "mutant"
+                }
+            ],
+            "prefLabel": [
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u7a81\u53d8\u578b"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "en",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "th",
+                    "@value": "\u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c\u0e01\u0e25\u0e32\u0e22\u0e1e\u0e31\u0e19\u0e18\u0e38\u0e4c"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "Mutants"
+                },
+                {
+                    "@language": "cs",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062c\u0647\u0634\u200c\u06cc\u0627\u0641\u062a\u0647"
+                },
+                {
+                    "@language": "hr",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "da",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "war",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "tl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "it",
+                    "@value": "mutante"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "sq",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "bs",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u30df\u30e5\u30fc\u30bf\u30f3\u30c8"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub3cc\uc5f0\ubcc0\uc774\uccb4"
+                },
+                {
+                    "@language": "ky",
+                    "@value": "\u041c\u0443\u0442\u0430\u043d\u0442 -"
+                },
+                {
+                    "@language": "kk",
+                    "@value": "\u041c\u0443\u0442\u0430\u043d\u0442"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u0637\u0627\u0641\u0631 (\u0643\u0627\u0626\u0646 \u062d\u064a)"
+                },
+                {
+                    "@language": "sh",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u043c\u0443\u0442\u0430\u043d\u0442"
+                },
+                {
+                    "@language": "es",
+                    "@value": "mutante"
+                },
+                {
+                    "@language": "nn",
+                    "@value": "mutant"
+                }
+            ],
+            "name": [
+                {
+                    "@language": "zh-hans",
+                    "@value": "\u7a81\u53d8\u578b"
+                },
+                {
+                    "@language": "zh-hant",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "zh-hk",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "pl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "en",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "tr",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "th",
+                    "@value": "\u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c\u0e01\u0e25\u0e32\u0e22\u0e1e\u0e31\u0e19\u0e18\u0e38\u0e4c"
+                },
+                {
+                    "@language": "ro",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "lv",
+                    "@value": "Mutants"
+                },
+                {
+                    "@language": "cs",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "fa",
+                    "@value": "\u062c\u0647\u0634\u200c\u06cc\u0627\u0641\u062a\u0647"
+                },
+                {
+                    "@language": "hr",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "da",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "nl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "sv",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "zh",
+                    "@value": "\u7a81\u8b8a\u578b"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "war",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "tl",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "it",
+                    "@value": "mutante"
+                },
+                {
+                    "@language": "hi",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "sq",
+                    "@value": "mutant"
+                },
+                {
+                    "@language": "bs",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "ja",
+                    "@value": "\u30df\u30e5\u30fc\u30bf\u30f3\u30c8"
+                },
+                {
+                    "@language": "ko",
+                    "@value": "\ub3cc\uc5f0\ubcc0\uc774\uccb4"
+                },
+                {
+                    "@language": "ky",
+                    "@value": "\u041c\u0443\u0442\u0430\u043d\u0442 -"
+                },
+                {
+                    "@language": "kk",
+                    "@value": "\u041c\u0443\u0442\u0430\u043d\u0442"
+                },
+                {
+                    "@language": "ar",
+                    "@value": "\u0637\u0627\u0641\u0631 (\u0643\u0627\u0626\u0646 \u062d\u064a)"
+                },
+                {
+                    "@language": "sh",
+                    "@value": "Mutant"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u043c\u0443\u0442\u0430\u043d\u0442"
+                },
+                {
+                    "@language": "es",
+                    "@value": "mutante"
+                },
+                {
+                    "@language": "nn",
+                    "@value": "mutant"
+                }
+            ],
+            "description": [
+                {
+                    "@language": "en",
+                    "@value": "organism or a new genetic character arising or resulting from an instance of mutation, which is an alteration of the DNA sequence of a gene or chromosome of an organism"
+                },
+                {
+                    "@language": "fr",
+                    "@value": "organisme modifi\u00e9 par mutation"
+                },
+                {
+                    "@language": "it",
+                    "@value": "organismo o carattere genetico sorto o risultante da una mutazione, ossia da un'alterazione della sequenza DNA di un gene, di un cromosoma o di un organismo"
+                },
+                {
+                    "@language": "es",
+                    "@value": "organismo modificado por medio de mutaci\u00f3n gen\u00e9tica"
+                },
+                {
+                    "@language": "ru",
+                    "@value": "\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043c, \u043f\u043e\u0434\u0432\u0435\u0440\u0433\u0448\u0438\u0439\u0441\u044f \u043f\u0440\u0435\u043e\u0431\u0440\u0430\u0437\u043e\u0432\u0430\u043d\u0438\u044e \u0433\u0435\u043d\u043e\u0442\u0438\u043f\u0430 \u043f\u043e\u0434 \u0432\u043b\u0438\u044f\u043d\u0438\u0435\u043c \u0432\u043d\u0435\u0448\u043d\u0435\u0439 \u0438\u043b\u0438 \u0432\u043d\u0443\u0442\u0440\u0435\u043d\u043d\u0435\u0439 \u0441\u0440\u0435\u0434\u044b"
+                }
+            ]
+        }
+    ],
+    "@context": {
+        "data": "https://commons.wikimedia.org/wiki/Special:EntityData/",
+        "schema": "http://schema.org/",
+        "about": {
+            "@id": "schema:about",
+            "@type": "@id"
+        },
+        "wd": "http://commons.wikimedia.org/entity/",
+        "cc": "http://creativecommons.org/ns#",
+        "license": {
+            "@id": "cc:license",
+            "@type": "@id"
+        },
+        "softwareVersion": {
+            "@id": "schema:softwareVersion"
+        },
+        "version": {
+            "@id": "schema:version"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dateModified": {
+            "@id": "schema:dateModified",
+            "@type": "xsd:dateTime"
+        },
+        "wikibase": "http://wikiba.se/ontology#",
+        "encodingFormat": {
+            "@id": "schema:encodingFormat"
+        },
+        "contentUrl": {
+            "@id": "schema:contentUrl",
+            "@type": "@id"
+        },
+        "contentSize": {
+            "@id": "schema:contentSize"
+        },
+        "height": {
+            "@id": "schema:height"
+        },
+        "width": {
+            "@id": "schema:width"
+        },
+        "caption": {
+            "@id": "schema:caption"
+        },
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "label": {
+            "@id": "rdfs:label"
+        },
+        "dt": "http://www.wikidata.org/prop/direct/",
+        "P180": {
+            "@id": "dt:P180",
+            "@type": "@id"
+        },
+        "d": "http://www.wikidata.org/entity/",
+        "dp": "http://www.wikidata.org/prop/",
+        "s": "http://commons.wikimedia.org/entity/statement/",
+        "dp:P180": {
+            "@type": "@id"
+        },
+        "rank": {
+            "@id": "wikibase:rank",
+            "@type": "@id"
+        },
+        "dps": "http://www.wikidata.org/prop/statement/",
+        "dps:P180": {
+            "@type": "@id"
+        },
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "prefLabel": {
+            "@id": "skos:prefLabel"
+        },
+        "name": {
+            "@id": "schema:name"
+        },
+        "description": {
+            "@id": "schema:description"
+        },
+        "propertyType": {
+            "@id": "wikibase:propertyType",
+            "@type": "@id"
+        },
+        "directClaim": {
+            "@id": "wikibase:directClaim",
+            "@type": "@id"
+        },
+        "claim": {
+            "@id": "wikibase:claim",
+            "@type": "@id"
+        },
+        "statementProperty": {
+            "@id": "wikibase:statementProperty",
+            "@type": "@id"
+        },
+        "statementValue": {
+            "@id": "wikibase:statementValue",
+            "@type": "@id"
+        },
+        "dpsv": "http://www.wikidata.org/prop/statement/value/",
+        "qualifier": {
+            "@id": "wikibase:qualifier",
+            "@type": "@id"
+        },
+        "dpq": "http://www.wikidata.org/prop/qualifier/",
+        "qualifierValue": {
+            "@id": "wikibase:qualifierValue",
+            "@type": "@id"
+        },
+        "dpqv": "http://www.wikidata.org/prop/qualifier/value/",
+        "reference": {
+            "@id": "wikibase:reference",
+            "@type": "@id"
+        },
+        "dpr": "http://www.wikidata.org/prop/reference/",
+        "referenceValue": {
+            "@id": "wikibase:referenceValue",
+            "@type": "@id"
+        },
+        "dprv": "http://www.wikidata.org/prop/reference/value/",
+        "novalue": {
+            "@id": "wikibase:novalue",
+            "@type": "@id"
+        },
+        "dno": "http://www.wikidata.org/prop/novalue/",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "complementOf": {
+            "@id": "owl:complementOf",
+            "@type": "@id"
+        },
+        "onProperty": {
+            "@id": "owl:onProperty",
+            "@type": "@id"
+        },
+        "someValuesFrom": {
+            "@id": "owl:someValuesFrom",
+            "@type": "@id"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:wikibase="http://wikiba.se/ontology#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:schema="http://schema.org/" xmlns:cc="http://creativecommons.org/ns#" xmlns:geo="http://www.opengis.net/ont/geosparql#" xmlns:prov="http://www.w3.org/ns/prov#" xmlns:v="http://commons.wikimedia.org/value/" xmlns:wd="http://commons.wikimedia.org/entity/" xmlns:data="https://commons.wikimedia.org/wiki/Special:EntityData/" xmlns:s="http://commons.wikimedia.org/entity/statement/" xmlns:ref="http://commons.wikimedia.org/reference/" xmlns:wdt="http://commons.wikimedia.org/prop/direct/" xmlns:wdtn="http://commons.wikimedia.org/prop/direct-normalized/" xmlns:p="http://commons.wikimedia.org/prop/" xmlns:ps="http://commons.wikimedia.org/prop/statement/" xmlns:psv="http://commons.wikimedia.org/prop/statement/value/" xmlns:psn="http://commons.wikimedia.org/prop/statement/value-normalized/" xmlns:pq="http://commons.wikimedia.org/prop/qualifier/" xmlns:pqv="http://commons.wikimedia.org/prop/qualifier/value/" xmlns:pqn="http://commons.wikimedia.org/prop/qualifier/value-normalized/" xmlns:pr="http://commons.wikimedia.org/prop/reference/" xmlns:prv="http://commons.wikimedia.org/prop/reference/value/" xmlns:prn="http://commons.wikimedia.org/prop/reference/value-normalized/" xmlns:wdno="http://commons.wikimedia.org/prop/novalue/" xmlns:d="http://www.wikidata.org/entity/" xmlns:ddata="https://www.wikidata.org/wiki/Special:EntityData/" xmlns:ds="http://www.wikidata.org/entity/statement/" xmlns:dref="http://www.wikidata.org/reference/" xmlns:dt="http://www.wikidata.org/prop/direct/" xmlns:dtn="http://www.wikidata.org/prop/direct-normalized/" xmlns:dp="http://www.wikidata.org/prop/" xmlns:dps="http://www.wikidata.org/prop/statement/" xmlns:dpsv="http://www.wikidata.org/prop/statement/value/" xmlns:dpsn="http://www.wikidata.org/prop/statement/value-normalized/" xmlns:dpq="http://www.wikidata.org/prop/qualifier/" xmlns:dpqv="http://www.wikidata.org/prop/qualifier/value/" xmlns:dpqn="http://www.wikidata.org/prop/qualifier/value-normalized/" xmlns:dpr="http://www.wikidata.org/prop/reference/" xmlns:dprv="http://www.wikidata.org/prop/reference/value/" xmlns:dprn="http://www.wikidata.org/prop/reference/value-normalized/" xmlns:dno="http://www.wikidata.org/prop/novalue/">
+	<rdf:Description rdf:about="https://commons.wikimedia.org/wiki/Special:EntityData/M77578710">
+		<rdf:type rdf:resource="http://schema.org/Dataset"/>
+		<schema:about rdf:resource="http://commons.wikimedia.org/entity/M77578710"/>
+		<cc:license rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/"/>
+		<schema:softwareVersion>1.0.0</schema:softwareVersion>
+		<schema:version rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">344078339</schema:version>
+		<schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-03-27T10:51:14Z</schema:dateModified>
+	</rdf:Description>
+	<rdf:Description rdf:about="http://commons.wikimedia.org/entity/M77578710">
+		<rdf:type rdf:resource="http://wikiba.se/ontology#Mediainfo"/>
+		<rdf:type rdf:resource="http://schema.org/MediaObject"/>
+		<rdf:type rdf:resource="http://schema.org/ImageObject"/>
+		<schema:encodingFormat>image/jpeg</schema:encodingFormat>
+		<schema:contentUrl rdf:resource="https://upload.wikimedia.org/wikipedia/commons/0/05/Brown_Eye_Mutation.jpg"/>
+		<schema:contentSize rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">163881</schema:contentSize>
+		<schema:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1040</schema:height>
+		<schema:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">720</schema:width>
+		<schema:caption xml:lang="en">Brown Eye Drosophila Melanogaster under Microscope (10x)</schema:caption>
+		<rdfs:label xml:lang="en">Brown Eye Drosophila Melanogaster under Microscope (10x)</rdfs:label>
+	</rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "data:M80312959",
+            "@type": "schema:Dataset",
+            "about": "wd:M80312959",
+            "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "softwareVersion": "1.0.0",
+            "version": 357742257,
+            "dateModified": "2019-07-10T21:14:56Z"
+        },
+        {
+            "@id": "wd:M80312959",
+            "@type": [
+                "wikibase:Mediainfo",
+                "schema:MediaObject",
+                "schema:ImageObject"
+            ],
+            "encodingFormat": "image/jpeg",
+            "contentUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Sinistral_Cornu_aspersum_Muller_1774_11.jpg",
+            "contentSize": 466387,
+            "height": 852,
+            "width": 902,
+            "caption": {
+                "@language": "en",
+                "@value": "Sinistral (left-handed) snail Cornu aspersum / Helix aspersa Muller 1774"
+            },
+            "label": {
+                "@language": "en",
+                "@value": "Sinistral (left-handed) snail Cornu aspersum / Helix aspersa Muller 1774"
+            }
+        }
+    ],
+    "@context": {
+        "data": "https://commons.wikimedia.org/wiki/Special:EntityData/",
+        "schema": "http://schema.org/",
+        "about": {
+            "@id": "schema:about",
+            "@type": "@id"
+        },
+        "wd": "http://commons.wikimedia.org/entity/",
+        "cc": "http://creativecommons.org/ns#",
+        "license": {
+            "@id": "cc:license",
+            "@type": "@id"
+        },
+        "softwareVersion": {
+            "@id": "schema:softwareVersion"
+        },
+        "version": {
+            "@id": "schema:version"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dateModified": {
+            "@id": "schema:dateModified",
+            "@type": "xsd:dateTime"
+        },
+        "wikibase": "http://wikiba.se/ontology#",
+        "encodingFormat": {
+            "@id": "schema:encodingFormat"
+        },
+        "contentUrl": {
+            "@id": "schema:contentUrl",
+            "@type": "@id"
+        },
+        "contentSize": {
+            "@id": "schema:contentSize"
+        },
+        "height": {
+            "@id": "schema:height"
+        },
+        "width": {
+            "@id": "schema:width"
+        },
+        "caption": {
+            "@id": "schema:caption"
+        },
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "label": {
+            "@id": "rdfs:label"
+        }
+    }
+}

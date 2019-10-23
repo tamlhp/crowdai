@@ -1,0 +1,28 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.seeklogo.com	TRUE	/	FALSE	1999999999	__cfduid	db6d6e84f3df0daf1bafcbee50a3d519a1571809029
+commons.wikimedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+.wikimedia.org	TRUE	/	FALSE	1999999999	GeoIP	VN:SG:Ho_Chi_Minh_City:10.81:106.64:v4
+.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access-Global	23-Oct-2019
+github.com	TRUE	/	FALSE	1999999999	has_recent_activity	1
+.github.com	TRUE	/	FALSE	1999999999	_octo	GH1.1.1437571258.1571817439
+.github.com	TRUE	/	FALSE	1999999999	logged_in	no
+github.com	TRUE	/	FALSE	1999999999	_gh_sess	RmJtNWkvVlBBN3NwdUQ5azRiSHdZMzRSUmdyd0xndkYvTzdUVUJyZUUvZ1ZiS2t0b3M1WW5mREljWXJ2NTRZRDExajhHclhrUExJYnU2QXU2N2x2ZEFtMWo3M1pGelo4K09hTUU0eUtrRFFsenRlZGNNSW1pb2VkcHpYN2J1UDN6VjVsUVZqYUQxTWRBOE1qRmhkb1ppVlYrdFpBSjNJUXJLbXMycUhVYXBraU9WVzROcDRaVHlKcG5OcStvZ2NoV1RiNzlPOEpLY1dibk52VXhQR1dqMDBidVlSY2xVdzk5UG10cjYzdFdmc1lnM0ROYmlNM1VpVGJueGZIVXlOSlFzTDFSc3ZkUnA5Tlp6ZGorSE1DNFB6NnFMc041NHo5cTJrcU9oaTdHcXVDa3FURlMrZnAvZmpucmp4a1NFMWpqVTQ2bFRsU3JhcUFSNm4ySHFNd3FEVDBtMkpTQ0R3QkwvZG9nNUY4UHN4T1ZmKzdoQnllSHdxZDFpMFZCZ3VSVzJSd0JEQkRUZ0dBOGs0VldXREVESHg4VXd6Q2xMNnVFam5TY0t2UHdhTThyK1gzY3Q2bURTQVFkbjVwb2U2bVFqdWprUDNUMEhJM1IyM1E5VVRJTkprUWlDYjNwSmtFZkRMdUw4cHp5VHpMRVpaWUN1OEVmVXZzSVhuWXF5NFZqZWFmVjREVDg4eFdJeitleVJFWXEwdDBXWGpBUkNpYzhTa2RtY0JzZjUwPS0tbS9nZy9FTnNackl4VUtMV0VYZm5SQT09--556bc08e9b8a48fc9fb08b7ae23951c38a2a56c4
+www.crowdai.org	TRUE	/	FALSE	1999999999	_crowdai_session	fFMl4lZBmi97dhdCjj%2FOjNhrYowIs3tAxnsrgxg7Hjd%2FracLPlC18i%2B7jJyjKv30%2FBunARHG36tYgNtqiwA6UTp0yNrPjiYJ%2BFHeDYRQFkmCqr4shzdql9GkYUHbLqz5wVlA91gua5wbknyLL5Bt2j%2FFmqq70Ff5O9OqqWYxZlhdtz5IPVxdGy8lqds%2Fwo3vhhk7U5JOgXh01tQPzT5D7Wm96T89DDYqk4bqKEyWD3kGu8Clw4MACkcdn%2Bxoew%3D%3D--Rab8nkDVlVGVSQip--6UMZVxffyQSeeGYSefJImA%3D%3D
+af.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+.wikipedia.org	TRUE	/	FALSE	1999999999	GeoIP	VN:SG:Ho_Chi_Minh_City:10.81:106.64:v4
+als.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+zh.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+www.wikidata.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+.wikidata.org	TRUE	/	FALSE	1999999999	WMF-Last-Access-Global	23-Oct-2019
+.wikidata.org	TRUE	/	FALSE	1999999999	GeoIP	VN:SG:Ho_Chi_Minh_City:10.81:106.64:v4
+en.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+de.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+ru.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+www.nersc.gov	TRUE	/	FALSE	1999999999	PHPSESSID	469k8dpqo0cmnet6chfea0fqb1
+commons.wikimedia.org	TRUE	/	FALSE	1999999999	commonswikiSession	9gviugh12mke0nor4ud9c5ln64r609ts
+commons.wikimedia.org	TRUE	/	FALSE	1999999999	forceHTTPS	true
+wellcomecollection.org	TRUE	/	FALSE	1999999999	toggle_searchWithNotes	true
+wellcomecollection.org	TRUE	/	FALSE	1999999999	toggle_newsletterPromoUpdate	false
+eo.wikipedia.org	TRUE	/	FALSE	1999999999	WMF-Last-Access	23-Oct-2019
+

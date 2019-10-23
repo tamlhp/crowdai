@@ -1,0 +1,16 @@
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80313245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80313245> <http://schema.org/about> <http://commons.wikimedia.org/entity/M80313245> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80313245> <http://creativecommons.org/ns#license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80313245> <http://schema.org/softwareVersion> "1.0.0" .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80313245> <http://schema.org/version> "357742857"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80313245> <http://schema.org/dateModified> "2019-07-10T21:25:08Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://commons.wikimedia.org/entity/M80313245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Mediainfo> .
+<http://commons.wikimedia.org/entity/M80313245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaObject> .
+<http://commons.wikimedia.org/entity/M80313245> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+<http://commons.wikimedia.org/entity/M80313245> <http://schema.org/encodingFormat> "image/jpeg" .
+<http://commons.wikimedia.org/entity/M80313245> <http://schema.org/contentUrl> <https://upload.wikimedia.org/wikipedia/commons/b/b4/Sinistral_Helix_pomatia_Linnaeus_1758_15.jpg> .
+<http://commons.wikimedia.org/entity/M80313245> <http://schema.org/contentSize> "509332"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M80313245> <http://schema.org/height> "952"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M80313245> <http://schema.org/width> "1056"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M80313245> <http://schema.org/caption> "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"@en .
+<http://commons.wikimedia.org/entity/M80313245> <http://www.w3.org/2000/01/rdf-schema#label> "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"@en .

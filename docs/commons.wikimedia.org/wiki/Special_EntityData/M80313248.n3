@@ -1,0 +1,63 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix v: <http://commons.wikimedia.org/value/> .
+@prefix wd: <http://commons.wikimedia.org/entity/> .
+@prefix data: <https://commons.wikimedia.org/wiki/Special:EntityData/> .
+@prefix s: <http://commons.wikimedia.org/entity/statement/> .
+@prefix ref: <http://commons.wikimedia.org/reference/> .
+@prefix wdt: <http://commons.wikimedia.org/prop/direct/> .
+@prefix wdtn: <http://commons.wikimedia.org/prop/direct-normalized/> .
+@prefix p: <http://commons.wikimedia.org/prop/> .
+@prefix ps: <http://commons.wikimedia.org/prop/statement/> .
+@prefix psv: <http://commons.wikimedia.org/prop/statement/value/> .
+@prefix psn: <http://commons.wikimedia.org/prop/statement/value-normalized/> .
+@prefix pq: <http://commons.wikimedia.org/prop/qualifier/> .
+@prefix pqv: <http://commons.wikimedia.org/prop/qualifier/value/> .
+@prefix pqn: <http://commons.wikimedia.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://commons.wikimedia.org/prop/reference/> .
+@prefix prv: <http://commons.wikimedia.org/prop/reference/value/> .
+@prefix prn: <http://commons.wikimedia.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://commons.wikimedia.org/prop/novalue/> .
+@prefix d: <http://www.wikidata.org/entity/> .
+@prefix ddata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix ds: <http://www.wikidata.org/entity/statement/> .
+@prefix dref: <http://www.wikidata.org/reference/> .
+@prefix dt: <http://www.wikidata.org/prop/direct/> .
+@prefix dtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix dp: <http://www.wikidata.org/prop/> .
+@prefix dps: <http://www.wikidata.org/prop/statement/> .
+@prefix dpsv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix dpsn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix dpq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix dpqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix dpqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix dpr: <http://www.wikidata.org/prop/reference/> .
+@prefix dprv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix dprn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix dno: <http://www.wikidata.org/prop/novalue/> .
+
+data:M80313248 a schema:Dataset ;
+	schema:about wd:M80313248 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "357742863"^^xsd:integer ;
+	schema:dateModified "2019-07-10T21:25:12Z"^^xsd:dateTime .
+
+wd:M80313248 a wikibase:Mediainfo,
+		schema:MediaObject,
+		schema:ImageObject ;
+	schema:encodingFormat "image/jpeg" ;
+	schema:contentUrl <https://upload.wikimedia.org/wikipedia/commons/0/05/Sinistral_Helix_pomatia_Linnaeus_1758_17.jpg> ;
+	schema:contentSize "746195"^^xsd:integer ;
+	schema:height "1102"^^xsd:integer ;
+	schema:width "1310"^^xsd:integer ;
+	schema:caption "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"@en ;
+	rdfs:label "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"@en .

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from www.crowdai.org/challenges/train-schedule-optimisation-challenge/submissions/20394 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2019 07:06:53 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>crowdAI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content=""/>
+    <meta name="description" content="crowdAI connects data science experts and enthusiasts with open data to solve specific problems, through challenges"/>
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Train Schedule Optimisation Challenge" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="20394.html" />
+    <meta property="og:image" content="../../../../crowdai-prd.s3.eu-central-1.amazonaws.com/challenge_37/20394_optor.png" />
+    <meta property="og:description" content="Submission made by Optor AG" />
+    <meta property="og:site_name" content="Train Schedule Optimisation Challenge" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@crowd_ai">
+    <meta name="twitter:title" content="Train Schedule Optimisation Challenge">
+    <meta name="twitter:description" content="Submission made by Optor AG">
+    <meta name="twitter:creator" content="@crowd_ai">
+    <meta name="twitter:image:src" content="../../../../crowdai-prd.s3.eu-central-1.amazonaws.com/challenge_37/20394_optor.png">
+
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-60x60-a3ba860c24da457ef8f16d9d7e40814c6835bfef7268781eb17dfa1c03be83ed.png" sizes="60x60" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-72x72-fa968c8656c46df290ed1ae5dd4bb65c429b015a661330a3623b096c6e4d253e.png" sizes="72x72" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-76x76-5760f720632f080ba32a6afa52c2e48600d0fbb270f3a56d66947b6500cca3ba.png" sizes="76x76" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-114x114-ffef2a7294e6e9c95b42e0e97c52103e350dd25a76094d73a107dacbb5580249.png" sizes="114x114" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-120x120-aaddb625e759aeeaa326652d0e6ae80250ce6cc76e86cd14825af710cf7ff90f.png" sizes="120x120" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-144x144-28f2bdfee1a11984ba0dd2da8e2fcd52fc6cd6350ccafb5512fa521f40f4de8b.png" sizes="144x144" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-152x152-c42809322fa9f13067d094364700ca5b8ce238063dfc6d9d37609ba9428725c7.png" sizes="152x152" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-180x180-6dcbd672f0ef87c1cd1b470dc1417ca1cac6c16e1443fbde7e03250f6deebada.png" sizes="192x192" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-32x32-31fa8e51ed4c803d20eab56262d765c013deaefab71bdcdeaae2b83fb4461a9b.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-96x96-7159cc97f7b1ef5b332d1384cf0fbf500c11886ed7bd743daab632d1aae80d79.png" sizes="96x96" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-16x16-1526730d30e191cb84bd66a08d29d01165d2074733a361550afecc5edd2fd22e.png" sizes="16x16" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="manifest" href="https://d1u1amw606tzwl.cloudfront.net/assets/favicon/manifest-e95672d4553092f574d19ee4bf1d17197b734d61b67a30e5463c91fd875095d4.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/ms-icon-144x144-28f2bdfee1a11984ba0dd2da8e2fcd52fc6cd6350ccafb5512fa521f40f4de8b.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,400i,500,500i,700" rel="stylesheet">
+    <script src="../../../../use.fontawesome.com/bee91422da.js"></script>
+    <script type="text/javascript" async src="../../../../cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJaxb198.js?config=TeX-MML-AM_CHTML"></script>
+      <script data-turbolinks-eval="false">
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      },
+      i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../../../www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-75263739-1', 'auto', {'allowLinker': true });
+    ga('require', 'linker');
+    ga('linker:autoLink', ['crowdai.org']);
+  </script>
+
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}});</script>
+    <link rel="stylesheet" media="all" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/application-fbad2a77a3c16168d762d7bcd70b51933687bf62defed75590da7d06afb9c181.css" data-turbolinks-track="true" />
+    <script src="../../../../d1u1amw606tzwl.cloudfront.net/assets/application-7d73590a8408508da67ef02bc6ff6e8dcdd86d359df9bb543dd538d7a9411554.js" data-turbolinks-track="true"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="CXLsFl0uYk7Wq01qXmayFe+Dq6/q5NYGWG6XSlelIevYFRdME+fxUgCIO336ROVMTN+UX4ItMEDnP3QQeNmhFg==" />
+  </head>
+
+  <body>
+    <div id='flash-messages'>
+</div>
+
+    <div class="detail">
+  <div class="detail-header-bg"></div>
+  <a href="../../../participants/sign_in.html">
+    <i class="fa fa-times" aria-hidden="true"></i>
+</a>
+  <div class="row">
+    <!--Detail header start-->
+<div class="detail-header">
+  <div class="text-badge">
+    <a class="color-accent" href="../../../participants/9636.html">Optor AG</a>
+  </div>
+  <a href="../../train-schedule-optimisation-challenge.html">
+    <h4>Submission: Train Schedule Optimisation Challenge</h4>
+</a>  <br/>
+    <h5>Score: 50005.67</h5>
+
+  <div class='flex-row'>
+    <div class='grading_status_cd'>
+      <i class="fa fa-square graded" aria-hidden="true"></i>
+      <strong class="graded">
+        graded
+      </strong>
+    </div>
+  </div>
+
+</div>
+<!--Detail header end-->
+
+<!--Detail media start-->
+  <div class="detail-media">
+    <a href="../../37/submissions/20394.html"><img src="../../../../crowdai-prd.s3.eu-central-1.amazonaws.com/challenge_37/20394_optor.png" width="800" height="600" /></a>
+  </div>
+<!--Detail media end-->
+
+    
+
+  
+    
+
+    
+<div class="detail-share">
+  <div>
+    <span>Share</span>
+    <input
+      id="shortUrl"
+      type="text"
+      style="display:none; position: relative; left: -10000px;"
+      value='../../37/submissions/20394.html' >
+    <button
+      onclick="copyLink()"
+      class='btn btn-secondary'>Copy URL</button>
+  </div>
+  <div>
+    <span
+      data-title="Check out this link on crowdAI "
+      data-desc="Train Schedule Optimisation Challenge"
+      data-url='../../37/submissions/20394.html?utm_source=crowdAI&amp;utm_medium=Facebook'>
+    <a
+      class="btn btn-secondary btn-facebook"
+      rel="nofollow"
+      data-site="facebook"
+      onclick="return SocialShareButton.share(this)"
+      title="Share to Facebook"
+      href="#">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+    </a>
+  </span>
+  <span
+    data-title="Check out this link on crowdAI "
+    data-desc="Train Schedule Optimisation Challenge"
+    data-url='../../37/submissions/20394.html?utm_source=crowdAI&amp;utm_medium=Twitter'>
+    <a
+      data-url='../../37/submissions/20394.html?utm_source=crowdAI&amp;utm_medium=Twitter'
+      class="btn btn-secondary btn-twitter"
+      rel="nofollow"
+      data-site="twitter"
+      onclick="return SocialShareButton.share(this)"
+      title="Share to Twitter"
+      href="#">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+    </a>
+  </span>
+  </div>
+</div>
+<!--Detail add comment end-->
+
+
+    <!--Detail user comment start-->
+<!--Detail user comment end-->
+
+
+
+
+  </div>
+</div>
+
+    
+<div class="js-paloma-hook" data-palomaid="1571811019723">
+  <script type="text/javascript">
+    (function(){
+
+      if ( !window['Paloma'] ) return true;
+      Paloma.env = 'production';
+
+      var id = "1571811019723",
+          request = {"resource":"Submissions","action":"show","params":{}};
+
+      Paloma.engine.setRequest({
+        id: id,
+        resource: request.resource,
+        action: request.action,
+        params: request.params
+      });
+
+      var self  = document.querySelector("[data-palomaid='" + id + "']");
+      if (self) self.parentNode.removeChild(self);
+
+    })();
+  </script>
+</div>
+
+  </body>
+
+<!-- Mirrored from www.crowdai.org/challenges/train-schedule-optimisation-challenge/submissions/20394 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2019 07:06:54 GMT -->
+</html>

@@ -1,0 +1,16 @@
+<https://commons.wikimedia.org/wiki/Special:EntityData/M44452691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M44452691> <http://schema.org/about> <http://commons.wikimedia.org/entity/M44452691> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M44452691> <http://creativecommons.org/ns#license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M44452691> <http://schema.org/softwareVersion> "1.0.0" .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M44452691> <http://schema.org/version> "359148276"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M44452691> <http://schema.org/dateModified> "2019-07-23T06:16:13Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://commons.wikimedia.org/entity/M44452691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Mediainfo> .
+<http://commons.wikimedia.org/entity/M44452691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaObject> .
+<http://commons.wikimedia.org/entity/M44452691> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+<http://commons.wikimedia.org/entity/M44452691> <http://schema.org/encodingFormat> "image/png" .
+<http://commons.wikimedia.org/entity/M44452691> <http://schema.org/contentUrl> <https://upload.wikimedia.org/wikipedia/commons/e/e3/Adenine_to_Hypoxanthine.png> .
+<http://commons.wikimedia.org/entity/M44452691> <http://schema.org/contentSize> "36419"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M44452691> <http://schema.org/height> "768"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M44452691> <http://schema.org/width> "1024"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M44452691> <http://schema.org/caption> "A  deamination of adenine to form hypoxanthine. This is a mutagenic process because the result is a pairing of hypoxanthine with cytosine rather than thymine, due to hypoxanthine's guanine-like form.Error in DNA transcription and replication"@en .
+<http://commons.wikimedia.org/entity/M44452691> <http://www.w3.org/2000/01/rdf-schema#label> "A  deamination of adenine to form hypoxanthine. This is a mutagenic process because the result is a pairing of hypoxanthine with cytosine rather than thymine, due to hypoxanthine's guanine-like form.Error in DNA transcription and replication"@en .

@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from www.crowdai.org/topics/a-bytes-like-object-is-required-not-str-when-writing-to-file/comments/new?quoted_comment_id=555 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2019 06:52:59 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>crowdAI</title>
+    <meta name="description" content="Fighting for Open Science with Open Data">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="crowdAI" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="newd1ce.html?quoted_comment_id=555" />
+    <meta property="og:image" content="../../../../d1u1amw606tzwl.cloudfront.net/assets/misc/crowdai-head-ea7fded0f7e7e11b446f4d80f8d663b2e60fdd06546dd72be81fd978422a0725.png" />
+    <meta property="og:description" content="Fighting for Open Science with Open Data" />
+    <meta property="og:site_name" content="crowdAI" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@crowd_ai">
+    <meta name="twitter:title" content="crowdAI">
+    <meta name="twitter:description" content="Fighting for Open Science with Open Data">
+    <meta name="twitter:creator" content="@crowd_ai">
+    <meta name="twitter:image:src" content="../../../../d1u1amw606tzwl.cloudfront.net/assets/misc/crowdai-head-ea7fded0f7e7e11b446f4d80f8d663b2e60fdd06546dd72be81fd978422a0725.png">
+
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-60x60-a3ba860c24da457ef8f16d9d7e40814c6835bfef7268781eb17dfa1c03be83ed.png" sizes="60x60" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-72x72-fa968c8656c46df290ed1ae5dd4bb65c429b015a661330a3623b096c6e4d253e.png" sizes="72x72" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-76x76-5760f720632f080ba32a6afa52c2e48600d0fbb270f3a56d66947b6500cca3ba.png" sizes="76x76" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-114x114-ffef2a7294e6e9c95b42e0e97c52103e350dd25a76094d73a107dacbb5580249.png" sizes="114x114" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-120x120-aaddb625e759aeeaa326652d0e6ae80250ce6cc76e86cd14825af710cf7ff90f.png" sizes="120x120" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-144x144-28f2bdfee1a11984ba0dd2da8e2fcd52fc6cd6350ccafb5512fa521f40f4de8b.png" sizes="144x144" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-152x152-c42809322fa9f13067d094364700ca5b8ce238063dfc6d9d37609ba9428725c7.png" sizes="152x152" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-180x180-6dcbd672f0ef87c1cd1b470dc1417ca1cac6c16e1443fbde7e03250f6deebada.png" sizes="192x192" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-32x32-31fa8e51ed4c803d20eab56262d765c013deaefab71bdcdeaae2b83fb4461a9b.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-96x96-7159cc97f7b1ef5b332d1384cf0fbf500c11886ed7bd743daab632d1aae80d79.png" sizes="96x96" />
+    <link rel="shortcut icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-16x16-1526730d30e191cb84bd66a08d29d01165d2074733a361550afecc5edd2fd22e.png" sizes="16x16" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="manifest" href="https://d1u1amw606tzwl.cloudfront.net/assets/favicon/manifest-e95672d4553092f574d19ee4bf1d17197b734d61b67a30e5463c91fd875095d4.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../../../d1u1amw606tzwl.cloudfront.net/assets/favicon/ms-icon-144x144-28f2bdfee1a11984ba0dd2da8e2fcd52fc6cd6350ccafb5512fa521f40f4de8b.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,400i,500,500i,700" rel="stylesheet">
+    <script src="../../../../use.fontawesome.com/bee91422da.js"></script>
+        <script data-turbolinks-eval="false">
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      },
+      i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../../../www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-75263739-1', 'auto', {'allowLinker': true });
+    ga('require', 'linker');
+    ga('linker:autoLink', ['crowdai.org']);
+  </script>
+
+      <script>
+var _rollbarConfig = {
+    accessToken: "56bdb20b34b040159a0f2c4e29eb39bb",
+    captureUncaught: true,
+    captureUnhandledRejections: true,
+    payload: {
+        environment: "production"
+    }
+};
+// Rollbar Snippet
+!function(r){function o(e){if(n[e])return n[e].exports;var t=n[e]={exports:{},id:e,loaded:!1};return r[e].call(t.exports,t,t.exports,o),t.loaded=!0,t.exports}var n={};return o.m=r,o.c=n,o.p="",o(0)}([function(r,o,n){"use strict";var e=n(1),t=n(4);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.0.1/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=e.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=e.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,o,n){"use strict";function e(r){return function(){try{return r.apply(this,arguments)}catch(o){try{console.error("[Rollbar]: Internal error",o)}catch(n){}}}}function t(r,o){this.options=r,this._rollbarOldOnError=null;var n=s++;this.shimId=function(){return n},window&&window._rollbarShims&&(window._rollbarShims[n]={handler:o,messages:[]})}function a(r,o){var n=o.globalAlias||"Rollbar";if("object"==typeof r[n])return r[n];r._rollbarShims={},r._rollbarWrappedError=null;var t=new p(o);return e(function(){return o.captureUncaught&&(t._rollbarOldOnError=r.onerror,i.captureUncaughtExceptions(r,t),i.wrapGlobals(r,t)),o.captureUnhandledRejections&&i.captureUnhandledRejections(r,t),r[n]=t,t})()}function l(r){return e(function(){var o=this,n=Array.prototype.slice.call(arguments,0),e={shim:o,method:r,args:n,ts:new Date};window._rollbarShims[this.shimId()].messages.push(e)})}var i=n(2),s=0,c=n(3),d=function(r,o){return new t(r,o)},p=c.bind(null,d);t.prototype.loadFull=function(r,o,n,t,a){var l=function(){var o;if(void 0===r._rollbarDidLoad){o=new Error("rollbar.js did not load");for(var n,e,t,l,i=0;n=r._rollbarShims[i++];)for(n=n.messages||[];e=n.shift();)for(t=e.args||[],i=0;i<t.length;++i)if(l=t[i],"function"==typeof l){l(o);break}}"function"==typeof a&&a(o)},i=!1,s=o.createElement("script"),c=o.getElementsByTagName("script")[0],d=c.parentNode;s.crossOrigin="",s.src=t.rollbarJsUrl,n||(s.async=!0),s.onload=s.onreadystatechange=e(function(){if(!(i||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){s.onload=s.onreadystatechange=null;try{d.removeChild(s)}catch(r){}i=!0,l()}}),d.insertBefore(s,c)},t.prototype.wrap=function(r,o){try{var n;if(n="function"==typeof o?o:function(){return o||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._wrapped){r._wrapped=function(){try{return r.apply(this,arguments)}catch(o){var e=o;throw"string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._wrapped._isWrap=!0;for(var e in r)r.hasOwnProperty(e)&&(r._wrapped[e]=r[e])}return r._wrapped}catch(t){return r}};for(var u="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection".split(","),f=0;f<u.length;++f)t.prototype[u[f]]=l(u[f]);r.exports={setupShim:a,Rollbar:p}},function(r,o){"use strict";function n(r,o){if(r){var n;"function"==typeof o._rollbarOldOnError?n=o._rollbarOldOnError:r.onerror&&!r.onerror.belongsToRollbar&&(n=r.onerror,o._rollbarOldOnError=n);var t=function(){var t=Array.prototype.slice.call(arguments,0);e(r,o,n,t)};t.belongsToRollbar=!0,r.onerror=t}}function e(r,o,n,e){r._rollbarWrappedError&&(e[4]||(e[4]=r._rollbarWrappedError),e[5]||(e[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null),o.handleUncaughtException.apply(o,e),n&&n.apply(r,e)}function t(r,o){if(r){"function"==typeof r._rollbarURH&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var n=r.reason,e=r.promise,t=r.detail;!n&&t&&(n=t.reason,e=t.promise),o&&o.handleUnhandledRejection&&o.handleUnhandledRejection(n,e)};r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}function a(r,o){if(r){var n,e,t="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(n=0;n<t.length;++n)e=t[n],r[e]&&r[e].prototype&&l(o,r[e].prototype)}}function l(r,o){if(o.hasOwnProperty&&o.hasOwnProperty("addEventListener")){var n=o.addEventListener;n._rollbarOldAdd&&(n=n._rollbarOldAdd);var e=function(o,e,t){n.call(this,o,r.wrap(e),t)};e._rollbarOldAdd=n,o.addEventListener=e;var t=o.removeEventListener;t._rollbarOldRemove&&(t=t._rollbarOldRemove);var a=function(r,o,n){t.call(this,r,o&&o._wrapped||o,n)};a._rollbarOldRemove=t,o.removeEventListener=a}}r.exports={captureUncaughtExceptions:n,captureUnhandledRejections:t,wrapGlobals:a}},function(r,o){"use strict";function n(r,o){this.impl=r(o,this),this.options=o,e(n.prototype)}function e(r){for(var o=function(r){return function(){var o=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,o)}},n="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,_createItem,wrap,loadFull,shimId".split(","),e=0;e<n.length;e++)r[n[e]]=o(n[e])}n.prototype._swapAndProcessMessages=function(r,o){this.impl=r(this.options);for(var n,e,t;n=o.shift();)e=n.method,t=n.args,this[e]&&"function"==typeof this[e]&&this[e].apply(this,t);return this},r.exports=n},function(r,o){"use strict";r.exports=function(r){return function(o){if(!o&&!window._rollbarInitialized){r=r||{};for(var n,e,t=r.globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;n=window._rollbarShims[i++];)e||(e=n.handler),n.handler._swapAndProcessMessages(l,n.messages);window[t]=e,window._rollbarInitialized=!0}}}}]);
+// End Rollbar Snippet
+</script>
+
+    <link rel="stylesheet" media="all" href="../../../../d1u1amw606tzwl.cloudfront.net/assets/application-fbad2a77a3c16168d762d7bcd70b51933687bf62defed75590da7d06afb9c181.css" data-turbolinks-track="true" />
+    <script src="../../../../d1u1amw606tzwl.cloudfront.net/assets/application-7d73590a8408508da67ef02bc6ff6e8dcdd86d359df9bb543dd538d7a9411554.js" data-turbolinks-track="true"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="SiYCESYwZtVCq8sLO967WxREYonEeA1oWCkUcKxwD7qbQflLaPn1yZSIvRyf/OwCtxhdeayx6y7nePcqgwyPRw==" />
+    <script src="../../../../d1u1amw606tzwl.cloudfront.net/packs/application-0a6ea7b74599e58741ff.js"></script>
+    <link rel="stylesheet" media="screen" href="../../../../d1u1amw606tzwl.cloudfront.net/packs/application-a4f1ebb6e6bc4a2b9e31.css" />
+  </head>
+
+  <body id=''>
+    <!-- loader container -->
+  <div id='loader-container' class="loader-container">
+
+    <!-- loader -->
+    <div class="loader" title="0">
+      <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+        <path opacity="0.2" fill="#F0514D" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"/>
+        <path fill="#F0514D" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z">
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"/>
+        </path>
+      </svg>
+      <br>
+      <span>Loading</span>
+    </div>
+    <!-- loader -->
+
+  </div>
+  <!-- /loader container -->
+
+    <div id='page-content'>
+      <header>
+  <div class="row">
+    <div class="branding">
+      <a class="logo" href="../../../index.html" title=""></a>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="../../../challenges.html">Challenges</a></li>
+        <li><a href="../../../articles.html">Knowledge Base</a></li>
+        <li><a href="../../../job_postings.html">Job Board</a></li>
+          <li><a href="../../../participants/sign_in.html">Log in</a></li>
+      </ul>
+    </nav>
+    <div class="menu">
+      <a id="mobile-nav" href="#">
+        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <nav class="mobile-primary">
+    <div id="mobile-nav-header">
+      <div class="row">
+        <a class="logo" href="#" title=""></a>
+        <a id="mobile-nav" href="#">
+          <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li><h3><a href="../../../challenges.html">Challenges</a></h3></li>
+      <li><h3><a href="../../../articles.html">Knowledge Base</a></h3></li>
+      <li><h3><a href="../../../job_postings.html">Job Board</a></h3></li>
+    </ul>
+      <ul>
+        <li>
+          <h4><a href="../../../participants/sign_in.html">Log in</a></h4>
+        </li>
+      </ul>
+  </nav>
+    <div class="cookies-eu js-cookies-eu">
+    <span class="cookies-eu-content-holder">Cookies help us deliver our services. By using our services, you agree to our use of cookies.</span>
+    <span class="cookies-eu-button-holder">
+      <button class="btn btn-primary cookies-eu-ok js-cookies-eu-ok"> OK </button>
+      <a href="../../../cookies.html" class=" btn cookies-eu-link" target="_blank"> Learn more </a>
+    </span>
+  </div>
+
+</header>
+
+      <div id='flash-messages'>
+</div>
+
+      <div class="site-message">
+  <div class="row">
+    <p>crowdAI is shutting down - please read our <a href="../../../blogs/7.html">blog post</a> for more information
+  </div>
+</div>
+
+      <div class='content'>
+  <div class="masthead-detailed" data-cell='Challenge::Cell::ChallengeMasthead'>
+  <div class="row">
+    <div class="pic pic-challenge">
+      <img src="../../../../dnczkxd1gcfu5.cloudfront.net/images/challenges/image_file/11/multiarmedbandit.jpg" />    </div>
+    <div class="info info-challenge">
+      <div class="heading-w-icon">
+        <h2>NIPS '17 Workshop: Criteo Ad Placement Challenge</h2>
+              </div>
+      <p class="large">Counterfactual policy learning for display advertising</p>
+      <div class="user-link">
+  <a href="../../../organizers/cornell-university.html"><img src="../../../../dnczkxd1gcfu5.cloudfront.net/images/organizers/image_file/8/cornell_seal.png" /></a>  <p>By <a href="../../../organizers/cornell-university.html">Cornell University</a>  </p>
+</div>
+      <progress max="100" value="100"></progress>
+      <div class="stats">
+        <div class="stat-fl">
+          <br>
+          <span>Completed</span>
+        </div>
+        <div class="stat-fr">
+          246<br>
+          <span>Submissions</span>
+        </div>
+        <div class="stat-fr">
+          181<br>
+          <span>Participants</span>
+        </div>
+        <div class="stat-fr">
+          11760<br>
+          <span>Views</span>
+        </div>
+      </div>
+      <div class="button-group">
+        <a id="vote-link-challenge-11" class="btn btn-secondary" href="../../../participants/sign_in.html"><i class='fa fa-heart' aria-hidden='true'></i>  17</a><a id="follow-link-challenge-11" class="btn btn-secondary btn-min-width" href="../../../participants/sign_in.html">FOLLOW</a>      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="sub-nav">
+  <div class="row">
+    <ul>
+      <li class= >
+        <a class="" href="../../../challenges/nips-17-workshop-criteo-ad-placement-challenge.html">Overview</a>
+      </li>
+      <li class= >
+          <a class="" href="../../../challenges/nips-17-workshop-criteo-ad-placement-challenge/leaderboards.html">Leaderboard</a>
+      </li>
+        <li class= >
+          <a class="" href="../../../challenges/nips-17-workshop-criteo-ad-placement-challenge/topics.html">Discussion</a>
+        </li>
+        <li class= >
+          <a class="" href="../../../participants/sign_in.html">Dataset</a>
+        </li>
+
+        <li class= >
+          <a class="" href="../../../participants/sign_in.html">Winners</a>
+        </li>
+    </ul>
+
+  </div>
+</div>
+
+  <div class="row">
+    <div class="discussion-topic">
+      <div class="pic">
+          <a href="../../../participants/shubhi.html">
+            <img src="../../../../d1u1amw606tzwl.cloudfront.net/assets/users/avatar-default-96007ee5610cdc5a9eed706ec0889aec2257a3937d0fbb747cf335f8915f09b2.png" />
+</a>      </div>
+      <div class="topic-content">
+        <h4>a bytes-like object is required, not &#39;str&#39; when writing to file</h4>
+        <p class="details">Posted by
+            <a href="../../../participants/shubhi.html">Shubhi</a>
+          almost 2 years ago
+          
+        </p>
+        <div class="comment">
+          <p><p>Hi,
+I am using Python 3.5 on Windows. When I run the command “python generate_random_predictions.py –test_set=data/criteo_test_release_small.txt.gz –output_path=data/predictions.gz”, I get the following error:</p>
+
+<p>Reading test set from :  data/criteo_test_release_small.txt.gz
+Traceback (most recent call last):
+  File “generate_random_predictions.py”, line 32, in 
+    for _idx, _impression in enumerate(data):
+  File "C:\Users\IBM_ADMIN\Desktop\Self Studies\NIPS ads\criteo_starter_kit\crit
+eo_dataset.py", line 41, in __next__
+    return self.next()
+  File "C:\Users\IBM_ADMIN\Desktop\Self Studies\NIPS ads\criteo_starter_kit\crit
+eo_dataset.py", line 34, in next
+    next_block = self.get_next_impression_block()
+  File "C:\Users\IBM_ADMIN\Desktop\Self Studies\NIPS ads\criteo_starter_kit\crit
+eo_dataset.py", line 60, in get_next_impression_block
+    block_impression_id = utils.extract_impression_id(line)
+  File "C:\Users\IBM_ADMIN\Desktop\Self Studies\NIPS ads\criteo_starter_kit\util
+s.py", line 10, in extract_impression_id
+    return line[:line.index("|")].strip()
+TypeError: a bytes-like object is required, not 'str'</p>
+
+<p>Its because in Python 3.5 ,  all data read from the file is returned as bytes objects, not str. You cannot then use a string for write back and test it. 
+Does anyone have a solution to resolve this issue?</p>
+
+<p>Thanks,
+Shubhi</p>
+</p>
+        </div>
+        <a id="vote-link-topic-143" class="btn btn-secondary" href="../../../participants/sign_in.html"><i class='fa fa-heart' aria-hidden='true'></i>  1</a>
+      </div>
+    </div>
+
+
+    <div class="discussion-comment" id='comment-549'  data-cell='Discussion::Cell::Comment'>
+  <div class="pic">
+    <a href="../../../participants/spmohanty.html"><img src="../../../../dnczkxd1gcfu5.cloudfront.net/images/participants/image_file/7/tt.png" /></a>  </div>
+  <div class="topic-content">
+    <p class="details">Posted by
+      <a href="../../../participants/spmohanty.html">spMohanty</a>&nbsp;
+      almost 2 years ago |&nbsp;
+      <a href="newaa53.html?quoted_comment_id=549">Quote</a>    </p>
+    <div class='comment'>
+      <p>Thanks @Shubhi for pointing this out.
+This should be fixed in <a href="https://github.com/spMohanty/crowdai-criteo-ad-placement-challenge-starter-kit/commit/ff1300a0680fa2f49a20ba8d5f81310c8112ffc6">this commit</a>.</p>
+
+<p>Please pull the latest changes from the repository, and try again.</p>
+
+<p>Cheers,<br />
+Mohanty</p>
+    </div>
+  </div>
+  <a id="vote-link-comment-549" class="btn btn-secondary" href="../../../participants/sign_in.html"><i class='fa fa-heart' aria-hidden='true'></i>  1</a></div>
+<div class="discussion-comment" id='comment-552'  data-cell='Discussion::Cell::Comment'>
+  <div class="pic">
+    <a href="../../../participants/shubhi.html"><img src="../../../../d1u1amw606tzwl.cloudfront.net/assets/users/avatar-default-96007ee5610cdc5a9eed706ec0889aec2257a3937d0fbb747cf335f8915f09b2.png" /></a>  </div>
+  <div class="topic-content">
+    <p class="details">Posted by
+      <a href="../../../participants/shubhi.html">Shubhi</a>&nbsp;
+      almost 2 years ago |&nbsp;
+      <a href="newb82f.html?quoted_comment_id=552">Quote</a>    </p>
+    <div class='comment'>
+      <p>I am not sure the problem got solved. Even though the test set processes 10,000 impressions for the small test set: 
+Reading test set from :  data/criteo_test_release_small.txt.gz
+Processed 0 impressions…
+Processed 500 impressions…
+Processed 1000 impressions…
+Processed 1500 impressions…
+Processed 2000 impressions…
+Processed 2500 impressions…
+Processed 3000 impressions…
+Processed 3500 impressions…
+Processed 4000 impressions…
+Processed 4500 impressions…
+Processed 5000 impressions…
+Processed 5500 impressions…
+Processed 6000 impressions…
+Processed 6500 impressions…
+Processed 7000 impressions…
+Processed 7500 impressions…
+Processed 8000 impressions…
+Processed 8500 impressions…
+Processed 9000 impressions…
+Processed 9500 impressions…
+Successfully Wrote predictions file to :  data/predictions.gz</p>
+
+<p>However when I run the command :python submit_random_predictions.py –api_key=<YOUR_CROWDAI_API_KEY> --predictions=data/predictions.gz  with my crowdai_api_key, I get the following error:</YOUR_CROWDAI_API_KEY></p>
+
+<p>crowdai.challenges.crowdai_errors.CrowdAIExecuteFunctionError: The prediction file is expected to contain predictions for 10000 impressions. But the submitted file contains predictins for 0 impressions.</p>
+
+<p>in predictions.gz, I see that the predictions are missing “\n”
+896678244;0:9.653171228634976,1:1.6832024142539292,2:2.1606332593798783,3:4.884344977622973,4:7.1426290662561875,5:8.046190746253894,6:4.924386389116212,7:6.603867201820902,8:3.317023592721756,9:2.1252490852482255,10:9.5375547104972751332733630;0:6.519321399498372,1:9.939021971859344,2:8.678783932419998,3:1.2573023755679158,4:5.791924719057741,5:9.839883099238525,6:6.463823793583448,7:0.698148995051131,8:4.51337030376997,9:2.236802431877315,10:8.711642733654822642298222;0:1.3411986323066682,1:5.9326551704187,2:4.441277475303074,3:8.465107503391177,4:7.228464103949213,5:2.623431097985507,6:3.6160961806843295,7:0.05505625990972152,8:9.516235176978151,9:9.425532004502138,10:9.499176040767344,11:5.737000592241673,12:4.319398489265664113594215;0:9.252795187513854,1:2.9258981291318618,2:2.96508767016035,3:1.1902810494662797,4:7.338370618518124,5:3.003790935933679,6:5.485765260518349,7:1.056544188674563,8:0.8818437874991725,9:6.376236000482152,10:9.457723858796763289177935;0:9.114098971050108,1:4.7357452787725745,2:4.219671661999751,3:4.184895319901192,4:7.56348341507564,5:9.917292757050415,6:7.6078457407323805,7:6.629387071228856,8:2.2673447512991505,9:6.269401984647884,10:0.24624860377179925,11:3.6278702993368004912634132;0:2.419899501114803,1:3.</p>
+
+<p>This could be a reason why the submit_random_predictions.py indicates having 0 predictions.</p>
+    </div>
+  </div>
+  <a id="vote-link-comment-552" class="btn btn-secondary" href="../../../participants/sign_in.html"><i class='fa fa-heart' aria-hidden='true'></i> </a></div>
+<div class="discussion-comment" id='comment-555'  data-cell='Discussion::Cell::Comment'>
+  <div class="pic">
+    <a href="../../../participants/spmohanty.html"><img src="../../../../dnczkxd1gcfu5.cloudfront.net/images/participants/image_file/7/tt.png" /></a>  </div>
+  <div class="topic-content">
+    <p class="details">Posted by
+      <a href="../../../participants/spmohanty.html">spMohanty</a>&nbsp;
+      almost 2 years ago |&nbsp;
+      <a href="newd1ce.html?quoted_comment_id=555">Quote</a>    </p>
+    <div class='comment'>
+      <p>Hi @Shubhi,
+That was because of a small typo in my code. It has been fixed. Can you pull the latest changes and try again ?</p>
+
+<p>Cheers, <br />
+Mohanty</p>
+    </div>
+  </div>
+  <a id="vote-link-comment-555" class="btn btn-secondary" href="../../../participants/sign_in.html"><i class='fa fa-heart' aria-hidden='true'></i> </a></div>
+
+  </div>
+</div>
+
+      
+<div class="js-paloma-hook" data-palomaid="1571809904808">
+  <script type="text/javascript">
+    (function(){
+
+      if ( !window['Paloma'] ) return true;
+      Paloma.env = 'production';
+
+      var id = "1571809904808",
+          request = {"resource":"Comments","action":"new","params":{}};
+
+      Paloma.engine.setRequest({
+        id: id,
+        resource: request.resource,
+        action: request.action,
+        params: request.params
+      });
+
+      var self  = document.querySelector("[data-palomaid='" + id + "']");
+      if (self) self.parentNode.removeChild(self);
+
+    })();
+  </script>
+</div>
+
+      <footer class="">
+  <div class="row">
+    <a class="logo-footer" href="http://epfl.ch/">
+      <img src="../../../../d1u1amw606tzwl.cloudfront.net/assets/misc/EPFL_Logo_Digital_RGB_PROD-60bb226e14e8a37db07793a88a44ce5fe4dfa7f23bc8bab21a52c8664e26b8ab.png" />
+    </a>
+    <p class="copyright">&#9400; 2018 crowdAI</p>
+    <ul class="social">
+      <li>
+        <a href="https://twitter.com/crowd_ai">
+          <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/crowdAI">
+          <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+    <ul class="links">
+      <li><a href="../../../faq.html">FAQ</a></li>
+      <li><a href="../../../contact.html">Contact</a></li>
+      <li><a href="../../../privacy.html">Privacy</a></li>
+      <li><a href="../../../terms.html">Terms of Service</a></li>
+      <li><a href="../../../cookies.html">Cookie consent</a></li>
+    </ul>
+  </div>
+</footer>
+
+    </div>
+      <script>
+    ga('set', 'location', location.href.split('#')[0]);
+    ga('send', 'pageview', {"title": document.title});
+  </script>
+
+  </body>
+
+<!-- Mirrored from www.crowdai.org/topics/a-bytes-like-object-is-required-not-str-when-writing-to-file/comments/new?quoted_comment_id=555 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2019 06:52:59 GMT -->
+</html>

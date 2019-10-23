@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "data:M44452691",
+            "@type": "schema:Dataset",
+            "about": "wd:M44452691",
+            "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "softwareVersion": "1.0.0",
+            "version": 359148276,
+            "dateModified": "2019-07-23T06:16:13Z"
+        },
+        {
+            "@id": "wd:M44452691",
+            "@type": [
+                "wikibase:Mediainfo",
+                "schema:MediaObject",
+                "schema:ImageObject"
+            ],
+            "encodingFormat": "image/png",
+            "contentUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Adenine_to_Hypoxanthine.png",
+            "contentSize": 36419,
+            "height": 768,
+            "width": 1024,
+            "caption": {
+                "@language": "en",
+                "@value": "A  deamination of adenine to form hypoxanthine. This is a mutagenic process because the result is a pairing of hypoxanthine with cytosine rather than thymine, due to hypoxanthine's guanine-like form.Error in DNA transcription and replication"
+            },
+            "label": {
+                "@language": "en",
+                "@value": "A  deamination of adenine to form hypoxanthine. This is a mutagenic process because the result is a pairing of hypoxanthine with cytosine rather than thymine, due to hypoxanthine's guanine-like form.Error in DNA transcription and replication"
+            }
+        }
+    ],
+    "@context": {
+        "data": "https://commons.wikimedia.org/wiki/Special:EntityData/",
+        "schema": "http://schema.org/",
+        "about": {
+            "@id": "schema:about",
+            "@type": "@id"
+        },
+        "wd": "http://commons.wikimedia.org/entity/",
+        "cc": "http://creativecommons.org/ns#",
+        "license": {
+            "@id": "cc:license",
+            "@type": "@id"
+        },
+        "softwareVersion": {
+            "@id": "schema:softwareVersion"
+        },
+        "version": {
+            "@id": "schema:version"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dateModified": {
+            "@id": "schema:dateModified",
+            "@type": "xsd:dateTime"
+        },
+        "wikibase": "http://wikiba.se/ontology#",
+        "encodingFormat": {
+            "@id": "schema:encodingFormat"
+        },
+        "contentUrl": {
+            "@id": "schema:contentUrl",
+            "@type": "@id"
+        },
+        "contentSize": {
+            "@id": "schema:contentSize"
+        },
+        "height": {
+            "@id": "schema:height"
+        },
+        "width": {
+            "@id": "schema:width"
+        },
+        "caption": {
+            "@id": "schema:caption"
+        },
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "label": {
+            "@id": "rdfs:label"
+        }
+    }
+}

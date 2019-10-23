@@ -1,0 +1,16 @@
+<https://commons.wikimedia.org/wiki/Special:EntityData/M77667831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M77667831> <http://schema.org/about> <http://commons.wikimedia.org/entity/M77667831> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M77667831> <http://creativecommons.org/ns#license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M77667831> <http://schema.org/softwareVersion> "1.0.0" .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M77667831> <http://schema.org/version> "344363507"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M77667831> <http://schema.org/dateModified> "2019-03-30T14:35:37Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://commons.wikimedia.org/entity/M77667831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Mediainfo> .
+<http://commons.wikimedia.org/entity/M77667831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaObject> .
+<http://commons.wikimedia.org/entity/M77667831> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+<http://commons.wikimedia.org/entity/M77667831> <http://schema.org/encodingFormat> "image/svg+xml" .
+<http://commons.wikimedia.org/entity/M77667831> <http://schema.org/contentUrl> <https://upload.wikimedia.org/wikipedia/commons/b/b2/DNA_UV_mutation_ta.svg> .
+<http://commons.wikimedia.org/entity/M77667831> <http://schema.org/contentSize> "16483"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M77667831> <http://schema.org/height> "298"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M77667831> <http://schema.org/width> "387"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M77667831> <http://schema.org/caption> "DNA UV mutation in Tamil"@en .
+<http://commons.wikimedia.org/entity/M77667831> <http://www.w3.org/2000/01/rdf-schema#label> "DNA UV mutation in Tamil"@en .

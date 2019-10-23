@@ -1,0 +1,14 @@
+diff --git a/generator/ruby/soundfont_builder.rb b/generator/ruby/soundfont_builder.rb
+index 8fb128e..9d31bc0 100755
+--- a/generator/ruby/soundfont_builder.rb
++++ b/generator/ruby/soundfont_builder.rb
+@@ -10,7 +10,8 @@
+ #   OggEnc (from vorbis-tools)
+ #   Ruby Gem: midilib
+ #
+-#   $ brew install fluidsynth vorbis-tools lame (on OSX)
++#   $ brew install --with-libsndfile fluidsynth
++#   $ brew install vorbis-tools lame
+ #   $ gem install midilib
+ #
+ # You'll need to download a GM soundbank to generate audio.

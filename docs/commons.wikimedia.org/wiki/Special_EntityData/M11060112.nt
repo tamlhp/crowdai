@@ -1,0 +1,439 @@
+<https://commons.wikimedia.org/wiki/Special:EntityData/M11060112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M11060112> <http://schema.org/about> <http://commons.wikimedia.org/entity/M11060112> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M11060112> <http://creativecommons.org/ns#license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M11060112> <http://schema.org/softwareVersion> "1.0.0" .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M11060112> <http://schema.org/version> "354202092"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M11060112> <http://schema.org/dateModified> "2019-06-12T13:55:40Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://commons.wikimedia.org/entity/M11060112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Mediainfo> .
+<http://commons.wikimedia.org/entity/M11060112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaObject> .
+<http://commons.wikimedia.org/entity/M11060112> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+<http://commons.wikimedia.org/entity/M11060112> <http://schema.org/encodingFormat> "image/jpeg" .
+<http://commons.wikimedia.org/entity/M11060112> <http://schema.org/contentUrl> <https://upload.wikimedia.org/wikipedia/commons/6/6e/CeratopipraIracundaSmit.jpg> .
+<http://commons.wikimedia.org/entity/M11060112> <http://schema.org/contentSize> "126196"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M11060112> <http://schema.org/height> "820"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M11060112> <http://schema.org/width> "1423"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M11060112> <http://www.wikidata.org/prop/direct/P180> <http://www.wikidata.org/entity/Q27075186> .
+<http://commons.wikimedia.org/entity/M11060112> <http://www.wikidata.org/prop/P180> <http://commons.wikimedia.org/entity/statement/M11060112-96E92D4B-3418-4991-A6B2-1121639ADD08> .
+<http://commons.wikimedia.org/entity/statement/M11060112-96E92D4B-3418-4991-A6B2-1121639ADD08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Statement> .
+<http://commons.wikimedia.org/entity/statement/M11060112-96E92D4B-3418-4991-A6B2-1121639ADD08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#BestRank> .
+<http://commons.wikimedia.org/entity/statement/M11060112-96E92D4B-3418-4991-A6B2-1121639ADD08> <http://wikiba.se/ontology#rank> <http://wikiba.se/ontology#NormalRank> .
+<http://commons.wikimedia.org/entity/statement/M11060112-96E92D4B-3418-4991-A6B2-1121639ADD08> <http://www.wikidata.org/prop/statement/P180> <http://www.wikidata.org/entity/Q27075186> .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Item> .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Ceratopipra cornuta"@de .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceratopipra cornuta"@de .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Ceratopipra cornuta"@de .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Ceratopipra cornuta"@en .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceratopipra cornuta"@en .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Ceratopipra cornuta"@en .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Saltar\u00EDn Copet\u00F3n"@es .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Saltar\u00EDn Copet\u00F3n"@es .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Saltar\u00EDn Copet\u00F3n"@es .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "manaqu\u00ED de crinera"@ca .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "manaqu\u00ED de crinera"@ca .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "manaqu\u00ED de crinera"@ca .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "pipulka rohat\u00E1"@cs .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "pipulka rohat\u00E1"@cs .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "pipulka rohat\u00E1"@cs .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "R\u00F8dduskmanakin"@nb .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "R\u00F8dduskmanakin"@nb .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "R\u00F8dduskmanakin"@nb .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "\u0425\u043E\u0445\u043B\u0430\u0442\u0430\u044F \u043F\u0438\u043F\u0440\u0430"@ru .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0425\u043E\u0445\u043B\u0430\u0442\u0430\u044F \u043F\u0438\u043F\u0440\u0430"@ru .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "\u0425\u043E\u0445\u043B\u0430\u0442\u0430\u044F \u043F\u0438\u043F\u0440\u0430"@ru .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "\u30A2\u30AB\u30C5\u30CE\u30DE\u30A4\u30B3\u30C9\u30EA"@ja .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u30A2\u30AB\u30C5\u30CE\u30DE\u30A4\u30B3\u30C9\u30EA"@ja .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "\u30A2\u30AB\u30C5\u30CE\u30DE\u30A4\u30B3\u30C9\u30EA"@ja .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Hornmanakin"@da .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Hornmanakin"@da .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Hornmanakin"@da .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "tulitukkatanssija"@fi .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "tulitukkatanssija"@fi .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "tulitukkatanssija"@fi .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "gorzyk rogaty"@pl .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "gorzyk rogaty"@pl .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "gorzyk rogaty"@pl .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "pipra vrko\u010Dat\u00E1"@sk .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "pipra vrko\u010Dat\u00E1"@sk .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "pipra vrko\u010Dat\u00E1"@sk .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "hornmanakin"@sv .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "hornmanakin"@sv .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "hornmanakin"@sv .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Kuifmanakin"@nl .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Kuifmanakin"@nl .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Kuifmanakin"@nl .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Manakin \u00E0 cornes rouges"@fr .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manakin \u00E0 cornes rouges"@fr .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Manakin \u00E0 cornes rouges"@fr .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Manachino cornuto"@it .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manachino cornuto"@it .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Manachino cornuto"@it .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "dan\u00E7ador-de-crista"@pt .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "dan\u00E7ador-de-crista"@pt .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "dan\u00E7ador-de-crista"@pt .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Ceratopipra cornuta"@bg .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceratopipra cornuta"@bg .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Ceratopipra cornuta"@bg .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Ceratopipra cornuta"@la .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceratopipra cornuta"@la .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Ceratopipra cornuta"@la .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Pipra cornuta"@hu .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pipra cornuta"@hu .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Pipra cornuta"@hu .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Manacin corniog"@cy .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Manacin corniog"@cy .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Manacin corniog"@cy .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Ceratopipra cornuta"@ast .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceratopipra cornuta"@ast .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Ceratopipra cornuta"@ast .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Pipra cornuta"@ceb .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pipra cornuta"@ceb .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Pipra cornuta"@ceb .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Dixiphia cornuta"@eu .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Dixiphia cornuta"@eu .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Dixiphia cornuta"@eu .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Pipra cornuta"@vi .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pipra cornuta"@vi .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Pipra cornuta"@vi .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Pipra cornuta"@war .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Pipra cornuta"@war .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Pipra cornuta"@war .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "\u0631\u0646\u06AF\u06CC\u0646\u06A9 \u0634\u0627\u062E\u200C\u0633\u0631\u062E"@fa .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0631\u0646\u06AF\u06CC\u0646\u06A9 \u0634\u0627\u062E\u200C\u0633\u0631\u062E"@fa .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "\u0631\u0646\u06AF\u06CC\u0646\u06A9 \u0634\u0627\u062E\u200C\u0633\u0631\u062E"@fa .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2000/01/rdf-schema#label> "Ceratopipra cornuta"@uk .
+<http://www.wikidata.org/entity/Q27075186> <http://www.w3.org/2004/02/skos/core#prefLabel> "Ceratopipra cornuta"@uk .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/name> "Ceratopipra cornuta"@uk .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "Art der Gattung Ceratopipra"@de .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "taxon"@nl .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "\u0646\u0648\u0639 \u0645\u0646 \u0627\u0644\u0632\u0648\u0627\u062D\u0641"@ar .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "species of bird"@en-gb .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "species of bird"@en .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "species of bird"@en-ca .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "mad\u00E1rfaj"@hu .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "druh pt\u00E1ka"@cs .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "\u0432\u0438\u0434 \u043F\u0442\u0430\u0445\u0456\u0432"@uk .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "f\u00E5gelart i Sydamerika"@sv .
+<http://www.wikidata.org/entity/Q27075186> <http://schema.org/description> "especie de p\u00E1xaru"@ast .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Property> .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Property> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#propertyType> <http://wikiba.se/ontology#WikibaseItem> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#directClaim> <http://www.wikidata.org/prop/direct/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#claim> <http://www.wikidata.org/prop/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#statementProperty> <http://www.wikidata.org/prop/statement/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#statementValue> <http://www.wikidata.org/prop/statement/value/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#qualifier> <http://www.wikidata.org/prop/qualifier/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#qualifierValue> <http://www.wikidata.org/prop/qualifier/value/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#reference> <http://www.wikidata.org/prop/reference/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#referenceValue> <http://www.wikidata.org/prop/reference/value/P180> .
+<http://www.wikidata.org/entity/P180> <http://wikiba.se/ontology#novalue> <http://www.wikidata.org/prop/novalue/P180> .
+<http://www.wikidata.org/prop/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/statement/value/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/qualifier/value/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/reference/value/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/direct/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/statement/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/qualifier/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/reference/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.wikidata.org/prop/novalue/P180> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.wikidata.org/prop/novalue/P180> <http://www.w3.org/2002/07/owl#complementOf> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.wikidata.org/prop/direct/P180> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "d\u00E9peint"@fr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "d\u00E9peint"@fr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "d\u00E9peint"@fr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "depicts"@en .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "depicts"@en .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "depicts"@en .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "Motiv"@de .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motiv"@de .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "Motiv"@de .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "zobrazuje"@cs .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "zobrazuje"@cs .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "zobrazuje"@cs .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u05DE\u05E6\u05D9\u05D2"@he .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u05DE\u05E6\u05D9\u05D2"@he .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u05DE\u05E6\u05D9\u05D2"@he .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0430\u0434\u043B\u044E\u0441\u0442\u0440\u043E\u045E\u0432\u0430\u0435"@be .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0430\u0434\u043B\u044E\u0441\u0442\u0440\u043E\u045E\u0432\u0430\u0435"@be .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0430\u0434\u043B\u044E\u0441\u0442\u0440\u043E\u045E\u0432\u0430\u0435"@be .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "subjecte representat"@ca .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "subjecte representat"@ca .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "subjecte representat"@ca .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u984C\u6750"@ja .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u984C\u6750"@ja .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u984C\u6750"@ja .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "representa a"@es .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "representa a"@es .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "representa a"@es .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0437\u043E\u0431\u0440\u0430\u0436\u0443\u0454"@uk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0437\u043E\u0431\u0440\u0430\u0436\u0443\u0454"@uk .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0437\u043E\u0431\u0440\u0430\u0436\u0443\u0454"@uk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "raffigura"@it .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "raffigura"@it .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "raffigura"@it .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "beeldt af"@nl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "beeldt af"@nl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "beeldt af"@nl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7ED8\u5185\u5BB9"@zh-hans .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7ED8\u5185\u5BB9"@zh-hans .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7ED8\u5185\u5BB9"@zh-hans .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7E6A\u5167\u5BB9"@zh .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7E6A\u5167\u5BB9"@zh .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7E6A\u5167\u5BB9"@zh .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7E6A\u5167\u5BB9"@zh-hant .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7E6A\u5167\u5BB9"@zh-hant .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7E6A\u5167\u5BB9"@zh-hant .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "att\u0113lo"@lv .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "att\u0113lo"@lv .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "att\u0113lo"@lv .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\uB2E4\uC74C\uC744 \uBB18\uC0AC\uD568"@ko .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\uB2E4\uC74C\uC744 \uBB18\uC0AC\uD568"@ko .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\uB2E4\uC74C\uC744 \uBB18\uC0AC\uD568"@ko .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u043F\u0440\u0438\u043A\u0430\u0437\u0443\u0458\u0435"@sr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u043F\u0440\u0438\u043A\u0430\u0437\u0443\u0458\u0435"@sr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u043F\u0440\u0438\u043A\u0430\u0437\u0443\u0458\u0435"@sr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0451\u043D\u043D\u044B\u0439 \u043E\u0431\u044A\u0435\u043A\u0442"@ru .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0451\u043D\u043D\u044B\u0439 \u043E\u0431\u044A\u0435\u043A\u0442"@ru .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0451\u043D\u043D\u044B\u0439 \u043E\u0431\u044A\u0435\u043A\u0442"@ru .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "przedstawia"@pl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "przedstawia"@pl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "przedstawia"@pl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u062A\u0648\u0635\u06CC\u0641\u200C\u0647\u0627"@fa .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u062A\u0648\u0635\u06CC\u0641\u200C\u0647\u0627"@fa .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u062A\u0648\u0635\u06CC\u0641\u200C\u0647\u0627"@fa .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "motiv"@nb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "motiv"@nb .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "motiv"@nb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "motiv"@nn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "motiv"@nn .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "motiv"@nn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "m\u0171 t\u00E1rgya"@hu .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "m\u0171 t\u00E1rgya"@hu .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "m\u0171 t\u00E1rgya"@hu .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "retrata"@pt .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "retrata"@pt .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "retrata"@pt .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "uitbeelding"@af .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "uitbeelding"@af .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "uitbeelding"@af .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u03B1\u03C0\u03B5\u03B9\u03BA\u03BF\u03BD\u03AF\u03B6\u03B5\u03B9"@el .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u03B1\u03C0\u03B5\u03B9\u03BA\u03BF\u03BD\u03AF\u03B6\u03B5\u03B9"@el .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u03B1\u03C0\u03B5\u03B9\u03BA\u03BF\u03BD\u03AF\u03B6\u03B5\u03B9"@el .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "afbilder"@da .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "afbilder"@da .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "afbilder"@da .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "subiectul reprezentat"@ro .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "subiectul reprezentat"@ro .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "subiectul reprezentat"@ro .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "prikazuje"@bs .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "prikazuje"@bs .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "prikazuje"@bs .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "wiest"@nds .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "wiest"@nds .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "wiest"@nds .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u10D2\u10D0\u10DB\u10DD\u10E1\u10D0\u10EE\u10E3\u10DA\u10D8 \u10DD\u10D1\u10D8\u10D4\u10E5\u10E2\u10D8"@ka .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u10D2\u10D0\u10DB\u10DD\u10E1\u10D0\u10EE\u10E3\u10DA\u10D8 \u10DD\u10D1\u10D8\u10D4\u10E5\u10E2\u10D8"@ka .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u10D2\u10D0\u10DB\u10DD\u10E1\u10D0\u10EE\u10E3\u10DA\u10D8 \u10DD\u10D1\u10D8\u10D4\u10E5\u10E2\u10D8"@ka .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u043F\u0440\u0438\u043A\u0430\u0436\u0443\u0432\u0430"@mk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u043F\u0440\u0438\u043A\u0430\u0436\u0443\u0432\u0430"@mk .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u043F\u0440\u0438\u043A\u0430\u0436\u0443\u0432\u0430"@mk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "esitt\u00E4\u00E4"@fi .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "esitt\u00E4\u00E4"@fi .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "esitt\u00E4\u00E4"@fi .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "menggambarkan"@ms .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "menggambarkan"@ms .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "menggambarkan"@ms .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "retrata"@pt-br .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "retrata"@pt-br .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "retrata"@pt-br .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "motiv"@sv .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "motiv"@sv .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "motiv"@sv .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0430\u0434\u043B\u044E\u0441\u0442\u0440\u043E\u045E\u0432\u0430\u0435"@be-tarask .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0430\u0434\u043B\u044E\u0441\u0442\u0440\u043E\u045E\u0432\u0430\u0435"@be-tarask .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0430\u0434\u043B\u044E\u0441\u0442\u0440\u043E\u045E\u0432\u0430\u0435"@be-tarask .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "subj\u00E8cte representat"@oc .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "subj\u00E8cte representat"@oc .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "subj\u00E8cte representat"@oc .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "depicts"@en-gb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "depicts"@en-gb .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "depicts"@en-gb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0C1A\u0C3F\u0C24\u0C4D\u0C30\u0C23"@te .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0C1A\u0C3F\u0C24\u0C4D\u0C30\u0C23"@te .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0C1A\u0C3F\u0C24\u0C4D\u0C30\u0C23"@te .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "mot\u00EDv"@sk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "mot\u00EDv"@sk .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "mot\u00EDv"@sk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u043F\u0440\u0438\u043A\u0430\u0437\u0443\u0458\u0435"@sr-ec .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u043F\u0440\u0438\u043A\u0430\u0437\u0443\u0458\u0435"@sr-ec .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u043F\u0440\u0438\u043A\u0430\u0437\u0443\u0458\u0435"@sr-ec .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "prikazuje"@sr-el .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "prikazuje"@sr-el .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "prikazuje"@sr-el .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "depinge"@ia .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "depinge"@ia .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "depinge"@ia .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "depicts"@sco .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "depicts"@sco .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "depicts"@sco .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "motiv"@sl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "motiv"@sl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "motiv"@sl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "honako hau irudikatzen du"@eu .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "honako hau irudikatzen du"@eu .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "honako hau irudikatzen du"@eu .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u091C\u0928\u093E\u0909\u0901\u091B"@ne .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u091C\u0928\u093E\u0909\u0901\u091B"@ne .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u091C\u0928\u093E\u0909\u0901\u091B"@ne .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7E6A\u5167\u5BB9"@zh-hk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7E6A\u5167\u5BB9"@zh-hk .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7E6A\u5167\u5BB9"@zh-hk .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7ED8\u5185\u5BB9"@zh-cn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7ED8\u5185\u5BB9"@zh-cn .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7ED8\u5185\u5BB9"@zh-cn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7E6A\u5167\u5BB9"@zh-mo .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7E6A\u5167\u5BB9"@zh-mo .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7E6A\u5167\u5BB9"@zh-mo .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7ED8\u5185\u5BB9"@zh-my .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7ED8\u5185\u5BB9"@zh-my .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7ED8\u5185\u5BB9"@zh-my .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7ED8\u5185\u5BB9"@zh-sg .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7ED8\u5185\u5BB9"@zh-sg .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7ED8\u5185\u5BB9"@zh-sg .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u63CF\u7E6A\u5167\u5BB9"@zh-tw .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u63CF\u7E6A\u5167\u5BB9"@zh-tw .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u63CF\u7E6A\u5167\u5BB9"@zh-tw .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "Motiv"@gsw .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motiv"@gsw .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "Motiv"@gsw .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "yn portreadu"@cy .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "yn portreadu"@cy .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "yn portreadu"@cy .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "montras"@eo .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "montras"@eo .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "montras"@eo .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "kujutab"@et .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "kujutab"@et .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "kujutab"@et .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "vaizduoja"@lt .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "vaizduoja"@lt .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "vaizduoja"@lt .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "gambaran dari"@id .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "gambaran dari"@id .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "gambaran dari"@id .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u064A\u0635\u0648\u0631"@ar .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u064A\u0635\u0648\u0631"@ar .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u064A\u0635\u0648\u0631"@ar .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "mot\u00EEv"@ku-latn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "mot\u00EEv"@ku-latn .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "mot\u00EEv"@ku-latn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u057A\u0561\u057F\u056F\u0565\u0580\u057E\u0561\u056E \u0585\u0562\u0575\u0565\u056F\u057F"@hy .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u057A\u0561\u057F\u056F\u0565\u0580\u057E\u0561\u056E \u0585\u0562\u0575\u0565\u056F\u057F"@hy .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u057A\u0561\u057F\u056F\u0565\u0580\u057E\u0561\u056E \u0585\u0562\u0575\u0565\u056F\u057F"@hy .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u09AF\u09BE \u099A\u09BF\u09A4\u09CD\u09B0\u09BF\u09A4 \u0995\u09B0\u09C7"@bn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u09AF\u09BE \u099A\u09BF\u09A4\u09CD\u09B0\u09BF\u09A4 \u0995\u09B0\u09C7"@bn .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u09AF\u09BE \u099A\u09BF\u09A4\u09CD\u09B0\u09BF\u09A4 \u0995\u09B0\u09C7"@bn .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0430\u0448\u0451\u0438 \u0442\u0430\u0441\u0432\u0438\u0440\u0448\u0443\u0434\u0430"@tg-cyrl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0430\u0448\u0451\u0438 \u0442\u0430\u0441\u0432\u0438\u0440\u0448\u0443\u0434\u0430"@tg-cyrl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0430\u0448\u0451\u0438 \u0442\u0430\u0441\u0432\u0438\u0440\u0448\u0443\u0434\u0430"@tg-cyrl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0438\u0437\u043E\u0431\u0440\u0430\u0437\u0435\u043D \u043E\u0431\u0435\u043A\u0442"@bg .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0438\u0437\u043E\u0431\u0440\u0430\u0437\u0435\u043D \u043E\u0431\u0435\u043A\u0442"@bg .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0438\u0437\u043E\u0431\u0440\u0430\u0437\u0435\u043D \u043E\u0431\u0435\u043A\u0442"@bg .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "t\u1EA3"@vi .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "t\u1EA3"@vi .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "t\u1EA3"@vi .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u04BB\u04AF\u0440\u04D9\u0442\u043B\u04D9\u043D\u0433\u04D9\u043D \u043E\u0431\u044A\u0435\u043A\u0442"@ba .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u04BB\u04AF\u0440\u04D9\u0442\u043B\u04D9\u043D\u0433\u04D9\u043D \u043E\u0431\u044A\u0435\u043A\u0442"@ba .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u04BB\u04AF\u0440\u04D9\u0442\u043B\u04D9\u043D\u0433\u04D9\u043D \u043E\u0431\u044A\u0435\u043A\u0442"@ba .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "representa a"@gl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "representa a"@gl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "representa a"@gl .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "betimler"@tr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "betimler"@tr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "betimler"@tr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0D38\u0D43\u0D37\u0D4D\u0D1F\u0D3F\u0D2F\u0D3F\u0D32\u0D41\u0D33\u0D4D\u0D33\u0D24\u0D4D"@ml .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0D38\u0D43\u0D37\u0D4D\u0D1F\u0D3F\u0D2F\u0D3F\u0D32\u0D41\u0D33\u0D4D\u0D33\u0D24\u0D4D"@ml .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0D38\u0D43\u0D37\u0D4D\u0D1F\u0D3F\u0D2F\u0D3F\u0D32\u0D41\u0D33\u0D4D\u0D33\u0D24\u0D4D"@ml .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "representa a"@ast .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "representa a"@ast .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "representa a"@ast .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "p\u00EBrshkruan"@sq .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "p\u00EBrshkruan"@sq .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "p\u00EBrshkruan"@sq .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "p\u00EBrshkruan"@aln .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "p\u00EBrshkruan"@aln .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "p\u00EBrshkruan"@aln .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "motiw"@hsb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "motiw"@hsb .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "motiw"@hsb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "Motiv"@lb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "Motiv"@lb .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "Motiv"@lb .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "mostere"@wa .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "mostere"@wa .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "mostere"@wa .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0442\u0430\u0432\u0441\u0438\u0444\u04B3\u043E"@tg .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0442\u0430\u0432\u0441\u0438\u0444\u04B3\u043E"@tg .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0442\u0430\u0432\u0441\u0438\u0444\u04B3\u043E"@tg .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "motiv"@hr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "motiv"@hr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "motiv"@hr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "motiif"@frr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "motiif"@frr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "motiif"@frr .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u0B26\u0B30\u0B4D\u0B36\u0B3E\u0B0F"@or .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u0B26\u0B30\u0B4D\u0B36\u0B3E\u0B0F"@or .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u0B26\u0B30\u0B4D\u0B36\u0B3E\u0B0F"@or .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "\u091A\u093F\u0924\u094D\u0930\u0923"@hi .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "\u091A\u093F\u0924\u094D\u0930\u0923"@hi .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "\u091A\u093F\u0924\u094D\u0930\u0923"@hi .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "taispe\u00E1nann s\u00E9/s\u00ED"@ga .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "taispe\u00E1nann s\u00E9/s\u00ED"@ga .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "taispe\u00E1nann s\u00E9/s\u00ED"@ga .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2000/01/rdf-schema#label> "t\u0259svir edir"@az .
+<http://www.wikidata.org/entity/P180> <http://www.w3.org/2004/02/skos/core#prefLabel> "t\u0259svir edir"@az .
+<http://www.wikidata.org/entity/P180> <http://schema.org/name> "t\u0259svir edir"@az .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "personne, lieu, objet ou \u00E9v\u00E9nement repr\u00E9sent\u00E9 par l\u2019\u0153uvre"@fr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "depicted entity (see also P921: main subject)"@en .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "osoba, m\u00EDsto, ud\u00E1lost nebo p\u0159edm\u011Bt zobrazen\u00FD (nebo popsan\u00FD) v d\u00EDle; pokud d\u00EDlo n\u011Bkoho p\u0159ipom\u00EDn\u00E1, ale nezobrazuje, pou\u017Eijte P547; viz t\u00E9\u017E hlavn\u00ED t\u00E9ma d\u00EDla P921"@cs .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u05D1\u05E0\u05D9 \u05D0\u05D3\u05DD, \u05D7\u05E4\u05E6\u05D9\u05DD, \u05DE\u05E7\u05D5\u05DE\u05D5\u05EA \u05D5\u05D0\u05D9\u05E8\u05D5\u05E2\u05D9\u05DD \u05D4\u05DE\u05EA\u05D5\u05D0\u05E8\u05D9\u05DD \u05D1\u05D9\u05E6\u05D9\u05E8\u05D4"@he .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "Gegenstand der Darstellung (z. B. Person, Ort, Objekt oder Ereignis), siehe auch Schlagwort (P921)"@de .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "persona, lloc, objecte o esdeveniment representat"@ca .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u4F5C\u54C1\u306B\u63CF\u304B\u308C\u3066\u3044\u308B\uFF08\u5199\u3057\u3068\u3089\u308C\u3066\u3044\u308B\uFF09\u4EBA\u3001\u5834\u6240\u3001\u7269\u3001\u4E8B\u8C61"@ja .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "persona, lugar, objeto o evento representado"@es .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u0437\u043E\u0431\u0440\u0430\u0436\u0443\u0432\u0430\u043D\u0456 \u0441\u0443\u0442\u043D\u043E\u0441\u0442\u0456: \u043E\u0441\u043E\u0431\u0438, \u043C\u0456\u0441\u0446\u044F, \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u0438, \u043F\u043E\u0434\u0456\u0457 \u0442\u043E\u0449\u043E (\u0434\u0438\u0432. \u0442\u0430\u043A\u043E\u0436 P921: \u043E\u0441\u043D\u043E\u0432\u043D\u0430 \u0442\u0435\u043C\u0430)"@uk .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "persona, luogo, oggetto o evento raffigurato"@it .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0451\u043D\u043D\u0430\u044F \u043F\u0435\u0440\u0441\u043E\u043D\u0430, \u043C\u0435\u0441\u0442\u043E, \u043E\u0431\u044A\u0435\u043A\u0442 \u0438\u043B\u0438 \u0441\u043E\u0431\u044B\u0442\u0438\u0435"@ru .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "att\u0113lotais objekts (skat\u012Bt ar\u012B P921: galvenais temats)"@lv .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\uD56D\uBAA9 \uC8FC\uC81C\uC778 \uC791\uD488\uC5D0\uC11C \uBB18\uC0AC\uD55C \uC0AC\uB78C, \uC7A5\uC18C, \uBB3C\uCCB4, \uC0AC\uAC74"@ko .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "miejsce, osoba lub inny element przedstawiony w tre\u015Bci podmiotu"@pl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u062A\u0648\u0635\u06CC\u0641 \u06CC\u0627 \u0634\u0631\u062D \u0627\u0641\u0631\u0627\u062F\u060C \u0645\u06A9\u0627\u0646\u060C \u0627\u0634\u06CC\u0627 \u06CC\u0627 \u0631\u0648\u06CC\u062F\u0627\u062F\u0647\u0627"@fa .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "fremstilling eller avbildning av noe, f.eks. en person, et sted eller en begivenhet"@nb .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u00E1br\u00E1zolt szem\u00E9ly, hely, t\u00E1rgy vagy esem\u00E9ny"@hu .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "pessoa, local, objeto ou evento retratado"@pt .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "beeld af"@af .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u03C4\u03BF \u03B1\u03C0\u03B5\u03B9\u03BA\u03BF\u03BD\u03B9\u03B6\u03CC\u03BC\u03B5\u03BD\u03BF \u03C0\u03C1\u03CC\u03C3\u03C9\u03C0\u03BF, \u03BC\u03AD\u03C1\u03BF\u03C2, \u03B1\u03BD\u03C4\u03B9\u03BA\u03B5\u03AF\u03BC\u03B5\u03BD\u03BF \u03AE \u03B3\u03B5\u03B3\u03BF\u03BD\u03CC\u03C2"@el .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "persoana, locul, obiectul sau evenimentul reprezentat \u00EEn opera de art\u0103 respectiv\u0103"@ro .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "pessoa, local, objeto ou evento retratado"@pt-br .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "afbildet person, sted, objekt eller begivenhed"@da .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "afgebeeld of beschreven persoon, oord, object, of evenement, zie ook P921 (hoofdonderwerp van werk)"@nl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "depicted person, place, object or event (see also P921: subject heading)"@en-gb .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u4F5C\u54C1\u63CF\u8FF0\u7684\u4EBA\u3001\u5730\u70B9\u3001\u7269\u4F53\u3001\u4E8B\u4EF6\u7B49 (\u53C2\u89C1P921:\u4F5C\u54C1\u4E3B\u9898)"@zh .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "Irudikaturiko pertsona, objektu edo gertaera"@eu .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "henkil\u00F6, paikka, aihe tai tapahtuma, jota teos esitt\u00E4\u00E4"@fi .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "persono, loko, okaza\u0135o a\u016D a\u0135o montrita a\u016D priskribita en la verko"@eo .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "teoses kujutatav isik, koht v\u00F5i muu objekt"@et .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "gambaran entitas (lihat pula P921: tajuk subjek)"@id .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u0438\u0437\u043E\u0431\u0440\u0430\u0437\u0435\u043D \u0447\u043E\u0432\u0435\u043A, \u043C\u044F\u0441\u0442\u043E, \u043E\u0431\u0435\u043A\u0442 \u0438\u043B\u0438 \u0441\u044A\u0431\u0438\u0442\u0438\u0435"@bg .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u04BB\u04AF\u0440\u04D9\u0442\u043B\u04D9\u043D\u0433\u04D9\u043D \u0448\u04D9\u0445\u0435\u0441, \u0443\u0440\u044B\u043D, \u043E\u0431\u044A\u0435\u043A\u0442 \u0439\u04D9\u043A\u0438 \u0432\u0430\u04A1\u0438\u0493\u0430"@ba .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "persoa, lugar, obxeto ou evento representado"@gl .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "bir \u015Feyi s\u00F6zle veya yaz\u0131yla anlatma, g\u00F6z \u00F6n\u00FCnde canland\u0131rmak i\u00E7in d\u00FC\u015F\u00FCn\u00FClen varl\u0131k (ana konusu i\u00E7in : P921'e bak\u0131n\u0131z)"@tr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u0D38\u0D43\u0D37\u0D4D\u0D1F\u0D3F\u0D2F\u0D3F\u0D32\u0D41\u0D33\u0D4D\u0D33 \u0D38\u0D3E\u0D27\u0D28\u0D02"@ml .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "persona, llugar, oxetu o acontecimientu represent\u00E1u"@ast .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "avbildad entitet"@sv .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "en arc'hant e deir aval pin en gwad en o enep"@br .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "intrer l' discrijhaedje e walon"@wa .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "wat det bil wiset"@frr .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u044F\u043A\u0430\u044F \u0456\u0441\u043D\u0430\u0441\u044C\u0446\u044C \u0430\u0434\u043B\u044E\u0441\u0442\u0440\u0430\u0432\u0430\u043D\u0430\u044F"@be-tarask .
+<http://www.wikidata.org/entity/P180> <http://schema.org/description> "\u091A\u093F\u0924\u094D\u0930\u093F\u0924 \u0938\u0902\u0938\u094D\u0925\u093E (P921 \u092D\u0940 \u0926\u0947\u0916\u0947\u0902: \u092E\u0941\u0916\u094D\u092F \u0935\u093F\u0937\u092F)"@hi .

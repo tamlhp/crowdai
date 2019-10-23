@@ -1,0 +1,500 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix schema: <http://schema.org/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix v: <http://commons.wikimedia.org/value/> .
+@prefix wd: <http://commons.wikimedia.org/entity/> .
+@prefix data: <https://commons.wikimedia.org/wiki/Special:EntityData/> .
+@prefix s: <http://commons.wikimedia.org/entity/statement/> .
+@prefix ref: <http://commons.wikimedia.org/reference/> .
+@prefix wdt: <http://commons.wikimedia.org/prop/direct/> .
+@prefix wdtn: <http://commons.wikimedia.org/prop/direct-normalized/> .
+@prefix p: <http://commons.wikimedia.org/prop/> .
+@prefix ps: <http://commons.wikimedia.org/prop/statement/> .
+@prefix psv: <http://commons.wikimedia.org/prop/statement/value/> .
+@prefix psn: <http://commons.wikimedia.org/prop/statement/value-normalized/> .
+@prefix pq: <http://commons.wikimedia.org/prop/qualifier/> .
+@prefix pqv: <http://commons.wikimedia.org/prop/qualifier/value/> .
+@prefix pqn: <http://commons.wikimedia.org/prop/qualifier/value-normalized/> .
+@prefix pr: <http://commons.wikimedia.org/prop/reference/> .
+@prefix prv: <http://commons.wikimedia.org/prop/reference/value/> .
+@prefix prn: <http://commons.wikimedia.org/prop/reference/value-normalized/> .
+@prefix wdno: <http://commons.wikimedia.org/prop/novalue/> .
+@prefix d: <http://www.wikidata.org/entity/> .
+@prefix ddata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix ds: <http://www.wikidata.org/entity/statement/> .
+@prefix dref: <http://www.wikidata.org/reference/> .
+@prefix dt: <http://www.wikidata.org/prop/direct/> .
+@prefix dtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix dp: <http://www.wikidata.org/prop/> .
+@prefix dps: <http://www.wikidata.org/prop/statement/> .
+@prefix dpsv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix dpsn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix dpq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix dpqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix dpqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix dpr: <http://www.wikidata.org/prop/reference/> .
+@prefix dprv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix dprn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix dno: <http://www.wikidata.org/prop/novalue/> .
+
+data:M11060112 a schema:Dataset ;
+	schema:about wd:M11060112 ;
+	cc:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	schema:softwareVersion "1.0.0" ;
+	schema:version "354202092"^^xsd:integer ;
+	schema:dateModified "2019-06-12T13:55:40Z"^^xsd:dateTime .
+
+wd:M11060112 a wikibase:Mediainfo,
+		schema:MediaObject,
+		schema:ImageObject ;
+	schema:encodingFormat "image/jpeg" ;
+	schema:contentUrl <https://upload.wikimedia.org/wikipedia/commons/6/6e/CeratopipraIracundaSmit.jpg> ;
+	schema:contentSize "126196"^^xsd:integer ;
+	schema:height "820"^^xsd:integer ;
+	schema:width "1423"^^xsd:integer ;
+	dt:P180 d:Q27075186 ;
+	dp:P180 s:M11060112-96E92D4B-3418-4991-A6B2-1121639ADD08 .
+
+s:M11060112-96E92D4B-3418-4991-A6B2-1121639ADD08 a wikibase:Statement,
+		wikibase:BestRank ;
+	wikibase:rank wikibase:NormalRank ;
+	dps:P180 d:Q27075186 .
+
+d:Q27075186 a wikibase:Item ;
+	rdfs:label "Ceratopipra cornuta"@de ;
+	skos:prefLabel "Ceratopipra cornuta"@de ;
+	schema:name "Ceratopipra cornuta"@de ;
+	rdfs:label "Ceratopipra cornuta"@en ;
+	skos:prefLabel "Ceratopipra cornuta"@en ;
+	schema:name "Ceratopipra cornuta"@en ;
+	rdfs:label "Saltarín Copetón"@es ;
+	skos:prefLabel "Saltarín Copetón"@es ;
+	schema:name "Saltarín Copetón"@es ;
+	rdfs:label "manaquí de crinera"@ca ;
+	skos:prefLabel "manaquí de crinera"@ca ;
+	schema:name "manaquí de crinera"@ca ;
+	rdfs:label "pipulka rohatá"@cs ;
+	skos:prefLabel "pipulka rohatá"@cs ;
+	schema:name "pipulka rohatá"@cs ;
+	rdfs:label "Rødduskmanakin"@nb ;
+	skos:prefLabel "Rødduskmanakin"@nb ;
+	schema:name "Rødduskmanakin"@nb ;
+	rdfs:label "Хохлатая пипра"@ru ;
+	skos:prefLabel "Хохлатая пипра"@ru ;
+	schema:name "Хохлатая пипра"@ru ;
+	rdfs:label "アカヅノマイコドリ"@ja ;
+	skos:prefLabel "アカヅノマイコドリ"@ja ;
+	schema:name "アカヅノマイコドリ"@ja ;
+	rdfs:label "Hornmanakin"@da ;
+	skos:prefLabel "Hornmanakin"@da ;
+	schema:name "Hornmanakin"@da ;
+	rdfs:label "tulitukkatanssija"@fi ;
+	skos:prefLabel "tulitukkatanssija"@fi ;
+	schema:name "tulitukkatanssija"@fi ;
+	rdfs:label "gorzyk rogaty"@pl ;
+	skos:prefLabel "gorzyk rogaty"@pl ;
+	schema:name "gorzyk rogaty"@pl ;
+	rdfs:label "pipra vrkočatá"@sk ;
+	skos:prefLabel "pipra vrkočatá"@sk ;
+	schema:name "pipra vrkočatá"@sk ;
+	rdfs:label "hornmanakin"@sv ;
+	skos:prefLabel "hornmanakin"@sv ;
+	schema:name "hornmanakin"@sv ;
+	rdfs:label "Kuifmanakin"@nl ;
+	skos:prefLabel "Kuifmanakin"@nl ;
+	schema:name "Kuifmanakin"@nl ;
+	rdfs:label "Manakin à cornes rouges"@fr ;
+	skos:prefLabel "Manakin à cornes rouges"@fr ;
+	schema:name "Manakin à cornes rouges"@fr ;
+	rdfs:label "Manachino cornuto"@it ;
+	skos:prefLabel "Manachino cornuto"@it ;
+	schema:name "Manachino cornuto"@it ;
+	rdfs:label "dançador-de-crista"@pt ;
+	skos:prefLabel "dançador-de-crista"@pt ;
+	schema:name "dançador-de-crista"@pt ;
+	rdfs:label "Ceratopipra cornuta"@bg ;
+	skos:prefLabel "Ceratopipra cornuta"@bg ;
+	schema:name "Ceratopipra cornuta"@bg ;
+	rdfs:label "Ceratopipra cornuta"@la ;
+	skos:prefLabel "Ceratopipra cornuta"@la ;
+	schema:name "Ceratopipra cornuta"@la ;
+	rdfs:label "Pipra cornuta"@hu ;
+	skos:prefLabel "Pipra cornuta"@hu ;
+	schema:name "Pipra cornuta"@hu ;
+	rdfs:label "Manacin corniog"@cy ;
+	skos:prefLabel "Manacin corniog"@cy ;
+	schema:name "Manacin corniog"@cy ;
+	rdfs:label "Ceratopipra cornuta"@ast ;
+	skos:prefLabel "Ceratopipra cornuta"@ast ;
+	schema:name "Ceratopipra cornuta"@ast ;
+	rdfs:label "Pipra cornuta"@ceb ;
+	skos:prefLabel "Pipra cornuta"@ceb ;
+	schema:name "Pipra cornuta"@ceb ;
+	rdfs:label "Dixiphia cornuta"@eu ;
+	skos:prefLabel "Dixiphia cornuta"@eu ;
+	schema:name "Dixiphia cornuta"@eu ;
+	rdfs:label "Pipra cornuta"@vi ;
+	skos:prefLabel "Pipra cornuta"@vi ;
+	schema:name "Pipra cornuta"@vi ;
+	rdfs:label "Pipra cornuta"@war ;
+	skos:prefLabel "Pipra cornuta"@war ;
+	schema:name "Pipra cornuta"@war ;
+	rdfs:label "رنگینک شاخ‌سرخ"@fa ;
+	skos:prefLabel "رنگینک شاخ‌سرخ"@fa ;
+	schema:name "رنگینک شاخ‌سرخ"@fa ;
+	rdfs:label "Ceratopipra cornuta"@uk ;
+	skos:prefLabel "Ceratopipra cornuta"@uk ;
+	schema:name "Ceratopipra cornuta"@uk ;
+	schema:description "Art der Gattung Ceratopipra"@de,
+		"taxon"@nl,
+		"نوع من الزواحف"@ar,
+		"species of bird"@en-gb,
+		"species of bird"@en,
+		"species of bird"@en-ca,
+		"madárfaj"@hu,
+		"druh ptáka"@cs,
+		"вид птахів"@uk,
+		"fågelart i Sydamerika"@sv,
+		"especie de páxaru"@ast .
+
+d:P180 a wikibase:Property,
+		wikibase:Property ;
+	wikibase:propertyType <http://wikiba.se/ontology#WikibaseItem> ;
+	wikibase:directClaim dt:P180 ;
+	wikibase:claim dp:P180 ;
+	wikibase:statementProperty dps:P180 ;
+	wikibase:statementValue dpsv:P180 ;
+	wikibase:qualifier dpq:P180 ;
+	wikibase:qualifierValue dpqv:P180 ;
+	wikibase:reference dpr:P180 ;
+	wikibase:referenceValue dprv:P180 ;
+	wikibase:novalue dno:P180 .
+
+dp:P180 a owl:ObjectProperty .
+
+dpsv:P180 a owl:ObjectProperty .
+
+dpqv:P180 a owl:ObjectProperty .
+
+dprv:P180 a owl:ObjectProperty .
+
+dt:P180 a owl:ObjectProperty .
+
+dps:P180 a owl:ObjectProperty .
+
+dpq:P180 a owl:ObjectProperty .
+
+dpr:P180 a owl:ObjectProperty .
+
+dno:P180 a owl:Class ;
+	owl:complementOf _:genid1 .
+
+_:genid1 a owl:Restriction ;
+	owl:onProperty dt:P180 ;
+	owl:someValuesFrom owl:Thing .
+
+d:P180 rdfs:label "dépeint"@fr ;
+	skos:prefLabel "dépeint"@fr ;
+	schema:name "dépeint"@fr ;
+	rdfs:label "depicts"@en ;
+	skos:prefLabel "depicts"@en ;
+	schema:name "depicts"@en ;
+	rdfs:label "Motiv"@de ;
+	skos:prefLabel "Motiv"@de ;
+	schema:name "Motiv"@de ;
+	rdfs:label "zobrazuje"@cs ;
+	skos:prefLabel "zobrazuje"@cs ;
+	schema:name "zobrazuje"@cs ;
+	rdfs:label "מציג"@he ;
+	skos:prefLabel "מציג"@he ;
+	schema:name "מציג"@he ;
+	rdfs:label "адлюстроўвае"@be ;
+	skos:prefLabel "адлюстроўвае"@be ;
+	schema:name "адлюстроўвае"@be ;
+	rdfs:label "subjecte representat"@ca ;
+	skos:prefLabel "subjecte representat"@ca ;
+	schema:name "subjecte representat"@ca ;
+	rdfs:label "題材"@ja ;
+	skos:prefLabel "題材"@ja ;
+	schema:name "題材"@ja ;
+	rdfs:label "representa a"@es ;
+	skos:prefLabel "representa a"@es ;
+	schema:name "representa a"@es ;
+	rdfs:label "зображує"@uk ;
+	skos:prefLabel "зображує"@uk ;
+	schema:name "зображує"@uk ;
+	rdfs:label "raffigura"@it ;
+	skos:prefLabel "raffigura"@it ;
+	schema:name "raffigura"@it ;
+	rdfs:label "beeldt af"@nl ;
+	skos:prefLabel "beeldt af"@nl ;
+	schema:name "beeldt af"@nl ;
+	rdfs:label "描绘内容"@zh-hans ;
+	skos:prefLabel "描绘内容"@zh-hans ;
+	schema:name "描绘内容"@zh-hans ;
+	rdfs:label "描繪內容"@zh ;
+	skos:prefLabel "描繪內容"@zh ;
+	schema:name "描繪內容"@zh ;
+	rdfs:label "描繪內容"@zh-hant ;
+	skos:prefLabel "描繪內容"@zh-hant ;
+	schema:name "描繪內容"@zh-hant ;
+	rdfs:label "attēlo"@lv ;
+	skos:prefLabel "attēlo"@lv ;
+	schema:name "attēlo"@lv ;
+	rdfs:label "다음을 묘사함"@ko ;
+	skos:prefLabel "다음을 묘사함"@ko ;
+	schema:name "다음을 묘사함"@ko ;
+	rdfs:label "приказује"@sr ;
+	skos:prefLabel "приказује"@sr ;
+	schema:name "приказује"@sr ;
+	rdfs:label "изображённый объект"@ru ;
+	skos:prefLabel "изображённый объект"@ru ;
+	schema:name "изображённый объект"@ru ;
+	rdfs:label "przedstawia"@pl ;
+	skos:prefLabel "przedstawia"@pl ;
+	schema:name "przedstawia"@pl ;
+	rdfs:label "توصیف‌ها"@fa ;
+	skos:prefLabel "توصیف‌ها"@fa ;
+	schema:name "توصیف‌ها"@fa ;
+	rdfs:label "motiv"@nb ;
+	skos:prefLabel "motiv"@nb ;
+	schema:name "motiv"@nb ;
+	rdfs:label "motiv"@nn ;
+	skos:prefLabel "motiv"@nn ;
+	schema:name "motiv"@nn ;
+	rdfs:label "mű tárgya"@hu ;
+	skos:prefLabel "mű tárgya"@hu ;
+	schema:name "mű tárgya"@hu ;
+	rdfs:label "retrata"@pt ;
+	skos:prefLabel "retrata"@pt ;
+	schema:name "retrata"@pt ;
+	rdfs:label "uitbeelding"@af ;
+	skos:prefLabel "uitbeelding"@af ;
+	schema:name "uitbeelding"@af ;
+	rdfs:label "απεικονίζει"@el ;
+	skos:prefLabel "απεικονίζει"@el ;
+	schema:name "απεικονίζει"@el ;
+	rdfs:label "afbilder"@da ;
+	skos:prefLabel "afbilder"@da ;
+	schema:name "afbilder"@da ;
+	rdfs:label "subiectul reprezentat"@ro ;
+	skos:prefLabel "subiectul reprezentat"@ro ;
+	schema:name "subiectul reprezentat"@ro ;
+	rdfs:label "prikazuje"@bs ;
+	skos:prefLabel "prikazuje"@bs ;
+	schema:name "prikazuje"@bs ;
+	rdfs:label "wiest"@nds ;
+	skos:prefLabel "wiest"@nds ;
+	schema:name "wiest"@nds ;
+	rdfs:label "გამოსახული ობიექტი"@ka ;
+	skos:prefLabel "გამოსახული ობიექტი"@ka ;
+	schema:name "გამოსახული ობიექტი"@ka ;
+	rdfs:label "прикажува"@mk ;
+	skos:prefLabel "прикажува"@mk ;
+	schema:name "прикажува"@mk ;
+	rdfs:label "esittää"@fi ;
+	skos:prefLabel "esittää"@fi ;
+	schema:name "esittää"@fi ;
+	rdfs:label "menggambarkan"@ms ;
+	skos:prefLabel "menggambarkan"@ms ;
+	schema:name "menggambarkan"@ms ;
+	rdfs:label "retrata"@pt-br ;
+	skos:prefLabel "retrata"@pt-br ;
+	schema:name "retrata"@pt-br ;
+	rdfs:label "motiv"@sv ;
+	skos:prefLabel "motiv"@sv ;
+	schema:name "motiv"@sv ;
+	rdfs:label "адлюстроўвае"@be-tarask ;
+	skos:prefLabel "адлюстроўвае"@be-tarask ;
+	schema:name "адлюстроўвае"@be-tarask ;
+	rdfs:label "subjècte representat"@oc ;
+	skos:prefLabel "subjècte representat"@oc ;
+	schema:name "subjècte representat"@oc ;
+	rdfs:label "depicts"@en-gb ;
+	skos:prefLabel "depicts"@en-gb ;
+	schema:name "depicts"@en-gb ;
+	rdfs:label "చిత్రణ"@te ;
+	skos:prefLabel "చిత్రణ"@te ;
+	schema:name "చిత్రణ"@te ;
+	rdfs:label "motív"@sk ;
+	skos:prefLabel "motív"@sk ;
+	schema:name "motív"@sk ;
+	rdfs:label "приказује"@sr-ec ;
+	skos:prefLabel "приказује"@sr-ec ;
+	schema:name "приказује"@sr-ec ;
+	rdfs:label "prikazuje"@sr-el ;
+	skos:prefLabel "prikazuje"@sr-el ;
+	schema:name "prikazuje"@sr-el ;
+	rdfs:label "depinge"@ia ;
+	skos:prefLabel "depinge"@ia ;
+	schema:name "depinge"@ia ;
+	rdfs:label "depicts"@sco ;
+	skos:prefLabel "depicts"@sco ;
+	schema:name "depicts"@sco ;
+	rdfs:label "motiv"@sl ;
+	skos:prefLabel "motiv"@sl ;
+	schema:name "motiv"@sl ;
+	rdfs:label "honako hau irudikatzen du"@eu ;
+	skos:prefLabel "honako hau irudikatzen du"@eu ;
+	schema:name "honako hau irudikatzen du"@eu ;
+	rdfs:label "जनाउँछ"@ne ;
+	skos:prefLabel "जनाउँछ"@ne ;
+	schema:name "जनाउँछ"@ne ;
+	rdfs:label "描繪內容"@zh-hk ;
+	skos:prefLabel "描繪內容"@zh-hk ;
+	schema:name "描繪內容"@zh-hk ;
+	rdfs:label "描绘内容"@zh-cn ;
+	skos:prefLabel "描绘内容"@zh-cn ;
+	schema:name "描绘内容"@zh-cn ;
+	rdfs:label "描繪內容"@zh-mo ;
+	skos:prefLabel "描繪內容"@zh-mo ;
+	schema:name "描繪內容"@zh-mo ;
+	rdfs:label "描绘内容"@zh-my ;
+	skos:prefLabel "描绘内容"@zh-my ;
+	schema:name "描绘内容"@zh-my ;
+	rdfs:label "描绘内容"@zh-sg ;
+	skos:prefLabel "描绘内容"@zh-sg ;
+	schema:name "描绘内容"@zh-sg ;
+	rdfs:label "描繪內容"@zh-tw ;
+	skos:prefLabel "描繪內容"@zh-tw ;
+	schema:name "描繪內容"@zh-tw ;
+	rdfs:label "Motiv"@gsw ;
+	skos:prefLabel "Motiv"@gsw ;
+	schema:name "Motiv"@gsw ;
+	rdfs:label "yn portreadu"@cy ;
+	skos:prefLabel "yn portreadu"@cy ;
+	schema:name "yn portreadu"@cy ;
+	rdfs:label "montras"@eo ;
+	skos:prefLabel "montras"@eo ;
+	schema:name "montras"@eo ;
+	rdfs:label "kujutab"@et ;
+	skos:prefLabel "kujutab"@et ;
+	schema:name "kujutab"@et ;
+	rdfs:label "vaizduoja"@lt ;
+	skos:prefLabel "vaizduoja"@lt ;
+	schema:name "vaizduoja"@lt ;
+	rdfs:label "gambaran dari"@id ;
+	skos:prefLabel "gambaran dari"@id ;
+	schema:name "gambaran dari"@id ;
+	rdfs:label "يصور"@ar ;
+	skos:prefLabel "يصور"@ar ;
+	schema:name "يصور"@ar ;
+	rdfs:label "motîv"@ku-latn ;
+	skos:prefLabel "motîv"@ku-latn ;
+	schema:name "motîv"@ku-latn ;
+	rdfs:label "պատկերված օբյեկտ"@hy ;
+	skos:prefLabel "պատկերված օբյեկտ"@hy ;
+	schema:name "պատկերված օբյեկտ"@hy ;
+	rdfs:label "যা চিত্রিত করে"@bn ;
+	skos:prefLabel "যা চিত্রিত করে"@bn ;
+	schema:name "যা চিত্রিত করে"@bn ;
+	rdfs:label "ашёи тасвиршуда"@tg-cyrl ;
+	skos:prefLabel "ашёи тасвиршуда"@tg-cyrl ;
+	schema:name "ашёи тасвиршуда"@tg-cyrl ;
+	rdfs:label "изобразен обект"@bg ;
+	skos:prefLabel "изобразен обект"@bg ;
+	schema:name "изобразен обект"@bg ;
+	rdfs:label "tả"@vi ;
+	skos:prefLabel "tả"@vi ;
+	schema:name "tả"@vi ;
+	rdfs:label "һүрәтләнгән объект"@ba ;
+	skos:prefLabel "һүрәтләнгән объект"@ba ;
+	schema:name "һүрәтләнгән объект"@ba ;
+	rdfs:label "representa a"@gl ;
+	skos:prefLabel "representa a"@gl ;
+	schema:name "representa a"@gl ;
+	rdfs:label "betimler"@tr ;
+	skos:prefLabel "betimler"@tr ;
+	schema:name "betimler"@tr ;
+	rdfs:label "സൃഷ്ടിയിലുള്ളത്"@ml ;
+	skos:prefLabel "സൃഷ്ടിയിലുള്ളത്"@ml ;
+	schema:name "സൃഷ്ടിയിലുള്ളത്"@ml ;
+	rdfs:label "representa a"@ast ;
+	skos:prefLabel "representa a"@ast ;
+	schema:name "representa a"@ast ;
+	rdfs:label "përshkruan"@sq ;
+	skos:prefLabel "përshkruan"@sq ;
+	schema:name "përshkruan"@sq ;
+	rdfs:label "përshkruan"@aln ;
+	skos:prefLabel "përshkruan"@aln ;
+	schema:name "përshkruan"@aln ;
+	rdfs:label "motiw"@hsb ;
+	skos:prefLabel "motiw"@hsb ;
+	schema:name "motiw"@hsb ;
+	rdfs:label "Motiv"@lb ;
+	skos:prefLabel "Motiv"@lb ;
+	schema:name "Motiv"@lb ;
+	rdfs:label "mostere"@wa ;
+	skos:prefLabel "mostere"@wa ;
+	schema:name "mostere"@wa ;
+	rdfs:label "тавсифҳо"@tg ;
+	skos:prefLabel "тавсифҳо"@tg ;
+	schema:name "тавсифҳо"@tg ;
+	rdfs:label "motiv"@hr ;
+	skos:prefLabel "motiv"@hr ;
+	schema:name "motiv"@hr ;
+	rdfs:label "motiif"@frr ;
+	skos:prefLabel "motiif"@frr ;
+	schema:name "motiif"@frr ;
+	rdfs:label "ଦର୍ଶାଏ"@or ;
+	skos:prefLabel "ଦର୍ଶାଏ"@or ;
+	schema:name "ଦର୍ଶାଏ"@or ;
+	rdfs:label "चित्रण"@hi ;
+	skos:prefLabel "चित्रण"@hi ;
+	schema:name "चित्रण"@hi ;
+	rdfs:label "taispeánann sé/sí"@ga ;
+	skos:prefLabel "taispeánann sé/sí"@ga ;
+	schema:name "taispeánann sé/sí"@ga ;
+	rdfs:label "təsvir edir"@az ;
+	skos:prefLabel "təsvir edir"@az ;
+	schema:name "təsvir edir"@az ;
+	schema:description "personne, lieu, objet ou événement représenté par l’œuvre"@fr,
+		"depicted entity (see also P921: main subject)"@en,
+		"osoba, místo, událost nebo předmět zobrazený (nebo popsaný) v díle; pokud dílo někoho připomíná, ale nezobrazuje, použijte P547; viz též hlavní téma díla P921"@cs,
+		"בני אדם, חפצים, מקומות ואירועים המתוארים ביצירה"@he,
+		"Gegenstand der Darstellung (z. B. Person, Ort, Objekt oder Ereignis), siehe auch Schlagwort (P921)"@de,
+		"persona, lloc, objecte o esdeveniment representat"@ca,
+		"作品に描かれている（写しとられている）人、場所、物、事象"@ja,
+		"persona, lugar, objeto o evento representado"@es,
+		"зображувані сутності: особи, місця, предмети, події тощо (див. також P921: основна тема)"@uk,
+		"persona, luogo, oggetto o evento raffigurato"@it,
+		"изображённая персона, место, объект или событие"@ru,
+		"attēlotais objekts (skatīt arī P921: galvenais temats)"@lv,
+		"항목 주제인 작품에서 묘사한 사람, 장소, 물체, 사건"@ko,
+		"miejsce, osoba lub inny element przedstawiony w treści podmiotu"@pl,
+		"توصیف یا شرح افراد، مکان، اشیا یا رویدادها"@fa,
+		"fremstilling eller avbildning av noe, f.eks. en person, et sted eller en begivenhet"@nb,
+		"ábrázolt személy, hely, tárgy vagy esemény"@hu,
+		"pessoa, local, objeto ou evento retratado"@pt,
+		"beeld af"@af,
+		"το απεικονιζόμενο πρόσωπο, μέρος, αντικείμενο ή γεγονός"@el,
+		"persoana, locul, obiectul sau evenimentul reprezentat în opera de artă respectivă"@ro,
+		"pessoa, local, objeto ou evento retratado"@pt-br,
+		"afbildet person, sted, objekt eller begivenhed"@da,
+		"afgebeeld of beschreven persoon, oord, object, of evenement, zie ook P921 (hoofdonderwerp van werk)"@nl,
+		"depicted person, place, object or event (see also P921: subject heading)"@en-gb,
+		"作品描述的人、地点、物体、事件等 (参见P921:作品主题)"@zh,
+		"Irudikaturiko pertsona, objektu edo gertaera"@eu,
+		"henkilö, paikka, aihe tai tapahtuma, jota teos esittää"@fi,
+		"persono, loko, okazaĵo aŭ aĵo montrita aŭ priskribita en la verko"@eo,
+		"teoses kujutatav isik, koht või muu objekt"@et,
+		"gambaran entitas (lihat pula P921: tajuk subjek)"@id,
+		"изобразен човек, място, обект или събитие"@bg,
+		"һүрәтләнгән шәхес, урын, объект йәки ваҡиға"@ba,
+		"persoa, lugar, obxeto ou evento representado"@gl,
+		"bir şeyi sözle veya yazıyla anlatma, göz önünde canlandırmak için düşünülen varlık (ana konusu için : P921'e bakınız)"@tr,
+		"സൃഷ്ടിയിലുള്ള സാധനം"@ml,
+		"persona, llugar, oxetu o acontecimientu representáu"@ast,
+		"avbildad entitet"@sv,
+		"en arc'hant e deir aval pin en gwad en o enep"@br,
+		"intrer l' discrijhaedje e walon"@wa,
+		"wat det bil wiset"@frr,
+		"якая існасьць адлюстраваная"@be-tarask,
+		"चित्रित संस्था (P921 भी देखें: मुख्य विषय)"@hi .

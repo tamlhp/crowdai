@@ -1,0 +1,90 @@
+diff --git a/README.md b/README.md
+index 230c6b0..45755cb 100644
+--- a/README.md
++++ b/README.md
+@@ -2,7 +2,6 @@
+ 
+ * [Basic](./examples/Basic.html) - the most basic implementation.
+ * [MIDIPlayer](./examples/MIDIPlayer.html) - how to parse MIDI files, and interact with the data stream.
+-* [MultipleInstruments](./examples/MultipleInstruments.html) - synth drum and piano playing together
+ * [WhitneyMusicBox](./examples/WhitneyMusicBox.html) - a audio/visual experiment by Jim Bumgardner
+ 
+ ## Demos
+@@ -16,7 +15,6 @@
+ * [Spiral Keyboard](http://spiral.qet.me/) by Patrick Snels
+ * [Ragamroll](http://online-compute.rhcloud.com/ragamroll/) by Mani Balasubramanian
+ * [Gbloink!](http://gbloink.com/alpha/) by Phil Jones
+-* [Watch & Repeat](http://watchandrepeat.com/) by Etay Luz
+ 
+ ## Generating Base64 Soundfonts
+ 
+@@ -29,7 +27,7 @@ To dive in quickly Benjamin Gleitzman has created a package of [pre-rendered sou
+ 
+ ## API
+ 
+-### [MIDI.loadPlugin.js](./js/midi/LoadPlugin.js) - Decides which framework is best to use
++### [MIDI.loadPlugin.js](./js/midi/loader.js) - Decides which framework is best to use
+ 
+ ```javascript
+ // interface to download soundfont, then execute callback;
+@@ -42,7 +40,7 @@ MIDI.loadPlugin({
+ });
+ ```
+ 
+-### [MIDI.Plugin.js](./js/midi/plugin.js) - Controls MIDI output
++### [MIDI.Plugin.js](./js/midi/plugin.webaudio.js) - Controls MIDI output
+ 
+ ```javascript
+ MIDI.noteOn(channel, note, velocity, delay);
+@@ -192,7 +190,7 @@ MIDI.setEffects([
+ 
+ ## Libraries
+ 
+-* [colorspace.js](./js/color/spaceW3.js): Color conversions, music isn&rsquo;t complete without!
++* [colorspace.js](./examples/inc/colorspace.js): Color conversions, music isn&rsquo;t complete without!
+ <pre>Color.Space(0xff0000, "HEX>RGB>HSL");</pre>
+ * [dom_request_script.js](./js/util/dom_request_script.js): Loads scripts in synchronously, or asynchronously.
+ <pre>DOMLoader.script.add(src, onsuccess);</pre>
+diff --git a/examples/MIDIPlayer.html b/examples/MIDIPlayer.html
+index c2c1611..bb25e79 100644
+--- a/examples/MIDIPlayer.html
++++ b/examples/MIDIPlayer.html
+@@ -55,7 +55,7 @@ <h1>MIDI.js - Sequencing in Javascript.</h1>
+ 		</div>
+ 		<div id="title" style="background: rgba(255,255,0,0.5); position: relative;color: #000; z-index: -1;padding: 5px 11px 5px;">Loading API...</div>
+ 		<h3 style="margin: 0">What&rsquo;s all this hubub?</h3>
+-		<p><b><a href="https://github.com/mudcube/MIDI.js">MIDI.js</a></b> ties together, and builds upon frameworks that bring MIDI to the browser. Combine it with <a href="https://github.com/gasman/jasmid">jasmid</a> to create a web-radio MIDI stream similar to this demo, or with <a href="https://github.com/mrdoob/three.js/">Three.js</a>, <a href="https://github.com/zz85/sparks.js/">Sparks.js</a>, or <a href="http://glsl.heroku.com/">GLSL</a> to create Audio/visual experiments. Piano/guitar
++		<p><b><a href="https://github.com/mudcube/MIDI.js">MIDI.js</a></b> ties together, and builds upon frameworks that bring MIDI to the browser. Combine it with <a href="https://github.com/gasman/jasmid">jasmid</a> to create a web-radio MIDI stream similar to this demo, or with <a href="https://github.com/mrdoob/three.js/">Three.js</a>, <a href="https://github.com/zz85/sparks.js/">Sparks.js</a>, or <a href="http://glslsandbox.com">GLSL</a> to create Audio/visual experiments. Piano/guitar
+ 			simulations, Drum machines, MIDI recording, and all kinds of certified funkitude is within your grasps!
+ 			<p><a href="https://www.google.com/chrome">Google Chrome</a> is recommended for best listening experience, it&rsquo;s timing perfection! Firefox and Safari can both perform a bit more like the piano has been drinking, arrr.</p>
+ 			<p>Carpe beerum, and <a href="https://github.com/mudcube/MIDI.js">commandeer</a> yer own copy!</p>
+@@ -63,7 +63,6 @@ <h3 style="margin: 0">What&rsquo;s all this hubub?</h3>
+ 			<h3>Basic Examples</h3>
+ 			<ol>
+ 				<li><a href="./Basic.html" target="_blank">Basic (play note)</a></li>
+-				<li><a href="./MultipleInstruments.html" target="_blank">Multiple Instruments</a></li>
+ 				<li><a href="./MIDIPlayer.html" target="_blank">MIDI Player</a></li>
+ 				<li><a href="./WhitneyMusicBox.html" target="_blank">Whitney Music Box</a></li>
+ 			</ol>
+diff --git a/examples/WhitneyMusicBox.html b/examples/WhitneyMusicBox.html
+index 5fb400b..322391c 100644
+--- a/examples/WhitneyMusicBox.html
++++ b/examples/WhitneyMusicBox.html
+@@ -34,7 +34,7 @@
+ <body>
+ Whitney Music Box animation in HTML5.<br>
+ Graphics code by <a href="https://github.com/jbum/Whitney-Music-Box-Examples">Jim Bumgardner</a>.<br>
+-Audio created with <a href="https://github.com/mudx/MIDI.js">MIDI.js</a><br>
++Audio created with <a href="https://github.com/mudcube/MIDI.js">MIDI.js</a><br>
+ <canvas id="mycanvas" />
+ <script type="text/javascript">
+ 
+@@ -102,7 +102,7 @@
+ 		onsuccess: function() {
+ 			var canvas = document.getElementById('mycanvas');
+ 			canvas.style.width = gw + "px";
+-			canvas.style.width = gw + "px";
++			canvas.style.height = gh + "px";
+ 			canvas.width = gw;
+ 			canvas.height = gh;
+ 			dc = canvas.getContext('2d');

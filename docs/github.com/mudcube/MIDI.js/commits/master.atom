@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+  <id>tag:github.com,2008:/mudcube/MIDI.js/commits/master</id>
+  <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commits/master"/>
+  <link type="application/atom+xml" rel="self" href="https://github.com/mudcube/MIDI.js/commits/master.atom"/>
+  <title>Recent Commits to MIDI.js:master</title>
+  <updated>2015-07-13T22:08:59Z</updated>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a8a84257afa70721ae462448048a87301fc1554a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/a8a84257afa70721ae462448048a87301fc1554a"/>
+    <title>
+        catch typo
+    </title>
+    <updated>2015-07-13T22:08:59Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;catch typo&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/223e3b75f73d7f0ee5957095770635a1fbe1887b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/223e3b75f73d7f0ee5957095770635a1fbe1887b"/>
+    <title>
+        add &quot;related repositories&quot; to readme
+    </title>
+    <updated>2015-07-13T22:08:16Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;add &amp;quot;related repositories&amp;quot; to readme&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5980e365273514f9cf94a87527a035bff5be253c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/5980e365273514f9cf94a87527a035bff5be253c"/>
+    <title>
+        add Piano Typewriter to Demos section
+    </title>
+    <updated>2015-07-07T10:22:18Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;add Piano Typewriter to Demos section&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/dc728f3df0cb70babb5b720b78b89c209c4c8b3d</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/dc728f3df0cb70babb5b720b78b89c209c4c8b3d"/>
+    <title>
+        add Wild Web Midi to similar projects list
+    </title>
+    <updated>2015-07-07T10:01:02Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;add Wild Web Midi to similar projects list&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/5330c732186ce84dfb5b74bce05fa483cd08687b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/5330c732186ce84dfb5b74bce05fa483cd08687b"/>
+    <title>
+        Merge pull request #129 from sinkswim/master
+    </title>
+    <updated>2015-06-04T21:56:56Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #129 from sinkswim/master
+
+Mostly fixed broken links&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/33e6785fe65bdd7d58e335289d3de8cd24247f65</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/33e6785fe65bdd7d58e335289d3de8cd24247f65"/>
+    <title>
+        Merge pull request #132 from mscuthbert/master
+    </title>
+    <updated>2015-06-04T21:50:55Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;Merge pull request #132 from mscuthbert/master
+
+MIDIInputMap.outputs no longer a function in new chrome&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/04590183fc347dbd5f9a049192534c0c889db53e</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/04590183fc347dbd5f9a049192534c0c889db53e"/>
+    <title>
+        small tab fix
+    </title>
+    <updated>2015-05-23T19:27:25Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/3521479?s=30&amp;v=4"/>
+    <author>
+      <name>mscuthbert</name>
+      <uri>https://github.com/mscuthbert</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;small tab fix&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/979aa1ba02b4961a8514ea50d688e91279cccb6c</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/979aa1ba02b4961a8514ea50d688e91279cccb6c"/>
+    <title>
+        fixed build
+    </title>
+    <updated>2015-05-23T19:24:28Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/3521479?s=30&amp;v=4"/>
+    <author>
+      <name>mscuthbert</name>
+      <uri>https://github.com/mscuthbert</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed build&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9d965e0a0ebb1a7177f5702e5598baf4085b0e5a</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/9d965e0a0ebb1a7177f5702e5598baf4085b0e5a"/>
+    <title>
+        fix chrome43 issues
+    </title>
+    <updated>2015-05-23T19:21:44Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/3521479?s=30&amp;v=4"/>
+    <author>
+      <name>mscuthbert</name>
+      <uri>https://github.com/mscuthbert</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fix chrome43 issues&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/c4ab722e2baec40d3bf91676d6e4e547dc0637f4</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/c4ab722e2baec40d3bf91676d6e4e547dc0637f4"/>
+    <title>
+        fixed broken links and a minor change
+    </title>
+    <updated>2015-04-15T03:34:47Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars0.githubusercontent.com/u/9811304?s=30&amp;v=4"/>
+    <author>
+      <name>sinkswim</name>
+      <uri>https://github.com/sinkswim</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fixed broken links and a minor change&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a4918e68893308a3f20432723b2e6ddba85b20c1</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/a4918e68893308a3f20432723b2e6ddba85b20c1"/>
+    <title>
+        fix progress loading percentage
+    </title>
+    <updated>2015-03-27T08:39:16Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;fix progress loading percentage&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/02ecdbcf435deeed8303fc5ffa1c137353818628</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/02ecdbcf435deeed8303fc5ffa1c137353818628"/>
+    <title>
+        cleanup
+    </title>
+    <updated>2015-03-27T08:12:00Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;cleanup&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/2ed1c6172e009599ac33ce293981753bb69a9f1b</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/2ed1c6172e009599ac33ce293981753bb69a9f1b"/>
+    <title>
+        build
+    </title>
+    <updated>2015-03-27T07:56:55Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;build&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/30b47cb53275993e05c19522ee2e9467af669799</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/30b47cb53275993e05c19522ee2e9467af669799"/>
+    <title>
+        refactor callbacks -&gt; onsuccess
+    </title>
+    <updated>2015-03-27T07:56:41Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;refactor callbacks -&amp;gt; onsuccess&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/f7bf7690c276aaccacd1839e1529794f1b4366af</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/f7bf7690c276aaccacd1839e1529794f1b4366af"/>
+    <title>
+        replace &#39;loader&#39; w/ slightly nicer &#39;timer&#39; module
+    </title>
+    <updated>2015-03-27T07:56:24Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;replace &amp;#39;loader&amp;#39; w/ slightly nicer &amp;#39;timer&amp;#39; module&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/e75a46279d310317b50c0277c5ef146cf0fdc9e2</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/e75a46279d310317b50c0277c5ef146cf0fdc9e2"/>
+    <title>
+        remove extra references in demo, cleanup references in readme
+    </title>
+    <updated>2015-03-27T07:19:07Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;remove extra references in demo, cleanup references in readme&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/559ce7e29b1a30ed6c5916dae555e86e6942fa72</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/559ce7e29b1a30ed6c5916dae555e86e6942fa72"/>
+    <title>
+        move colorspace into examples/inc
+    </title>
+    <updated>2015-03-27T07:18:46Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;move colorspace into examples/inc&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/78daed682cf48165694b3713c200cc8a0871a756</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/78daed682cf48165694b3713c200cc8a0871a756"/>
+    <title>
+        cleanup code naming and formatting
+    </title>
+    <updated>2015-03-27T07:14:14Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;cleanup code naming and formatting&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/9df05102017e582894a5b2c5b36ae542049057d9</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/9df05102017e582894a5b2c5b36ae542049057d9"/>
+    <title>
+        setAnimation now uses requestAnimationFrame
+    </title>
+    <updated>2015-03-27T07:08:04Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;setAnimation now uses requestAnimationFrame&lt;/pre&gt;
+    </content>
+  </entry>
+  <entry>
+    <id>tag:github.com,2008:Grit::Commit/a85a6114f5ec4e7463ef9567ac8cc7fd33da9cac</id>
+    <link type="text/html" rel="alternate" href="https://github.com/mudcube/MIDI.js/commit/a85a6114f5ec4e7463ef9567ac8cc7fd33da9cac"/>
+    <title>
+        update notes
+    </title>
+    <updated>2015-03-27T07:03:35Z</updated>
+    <media:thumbnail height="30" width="30" url="https://avatars3.githubusercontent.com/u/101564?s=30&amp;v=4"/>
+    <author>
+      <name>mudcube</name>
+      <uri>https://github.com/mudcube</uri>
+    </author>
+    <content type="html">
+      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;update notes&lt;/pre&gt;
+    </content>
+  </entry>
+</feed>

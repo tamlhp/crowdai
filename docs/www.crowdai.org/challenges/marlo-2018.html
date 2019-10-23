@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from www.crowdai.org/challenges/marlo-2018 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2019 05:38:42 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>crowdAI</title>
+    <meta name="description" content="Fighting for Open Science with Open Data">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="crowdAI" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="marlo-2018.html" />
+    <meta property="og:image" content="../../d1u1amw606tzwl.cloudfront.net/assets/misc/crowdai-head-ea7fded0f7e7e11b446f4d80f8d663b2e60fdd06546dd72be81fd978422a0725.png" />
+    <meta property="og:description" content="Fighting for Open Science with Open Data" />
+    <meta property="og:site_name" content="crowdAI" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@crowd_ai">
+    <meta name="twitter:title" content="crowdAI">
+    <meta name="twitter:description" content="Fighting for Open Science with Open Data">
+    <meta name="twitter:creator" content="@crowd_ai">
+    <meta name="twitter:image:src" content="../../d1u1amw606tzwl.cloudfront.net/assets/misc/crowdai-head-ea7fded0f7e7e11b446f4d80f8d663b2e60fdd06546dd72be81fd978422a0725.png">
+
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-60x60-a3ba860c24da457ef8f16d9d7e40814c6835bfef7268781eb17dfa1c03be83ed.png" sizes="60x60" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-72x72-fa968c8656c46df290ed1ae5dd4bb65c429b015a661330a3623b096c6e4d253e.png" sizes="72x72" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-76x76-5760f720632f080ba32a6afa52c2e48600d0fbb270f3a56d66947b6500cca3ba.png" sizes="76x76" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-114x114-ffef2a7294e6e9c95b42e0e97c52103e350dd25a76094d73a107dacbb5580249.png" sizes="114x114" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-120x120-aaddb625e759aeeaa326652d0e6ae80250ce6cc76e86cd14825af710cf7ff90f.png" sizes="120x120" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-144x144-28f2bdfee1a11984ba0dd2da8e2fcd52fc6cd6350ccafb5512fa521f40f4de8b.png" sizes="144x144" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-152x152-c42809322fa9f13067d094364700ca5b8ce238063dfc6d9d37609ba9428725c7.png" sizes="152x152" />
+    <link rel="shortcut icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-180x180-6dcbd672f0ef87c1cd1b470dc1417ca1cac6c16e1443fbde7e03250f6deebada.png" sizes="192x192" />
+    <link rel="shortcut icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-32x32-31fa8e51ed4c803d20eab56262d765c013deaefab71bdcdeaae2b83fb4461a9b.png" sizes="32x32" />
+    <link rel="shortcut icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-96x96-7159cc97f7b1ef5b332d1384cf0fbf500c11886ed7bd743daab632d1aae80d79.png" sizes="96x96" />
+    <link rel="shortcut icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/favicon-16x16-1526730d30e191cb84bd66a08d29d01165d2074733a361550afecc5edd2fd22e.png" sizes="16x16" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="apple-touch-icon" type="image/png" href="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/apple-icon-57x57-5f11dd362820389c669093ea0070a5a8f98e1128c84ab5c9316768989c488d9e.png" sizes="57x57" />
+    <link rel="manifest" href="https://d1u1amw606tzwl.cloudfront.net/assets/favicon/manifest-e95672d4553092f574d19ee4bf1d17197b734d61b67a30e5463c91fd875095d4.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../../d1u1amw606tzwl.cloudfront.net/assets/favicon/ms-icon-144x144-28f2bdfee1a11984ba0dd2da8e2fcd52fc6cd6350ccafb5512fa521f40f4de8b.png">
+    <meta name="theme-color" content="#ffffff">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:400,400i,500,500i,700" rel="stylesheet">
+    <script src="../../use.fontawesome.com/bee91422da.js"></script>
+        <script data-turbolinks-eval="false">
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      },
+      i[r].l = 1 * new Date();
+      a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '../../www.google-analytics.com/analytics.js', 'ga');
+      ga('create', 'UA-75263739-1', 'auto', {'allowLinker': true });
+    ga('require', 'linker');
+    ga('linker:autoLink', ['crowdai.org']);
+  </script>
+
+      <script>
+var _rollbarConfig = {
+    accessToken: "56bdb20b34b040159a0f2c4e29eb39bb",
+    captureUncaught: true,
+    captureUnhandledRejections: true,
+    payload: {
+        environment: "production"
+    }
+};
+// Rollbar Snippet
+!function(r){function o(e){if(n[e])return n[e].exports;var t=n[e]={exports:{},id:e,loaded:!1};return r[e].call(t.exports,t,t.exports,o),t.loaded=!0,t.exports}var n={};return o.m=r,o.c=n,o.p="",o(0)}([function(r,o,n){"use strict";var e=n(1),t=n(4);_rollbarConfig=_rollbarConfig||{},_rollbarConfig.rollbarJsUrl=_rollbarConfig.rollbarJsUrl||"https://cdnjs.cloudflare.com/ajax/libs/rollbar.js/2.0.1/rollbar.min.js",_rollbarConfig.async=void 0===_rollbarConfig.async||_rollbarConfig.async;var a=e.setupShim(window,_rollbarConfig),l=t(_rollbarConfig);window.rollbar=e.Rollbar,a.loadFull(window,document,!_rollbarConfig.async,_rollbarConfig,l)},function(r,o,n){"use strict";function e(r){return function(){try{return r.apply(this,arguments)}catch(o){try{console.error("[Rollbar]: Internal error",o)}catch(n){}}}}function t(r,o){this.options=r,this._rollbarOldOnError=null;var n=s++;this.shimId=function(){return n},window&&window._rollbarShims&&(window._rollbarShims[n]={handler:o,messages:[]})}function a(r,o){var n=o.globalAlias||"Rollbar";if("object"==typeof r[n])return r[n];r._rollbarShims={},r._rollbarWrappedError=null;var t=new p(o);return e(function(){return o.captureUncaught&&(t._rollbarOldOnError=r.onerror,i.captureUncaughtExceptions(r,t),i.wrapGlobals(r,t)),o.captureUnhandledRejections&&i.captureUnhandledRejections(r,t),r[n]=t,t})()}function l(r){return e(function(){var o=this,n=Array.prototype.slice.call(arguments,0),e={shim:o,method:r,args:n,ts:new Date};window._rollbarShims[this.shimId()].messages.push(e)})}var i=n(2),s=0,c=n(3),d=function(r,o){return new t(r,o)},p=c.bind(null,d);t.prototype.loadFull=function(r,o,n,t,a){var l=function(){var o;if(void 0===r._rollbarDidLoad){o=new Error("rollbar.js did not load");for(var n,e,t,l,i=0;n=r._rollbarShims[i++];)for(n=n.messages||[];e=n.shift();)for(t=e.args||[],i=0;i<t.length;++i)if(l=t[i],"function"==typeof l){l(o);break}}"function"==typeof a&&a(o)},i=!1,s=o.createElement("script"),c=o.getElementsByTagName("script")[0],d=c.parentNode;s.crossOrigin="",s.src=t.rollbarJsUrl,n||(s.async=!0),s.onload=s.onreadystatechange=e(function(){if(!(i||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState)){s.onload=s.onreadystatechange=null;try{d.removeChild(s)}catch(r){}i=!0,l()}}),d.insertBefore(s,c)},t.prototype.wrap=function(r,o){try{var n;if(n="function"==typeof o?o:function(){return o||{}},"function"!=typeof r)return r;if(r._isWrap)return r;if(!r._wrapped){r._wrapped=function(){try{return r.apply(this,arguments)}catch(o){var e=o;throw"string"==typeof e&&(e=new String(e)),e._rollbarContext=n()||{},e._rollbarContext._wrappedSource=r.toString(),window._rollbarWrappedError=e,e}},r._wrapped._isWrap=!0;for(var e in r)r.hasOwnProperty(e)&&(r._wrapped[e]=r[e])}return r._wrapped}catch(t){return r}};for(var u="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection".split(","),f=0;f<u.length;++f)t.prototype[u[f]]=l(u[f]);r.exports={setupShim:a,Rollbar:p}},function(r,o){"use strict";function n(r,o){if(r){var n;"function"==typeof o._rollbarOldOnError?n=o._rollbarOldOnError:r.onerror&&!r.onerror.belongsToRollbar&&(n=r.onerror,o._rollbarOldOnError=n);var t=function(){var t=Array.prototype.slice.call(arguments,0);e(r,o,n,t)};t.belongsToRollbar=!0,r.onerror=t}}function e(r,o,n,e){r._rollbarWrappedError&&(e[4]||(e[4]=r._rollbarWrappedError),e[5]||(e[5]=r._rollbarWrappedError._rollbarContext),r._rollbarWrappedError=null),o.handleUncaughtException.apply(o,e),n&&n.apply(r,e)}function t(r,o){if(r){"function"==typeof r._rollbarURH&&r.removeEventListener("unhandledrejection",r._rollbarURH);var n=function(r){var n=r.reason,e=r.promise,t=r.detail;!n&&t&&(n=t.reason,e=t.promise),o&&o.handleUnhandledRejection&&o.handleUnhandledRejection(n,e)};r._rollbarURH=n,r.addEventListener("unhandledrejection",n)}}function a(r,o){if(r){var n,e,t="EventTarget,Window,Node,ApplicationCache,AudioTrackList,ChannelMergerNode,CryptoOperation,EventSource,FileReader,HTMLUnknownElement,IDBDatabase,IDBRequest,IDBTransaction,KeyOperation,MediaController,MessagePort,ModalWindow,Notification,SVGElementInstance,Screen,TextTrack,TextTrackCue,TextTrackList,WebSocket,WebSocketWorker,Worker,XMLHttpRequest,XMLHttpRequestEventTarget,XMLHttpRequestUpload".split(",");for(n=0;n<t.length;++n)e=t[n],r[e]&&r[e].prototype&&l(o,r[e].prototype)}}function l(r,o){if(o.hasOwnProperty&&o.hasOwnProperty("addEventListener")){var n=o.addEventListener;n._rollbarOldAdd&&(n=n._rollbarOldAdd);var e=function(o,e,t){n.call(this,o,r.wrap(e),t)};e._rollbarOldAdd=n,o.addEventListener=e;var t=o.removeEventListener;t._rollbarOldRemove&&(t=t._rollbarOldRemove);var a=function(r,o,n){t.call(this,r,o&&o._wrapped||o,n)};a._rollbarOldRemove=t,o.removeEventListener=a}}r.exports={captureUncaughtExceptions:n,captureUnhandledRejections:t,wrapGlobals:a}},function(r,o){"use strict";function n(r,o){this.impl=r(o,this),this.options=o,e(n.prototype)}function e(r){for(var o=function(r){return function(){var o=Array.prototype.slice.call(arguments,0);if(this.impl[r])return this.impl[r].apply(this.impl,o)}},n="log,debug,info,warn,warning,error,critical,global,configure,handleUncaughtException,handleUnhandledRejection,_createItem,wrap,loadFull,shimId".split(","),e=0;e<n.length;e++)r[n[e]]=o(n[e])}n.prototype._swapAndProcessMessages=function(r,o){this.impl=r(this.options);for(var n,e,t;n=o.shift();)e=n.method,t=n.args,this[e]&&"function"==typeof this[e]&&this[e].apply(this,t);return this},r.exports=n},function(r,o){"use strict";r.exports=function(r){return function(o){if(!o&&!window._rollbarInitialized){r=r||{};for(var n,e,t=r.globalAlias||"Rollbar",a=window.rollbar,l=function(r){return new a(r)},i=0;n=window._rollbarShims[i++];)e||(e=n.handler),n.handler._swapAndProcessMessages(l,n.messages);window[t]=e,window._rollbarInitialized=!0}}}}]);
+// End Rollbar Snippet
+</script>
+
+    <link rel="stylesheet" media="all" href="../../d1u1amw606tzwl.cloudfront.net/assets/application-fbad2a77a3c16168d762d7bcd70b51933687bf62defed75590da7d06afb9c181.css" data-turbolinks-track="true" />
+    <script src="../../d1u1amw606tzwl.cloudfront.net/assets/application-7d73590a8408508da67ef02bc6ff6e8dcdd86d359df9bb543dd538d7a9411554.js" data-turbolinks-track="true"></script>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="fMSS83Fs93Etg7CeY/2cUHanKS1RFd8VkliQigg6wDOto2mpP6VkbfugxonH38sJ1fsW3TncOVMtCXPQJ0ZAzg==" />
+    <script src="../../d1u1amw606tzwl.cloudfront.net/packs/application-0a6ea7b74599e58741ff.js"></script>
+    <link rel="stylesheet" media="screen" href="../../d1u1amw606tzwl.cloudfront.net/packs/application-a4f1ebb6e6bc4a2b9e31.css" />
+  </head>
+
+  <body id=''>
+    <!-- loader container -->
+  <div id='loader-container' class="loader-container">
+
+    <!-- loader -->
+    <div class="loader" title="0">
+      <svg version="1.1" id="loader-1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
+        <path opacity="0.2" fill="#F0514D" d="M20.201,5.169c-8.254,0-14.946,6.692-14.946,14.946c0,8.255,6.692,14.946,14.946,14.946s14.946-6.691,14.946-14.946C35.146,11.861,28.455,5.169,20.201,5.169z M20.201,31.749c-6.425,0-11.634-5.208-11.634-11.634c0-6.425,5.209-11.634,11.634-11.634c6.425,0,11.633,5.209,11.633,11.634C31.834,26.541,26.626,31.749,20.201,31.749z"/>
+        <path fill="#F0514D" d="M26.013,10.047l1.654-2.866c-2.198-1.272-4.743-2.012-7.466-2.012h0v3.312h0C22.32,8.481,24.301,9.057,26.013,10.047z">
+        <animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="0.5s" repeatCount="indefinite"/>
+        </path>
+      </svg>
+      <br>
+      <span>Loading</span>
+    </div>
+    <!-- loader -->
+
+  </div>
+  <!-- /loader container -->
+
+    <div id='page-content'>
+      <header>
+  <div class="row">
+    <div class="branding">
+      <a class="logo" href="../index.html" title=""></a>
+    </div>
+    <nav class="primary">
+      <ul>
+        <li><a href="../challenges.html">Challenges</a></li>
+        <li><a href="../articles.html">Knowledge Base</a></li>
+        <li><a href="../job_postings.html">Job Board</a></li>
+          <li><a href="../participants/sign_in.html">Log in</a></li>
+      </ul>
+    </nav>
+    <div class="menu">
+      <a id="mobile-nav" href="#">
+        <i class="fa fa-bars fa-lg" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <nav class="mobile-primary">
+    <div id="mobile-nav-header">
+      <div class="row">
+        <a class="logo" href="#" title=""></a>
+        <a id="mobile-nav" href="#">
+          <i class="fa fa-times fa-lg" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <ul>
+      <li><h3><a href="../challenges.html">Challenges</a></h3></li>
+      <li><h3><a href="../articles.html">Knowledge Base</a></h3></li>
+      <li><h3><a href="../job_postings.html">Job Board</a></h3></li>
+    </ul>
+      <ul>
+        <li>
+          <h4><a href="../participants/sign_in.html">Log in</a></h4>
+        </li>
+      </ul>
+  </nav>
+    <div class="cookies-eu js-cookies-eu">
+    <span class="cookies-eu-content-holder">Cookies help us deliver our services. By using our services, you agree to our use of cookies.</span>
+    <span class="cookies-eu-button-holder">
+      <button class="btn btn-primary cookies-eu-ok js-cookies-eu-ok"> OK </button>
+      <a href="../cookies.html" class=" btn cookies-eu-link" target="_blank"> Learn more </a>
+    </span>
+  </div>
+
+</header>
+
+      <div id='flash-messages'>
+</div>
+
+      <div class="site-message">
+  <div class="row">
+    <p>crowdAI is shutting down - please read our <a href="../blogs/7.html">blog post</a> for more information
+  </div>
+</div>
+
+      <div class='content'>
+  <div class="masthead-detailed" data-cell='Challenge::Cell::ChallengeMasthead'>
+  <div class="row">
+    <div class="pic pic-challenge">
+      <img src="../../dnczkxd1gcfu5.cloudfront.net/images/challenges/image_file/33/Screen_Shot_2018-04-20_at_12.41.51.png" />    </div>
+    <div class="info info-challenge">
+      <div class="heading-w-icon">
+        <h2>MARLO 2018 </h2>
+              </div>
+      <p class="large">Multi-Agent Reinforcement Learning in Minecraft</p>
+      <div class="user-link">
+  <a href="../organizers/microsoft-research.html"><img src="../../dnczkxd1gcfu5.cloudfront.net/images/organizers/image_file/20/microsoft_logo.png" /></a>  <p>By <a href="../organizers/microsoft-research.html">Microsoft Research</a>  </p>
+</div>
+      <progress max="100" value="100"></progress>
+      <div class="stats">
+        <div class="stat-fl">
+          <br>
+          <span>Completed</span>
+        </div>
+        <div class="stat-fr">
+          274<br>
+          <span>Submissions</span>
+        </div>
+        <div class="stat-fr">
+          135<br>
+          <span>Participants</span>
+        </div>
+        <div class="stat-fr">
+          59938<br>
+          <span>Views</span>
+        </div>
+      </div>
+      <div class="button-group">
+        <a id="vote-link-challenge-33" class="btn btn-secondary" href="../participants/sign_in.html"><i class='fa fa-heart' aria-hidden='true'></i>  114</a><a id="follow-link-challenge-33" class="btn btn-secondary btn-min-width" href="../participants/sign_in.html">FOLLOW</a>      </div>
+    </div>
+  </div>
+</div>
+
+
+  <div class="sub-nav">
+  <div class="row">
+    <ul>
+      <li class=active >
+        <a class="active" href="marlo-2018.html">Overview</a>
+      </li>
+      <li class= >
+          <a class="" href="marlo-2018/leaderboards.html">Leaderboard</a>
+      </li>
+        <li class= >
+          <a class="" href="marlo-2018/topics.html">Discussion</a>
+        </li>
+        <li class= >
+          <a class="" href="../participants/sign_in.html">Dataset</a>
+        </li>
+
+        <li class= >
+          <a class="" href="../participants/sign_in.html">Winners</a>
+        </li>
+    </ul>
+
+  </div>
+</div>
+
+
+  <div class="row">
+    <div class="article">
+
+        <h2>Overview</h2>
+        <div class='markdown-wrap'>
+          
+<blockquote>
+  <p>Please consider citing the following paper, if you find this work useful : 
+Diego Perez-Liebana, Katja Hofmann, Sharada Prasanna Mohanty, Noburu Kuno, Andre Kramer, Sam Devlin, Raluca D. Gaina: <strong>“The Multi-Agent Reinforcement Learning in MalmÖ (MARLÖ) Competition”, 2019, Challenges in Machine Learning (NIPS Workshop), 2018</strong>  <a href="http://arxiv.org/abs/1901.08129">http://arxiv.org/abs/1901.08129</a></p>
+</blockquote>
+
+<blockquote>
+  <p>We are accepting submissions for Round 2. Please feel free to make a submission using the <a href="https://github.com/crowdAI/marlo-multi-agent-starter-kit/" target="_blank">instructions here</a>.</p>
+</blockquote>
+
+<blockquote>
+  <p><strong>Due to the delay of opening submission system, we extended the Entry Period to December 31, 2018. Please take a look at the part of Winner Selection for detail.</strong></p>
+</blockquote>
+
+<h2 id="what-is-the-challenge">What is the Challenge?</h2>
+
+<p>Learning to Play: The Multi-Agent Reinforcement Learning in MalmO Competition (“Challenge”) is a new challenge that proposes research on Multi-Agent Reinforcement Learning using multiple games. Participants would create learning agents that will be able to play multiple 3D games as deﬁned in the MalmO platform. The aim of the competition is to encourage AI research on more general approaches via multi-player games. For this, the Challenge will consist of not one but several games, each one of them with several tasks of varying difficulty and settings. Some of these tasks will be public and participants will be able to train on them. Others, however, will be private, only used to determine the ﬁnal rankings of the competition.</p>
+
+<p>Organizer (Microsoft, Queen Mary University of London and crowdAI) will make the Challenge tasks and sample code available via GitHub on or before the Challenge start date. Entries will be judged by Organizer according to the criteria outlined in the “Winner Selection” section below.</p>
+
+<p>The following prizes will be awarded: (1) the top 7 team will be awarded a MARLO Travel Grant with a maximum value of <code class="highlighter-rouge">$2,500</code> USD to join a relevant academic conference or workshop, additionally, the 1st winning team will be awarded a second MARLO Travel Grant with a maximum value of <code class="highlighter-rouge">$2,500</code> USD to join the <a href="https://www.appliedmldays.org/" target="_blank">Applied Machine Learning Days 2019</a> and (2) three winning teams will be awarded Microsoft Azure Sponsorship with a maximum value of <code class="highlighter-rouge">$10,000</code> USD for the 1st place, <code class="highlighter-rouge">$5,000</code> USD for the 2nd place and <code class="highlighter-rouge">$3,000</code> USD for the 3rd place. Please see the “Challenge Prizes” section below for further details.</p>
+
+<h2 id="what-are-the-start-and-end-dates">What are the start and end dates?</h2>
+
+<p>The Challenge starts at 00:01 Pacific Standard Time, on July 27, 2018, and the Qualify Round ends at 23:59 Pacific Standard Time, on December 31, 2018 (“Entry Period”). Entries must be received within the Entry Period to be eligible.</p>
+
+<p>The Kick-off Tournament is held in <a href="https://marlo-ai.github.io/" target="_blank">MARLO workshop</a> of AIIDE’18, the 14th <a href="https://sites.google.com/ncsu.edu/aiide-2018/" target="_blank">AAAI Conference on Artificial Intelligence and Interactive Digital Entertainment</a> held at the University of Alberta in Edmonton, AB, Canada on November 14, 2018.</p>
+
+<p>The Final Tournament will be held offline in a week after deadline to decide winners.</p>
+
+<h2 id="games-and-tasks">Games and Tasks</h2>
+
+<p>One of the main features of this competition is that agents play in multiple games. Therefore, several tasks are proposed for this contest. For the purpose of this document and the competition itself, we deﬁne:</p>
+
+<ul>
+  <li>
+    <p>Game: each one of the diﬀerent scenarios in which agents play.</p>
+  </li>
+  <li>
+    <p>Task: each instance of a game. Tasks, within a game, may be diﬀerent to each other in terms of level layout, size, diﬃculty and other game-dependent settings.</p>
+  </li>
+</ul>
+
+<p><img src="../../crowdai-shared.s3.eu-central-1.amazonaws.com/markdown_editor/ce3722de6fc358b980aab61893b6ffa0_Figure1.png" alt="Figure1.png" />
+Figure 1: Sketch of how games and tasks are organized in the Challenge.</p>
+
+<p>As can be seen, tasks will be of public nature and accessible by the participants, while others are secret and will be used to evaluate the submitted entries at the end of the competition.</p>
+
+<p>Tasks are distributed across sets:
+<img src="../../crowdai-shared.s3.eu-central-1.amazonaws.com/markdown_editor/1cf1be0ffe8090ed993adfcb63580163_Figure2.png" alt="Figure2.png" />
+Figure 2: On the left: Build Battle, where players need to recreate a structure (in this case, the structure is shown on the ground). On the right: Pig Chase, where players collaborate to corner the pig.</p>
+
+<h2 id="competition">Competition</h2>
+
+<p>To participate in the Challenge, you will first need to register as a user on crowdai.org and entry the Challenge. Then you start playing with the Challenge by simply cloning the <a href="https://github.com/crowdAI/marLo" target="_blank">starter-kit of the Challenge on GitHub</a>. Your participation in the Challenge happens through a self-hosted GitLab instance of crowdAI. You need to create a “private” repository with your initial code (or simply code copied from the starter kit). You can make a submission by creating a new git tag and pushing the tag on your repository. crowdAI bot identifies your push tag, automatically clone your repository into a docker image and run an evaluation. After evaluation, the <a href="marlo-2018/leaderboards.html" target="_blank">leaderboard</a> is updated. You can find more detail about the actual submission process in the starter-kit.</p>
+
+<p>Your code (and also the corresponding issues for every submission) will stay private during the Challenge. You are encouraged to add an opensource license of your choice. At the end of the Challenge, you will be provided a time period, within which you can decide to keep your code private and not making it publicly available. Else your repository will be made public by default. If the participant has not already added a License to the repository, a MIT license will be automatically added to the repository before making it public. Those who object to having their code made public, will be excluded from the automated process of making all the Challenge specific repositories public.</p>
+
+<p>We are not responsible for entries that we do not receive for any reason, or for entries that we receive but are not decipherable for any reason. We will automatically disqualify any incomplete or illegible entries.</p>
+
+        </div>
+
+        <h2>Partners</h2>
+        <div class='markdown-wrap'>
+            <a target="_blank" href="https://www.microsoft.com/en-us/research/">
+              <img class="img-logo" src="../../dnczkxd1gcfu5.cloudfront.net/images/challenge_partners/image_file/49/Microsoft-logo_cmyk_c-gray_600.png" />
+</a>            <a target="_blank" href="https://www.qmul.ac.uk/">
+              <img class="img-logo" src="../../dnczkxd1gcfu5.cloudfront.net/images/challenge_partners/image_file/50/Queen_Mary_University_of_London_logo.png" />
+</a>            <a target="_blank" href="https://www.epfl.ch/">
+              <img class="img-logo" src="../../dnczkxd1gcfu5.cloudfront.net/images/challenge_partners/image_file/52/EPFL-Logo-CMJN.png" />
+</a>        </div>
+
+        <h2>Evaluation</h2>
+        <div class='markdown-wrap'>
+          <h2>Winner Selection</h2>
+
+<h3>Qualify Round</h3>
+
+<p><strong>Round 1 – until October 21, 2018</strong></p>
+
+<ul>
+  <li>Warm up round. Submitted agent to work for a single task.</li>
+</ul>
+
+<p><strong>Round 2 – October 21, 2018 – December 31, 2018</strong></p>
+
+<ul>
+  <li>Submitted agent to work with fixed random agent as its opponent.</li>
+</ul>
+
+<p>At the close of the Entry Period (on December 31, 2018), the Organizer will select 8-32 qualifying teams from eligible entries based upon the overall performance on the Competition tasks (i.e. game score) to invite them to the Final Tournament.</p>
+
+<p>The decisions of the Organizer are final and binding. If we do not receive a sufficient number of entries meeting the entry requirements, we may, at our discretion, select fewer qualifying teams to the tournament.</p>
+
+<h3>Kick-off Tournament</h3>
+
+<p>Kick-off Tournament is organized in a form of live competition at the workshop in AIIDE 2018. A few Invited teams are broken into groups. Teams on each group play among themselves as the same format with Final Tournament as below.</p>
+
+<h3>Final Tournament</h3>
+
+<p>The Final Tournament is organized offline in a week after the deadline of December 31, 2018. The 8-32 invited teams are broken into 8 groups. Teams on each group play among themselves (in which we here called a “league”) to determine a ranking, and the top 2 teams of these players progresses to the next round. Each league (P players in a group) is played across the same N games, with T repetitions played per game. Each game has its own leaderboard of agents ranked by the quality of the players. These leaderboards award ranking points to the entries, following a Formula 1-like scheme: 25 points for the 1st ranked entry, 18 for the 2nd, 15, 12, 10, 8, 6, 4, 2 and 1 for positions in the ranking from 3rd to 10th respectively. No points are awarded for positions 11th and below. The winner of the league is determined by adding all ranking points obtained in the diﬀerent games of the challenge.
+<img src="../../crowdai-shared.s3.eu-central-1.amazonaws.com/markdown_editor/495f17c83f2f2a4f5deb6d6663d6a4dc_Figure3.png" alt="Figure3.png">
+Figure 3: MARLO Final Tournament</p>
+
+<p>If any team member is a potential winner and is 18 years of age or older, but is considered a minor in their place of legal residence, we may require that person’s parent or legal guardian to sign all required forms on their behalf. If that person does not complete the required forms as instructed and/or return the required forms within the time period listed on the winner notification message, we may disqualify the relevant team and select a runner-up.</p>
+
+<p>If your team is confirmed as a winner of the Challenge:</p>
+
+<ul>
+  <li>
+    <p>It may not designate another party as the winner. If your team is unable or unwilling to accept its prize, we may award it to a runner-up; and</p>
+  </li>
+  <li>
+    <p>Team members will be solely responsible for any taxes that may be payable in connection with the award of any prize.</p>
+  </li>
+</ul>
+
+        </div>
+
+        <h2>Rules</h2>
+        <div class='markdown-wrap'>
+          <h3>MARLO Travel Grant Prize, Microsoft Azure Sponsorship Prize</h3>
+
+<p>To be eligible to win the MARLO Travel Grant prize or Microsoft Azure Sponsorship Prize, your team must meet the following criteria at the time of entry and at the time of award of any prize:</p>
+
+<p>Each team member must be enrolled in undergraduate or post-graduate studies (that is, PhD or Masters level) at an accredited college or university and the team lead must be registered in a PhD program at an accredited college or university. Faculty or post-docs can be included in your team as a supervisor. But the supervisor is not eligible for the prizes.</p>
+
+<h3>General Requirements</h3>
+
+<p>A team consists of up to five participants. To participate in the Challenge and be eligible to win either prize, each team member must meet the following criteria at the time of entry and at the time of award of any prize:</p>
+
+<ul>
+  <li>
+    <p>18 years of age or older. If any team member is 18 years of age or older, but is considered a minor in their place of residence, they should ask their parent’s or legal guardian’s permission prior to submitting an entry into the Challenge; and</p>
+  </li>
+  <li>
+    <p>Not an employee of Microsoft Corporation or of any Microsoft subsidiary; and</p>
+  </li>
+  <li>
+    <p>Not an immediate family (parent, sibling, spouse/domestic partner, child) or household member of a Microsoft employee, an employee of a Microsoft subsidiary, or any person involved in any part of the administration and execution of this promotion.</p>
+  </li>
+</ul>
+
+<p>Subject to meeting the relevant eligibility criteria, teams are permitted to enter to the prizes. Your team lead must notify Organizer before the end of the Entry Period (Dec 31, 2018) by sending an email to <a href="mailto:malmoadm@microsoft.com">MalmoAdm@microsoft.com</a>, indicating your crowdAI team name and all every individual team members. Only emails actually received by Organizer before the end of the Entry Period will be considered.</p>
+
+<p>This promotion is void where prohibited by law. No purchase necessary.</p>
+
+<h3>How will my team’s entry be potentially used?</h3>
+
+<p>Except as set out below, we are not claiming any ownership rights to your team’s entry. However, by submitting your entry, each team member: 1. Grants Organizer an irrevocable, non-exclusive, royalty-free, worldwide right and license to: (i) use, review, assess, test, and otherwise analyze your entry and all its content in connection with the Challenge; and (ii) feature your entry and all content in connection with the marketing, sale, or promotion of the Challenge (including but not limited to internal and external sales meetings, conference presentations, tradeshows, and screen shots of the Challenge entry in press releases) in all media (now known or later developed); and 2. agrees to sign any necessary documentation that may be required for us and our designees to make use of the rights you granted above; and 3. understands and acknowledges that Organizer may have developed or commissioned materials similar or identical to your team’s submission and you waive any claims you may have resulting from any similarities to your entry; and 4. understands that we cannot control the incoming information you will disclose to our representatives in the course of entering, or what our representatives will remember about your entry. You also understand that we will not restrict work assignments of representatives who have had access to your entry. By entering the Challenge, you agree that use of information in our representatives’ unaided memories in the development or deployment of our products or services does not create liability for us under this agreement or copyright or trade secret law; and 5. understands that you will not receive any compensation or credit for use of your entry, other than what is described in these Challenge Rules.</p>
+
+<p>If your team does not want to grant us these rights to your entry, please do not enter the Challenge.</p>
+
+<h3>What if something unexpected happens and the Challenge can’t run as planned?</h3>
+
+<p>If someone cheats, or a virus, bug, bot, catastrophic event, or any other unforeseen or unexpected event that cannot be reasonably anticipated or controlled (also referred to as force majeure), affects the fairness and/or integrity of the Challenge, we reserve the right to cancel, change, or suspend the Challenge. This right is reserved whether the event is due to human or technical error. If a solution cannot be found to restore the integrity of the Challenge, we reserve the right to select winning teams from among all eligible entries received before we had to cancel, change, or suspend the Challenge.
+If any team member attempts to, or we have strong reason to believe that a team member has, compromised the integrity or the legitimate operation of the Challenge by cheating, or through any other illegal, unlawful, or unfair activity, we may seek damages from that team member to the fullest extent permitted by law. Further, we may disqualify the team, and ban any team member from participating in any of our future Challenges, so please play fairly.</p>
+
+        </div>
+
+        <h2>Prizes</h2>
+        <div class='markdown-wrap'>
+          <h3>MARLO Travel Grant Prize</h3>
+
+<p>The top 7 teams (3 Progress Award at Kick-off Tournament and the rest of 4 Award at Final Tournament) will be awarded a MARLO Travel Grant with a maximum value of <code class="highlighter-rouge">$2,500</code> USD for the team members to join a relevant conference to publish their competition result. The conference is within a year after finishing the final tournament and it is decided later based on mutual agreement between Organizer and the winning team. Additionally, the 1st winning team will be awarded a second MARLO Travel Grant with a maximum value of <code class="highlighter-rouge">$2,500</code> USD to join the <a href="https://www.appliedmldays.org/">Applied Machine Learning Days 2019</a>. The winner of Progress Award at Kick-off Tournament and the winner of Award at the Final Tournament can be overlapped as long as the Organizer identify some improvements about the submission made by the relevant teams. Organizer will reimburse the following reasonably and necessarily incurred travel expenses of team members in attending the conference: (1) economy class roundtrip airfares from your nearest airport to the city of the conference; and (2) accommodation up to 3 days. Organizer will not cover meals during your attendance at the conference.</p>
+
+<h3>Microsoft Azure Sponsorship Prize</h3>
+
+<p>Three teams will each win a Microsoft Azure Sponsorship at Final Tournament with a maximum value of <code class="highlighter-rouge">$10,000</code> USD for the 1st place, <code class="highlighter-rouge">$5,000</code> USD for the 2nd place and <code class="highlighter-rouge">$3,000</code> USD for the 3rd place. The Microsoft Azure Sponsorship will be awarded to the team lead nominated by the relevant team. Team leads will be solely responsible for the allocation of the grant between the relevant team members. The award of a Microsoft Azure Sponsorship will be subject to each team member agreeing to comply with such terms and conditions of use or other requirements that Microsoft may impose.</p>
+
+<h3>Azure for Students</h3>
+
+<p>Azure for Students gets you started with $100 in Azure credits to be used within the first 12 months plus select free services (subject to change) without requiring a credit card at sign-up. This is not mandatory for the Challenge. We recommend you take a look at the portal site if you would get additional computing resources: <a href="https://azure.microsoft.com/en-us/free/students/">https://azure.microsoft.com/en-us/free/students/</a>.</p>
+
+<h3>Winner’s List and Sponsor</h3>
+
+<p>We will notify the winning teams by November 17, 2018. We will also post a leaderboard detailing the top 32 team entries online on crowdAI and under Microsoft Research website. Please note that we will only post team names and we will not post the names of any individual team members. This list will remain posted for a period of at least 12 calendar months.</p>
+
+<p>If your team’s entry is in a public repository we may also post a link to that repository. Please check your GitLab and GitHub settings to ensure that this will not result in individual team members becoming identifiable unless this is intended by the individual(s) in question.</p>
+
+<p>This promotion is sponsored by Microsoft Corporation, One Microsoft Way, Redmond, WA 98052-6399, USA.</p>
+
+<h2>Timeline</h2>
+
+<ul>
+  <li>July 27th, 2018: Competition Open</li>
+  <li>October 21st, 2018: Qualifying Round 1 submission deadline</li>
+  <li>November 14th, 2018: Kick-off Tournament</li>
+  <li>December 31st, 2018: Qualifying Round 2 submission deadline</li>
+  <li>Early January 2019: Final Tournament</li>
+</ul>
+
+<h2>Organizing Team</h2>
+
+<p>The organizing team comes from multiple groups — Queen Mary University of London, École Polytechnique Fédérale de Lausanne, and Microsoft Research.</p>
+
+<p>The organizing team consists of:</p>
+
+<ul>
+  <li>Diego Perez-Liebana (Queen Mary University of London)</li>
+  <li>Raluca D. Gaina (Queen Mary University of London)</li>
+  <li>Daniel Ionita (Queen Mary University of London)</li>
+  <li>Sharada Prasanna Mohanty (École Polytechnique fédérale de Lausanne)</li>
+  <li>Sam Devlin (Microsoft Research)</li>
+  <li>Andre Kramer (Microsoft Research)</li>
+  <li>Sean Kuno (Microsoft Research)</li>
+  <li>Katja Hofmann (Microsoft Research)</li>
+</ul>
+
+<h2>Sponsors</h2>
+
+<ul>
+  <li>Microsoft</li>
+</ul>
+
+        </div>
+
+        <h2>Resources</h2>
+        <div class='markdown-wrap'>
+          <p>Please visit the starter-kit page first for our comprehensive instruction to start this competition.</p>
+
+<ul>
+  <li>Starter-kit: <a href="https://github.com/crowdAI/marLo">https://github.com/crowdAI/marLo</a>
+</li>
+</ul>
+
+<p>The original resource of Project Malmo platform is available on the GitHub.</p>
+
+<ul>
+  <li>GitHub: <a href="https://github.com/Microsoft/malmo">https://github.com/Microsoft/malmo</a>
+</li>
+  <li>Project Malmo website: <a href="https://www.microsoft.com/en-us/research/project/project-malmo/">https://www.microsoft.com/en-us/research/project/project-malmo/</a>
+</li>
+</ul>
+
+<p>Follow twitter for the latest information of Project Malmo</p>
+
+<ul>
+  <li>Twitter: <a href="https://twitter.com/Project_Malmo">@Project_Malmo</a>
+</li>
+</ul>
+
+<h2>Contact Us</h2>
+
+<ul>
+  <li>Gitter Channel : <a href="https://gitter.im/Microsoft/malmo"> https://gitter.im/Microsoft/malmo </a>
+</li>
+  <li>Discussion Forum : <a href="marlo-2018/topics.html"> https://www.crowdai.org/challenges/marlo-2018/topics </a>
+</li>
+</ul>
+
+<p>We strongly encourage you to use the public channels mentioned above for communications between the participants and the organizers. In extreme cases, if there are any queries or comments that you would like to make using a private communication channel, then you can send us an email at:</p>
+
+<ul>
+  <li><a href="mailto:sharada.mohanty@epfl.ch">sharada.mohanty@epfl.ch</a></li>
+  <li><a href="mailto:malmoadm@microsoft.com">malmoadm@microsoft.com</a></li>
+</ul>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
+      
+<div class="js-paloma-hook" data-palomaid="1571808960479">
+  <script type="text/javascript">
+    (function(){
+
+      if ( !window['Paloma'] ) return true;
+      Paloma.env = 'production';
+
+      var id = "1571808960479",
+          request = {"resource":"Challenges","action":"show","params":{}};
+
+      Paloma.engine.setRequest({
+        id: id,
+        resource: request.resource,
+        action: request.action,
+        params: request.params
+      });
+
+      var self  = document.querySelector("[data-palomaid='" + id + "']");
+      if (self) self.parentNode.removeChild(self);
+
+    })();
+  </script>
+</div>
+
+      <footer class="">
+  <div class="row">
+    <a class="logo-footer" href="http://epfl.ch/">
+      <img src="../../d1u1amw606tzwl.cloudfront.net/assets/misc/EPFL_Logo_Digital_RGB_PROD-60bb226e14e8a37db07793a88a44ce5fe4dfa7f23bc8bab21a52c8664e26b8ab.png" />
+    </a>
+    <p class="copyright">&#9400; 2018 crowdAI</p>
+    <ul class="social">
+      <li>
+        <a href="https://twitter.com/crowd_ai">
+          <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/crowdAI">
+          <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+    <ul class="links">
+      <li><a href="../faq.html">FAQ</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+      <li><a href="../privacy.html">Privacy</a></li>
+      <li><a href="../terms.html">Terms of Service</a></li>
+      <li><a href="../cookies.html">Cookie consent</a></li>
+    </ul>
+  </div>
+</footer>
+
+    </div>
+      <script>
+    ga('set', 'location', location.href.split('#')[0]);
+    ga('send', 'pageview', {"title": document.title});
+  </script>
+
+  </body>
+
+<!-- Mirrored from www.crowdai.org/challenges/marlo-2018 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Oct 2019 05:38:55 GMT -->
+</html>

@@ -1,0 +1,83 @@
+{
+    "@graph": [
+        {
+            "@id": "data:M80313227",
+            "@type": "schema:Dataset",
+            "about": "wd:M80313227",
+            "license": "http://creativecommons.org/publicdomain/zero/1.0/",
+            "softwareVersion": "1.0.0",
+            "version": 357742819,
+            "dateModified": "2019-07-10T21:24:45Z"
+        },
+        {
+            "@id": "wd:M80313227",
+            "@type": [
+                "wikibase:Mediainfo",
+                "schema:MediaObject",
+                "schema:ImageObject"
+            ],
+            "encodingFormat": "image/jpeg",
+            "contentUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sinistral_Helix_pomatia_Linnaeus_1758_3.jpg",
+            "contentSize": 694356,
+            "height": 1152,
+            "width": 1231,
+            "caption": {
+                "@language": "en",
+                "@value": "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"
+            },
+            "label": {
+                "@language": "en",
+                "@value": "Sinistral (left-handed) snail Helix pomatia Linnaeus 1758"
+            }
+        }
+    ],
+    "@context": {
+        "data": "https://commons.wikimedia.org/wiki/Special:EntityData/",
+        "schema": "http://schema.org/",
+        "about": {
+            "@id": "schema:about",
+            "@type": "@id"
+        },
+        "wd": "http://commons.wikimedia.org/entity/",
+        "cc": "http://creativecommons.org/ns#",
+        "license": {
+            "@id": "cc:license",
+            "@type": "@id"
+        },
+        "softwareVersion": {
+            "@id": "schema:softwareVersion"
+        },
+        "version": {
+            "@id": "schema:version"
+        },
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "dateModified": {
+            "@id": "schema:dateModified",
+            "@type": "xsd:dateTime"
+        },
+        "wikibase": "http://wikiba.se/ontology#",
+        "encodingFormat": {
+            "@id": "schema:encodingFormat"
+        },
+        "contentUrl": {
+            "@id": "schema:contentUrl",
+            "@type": "@id"
+        },
+        "contentSize": {
+            "@id": "schema:contentSize"
+        },
+        "height": {
+            "@id": "schema:height"
+        },
+        "width": {
+            "@id": "schema:width"
+        },
+        "caption": {
+            "@id": "schema:caption"
+        },
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "label": {
+            "@id": "rdfs:label"
+        }
+    }
+}

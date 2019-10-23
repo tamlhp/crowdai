@@ -1,0 +1,16 @@
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80312954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Dataset> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80312954> <http://schema.org/about> <http://commons.wikimedia.org/entity/M80312954> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80312954> <http://creativecommons.org/ns#license> <http://creativecommons.org/publicdomain/zero/1.0/> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80312954> <http://schema.org/softwareVersion> "1.0.0" .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80312954> <http://schema.org/version> "357742242"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://commons.wikimedia.org/wiki/Special:EntityData/M80312954> <http://schema.org/dateModified> "2019-07-10T21:14:48Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://commons.wikimedia.org/entity/M80312954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Mediainfo> .
+<http://commons.wikimedia.org/entity/M80312954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/MediaObject> .
+<http://commons.wikimedia.org/entity/M80312954> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> .
+<http://commons.wikimedia.org/entity/M80312954> <http://schema.org/encodingFormat> "image/jpeg" .
+<http://commons.wikimedia.org/entity/M80312954> <http://schema.org/contentUrl> <https://upload.wikimedia.org/wikipedia/commons/9/9c/Sinistral_Cornu_aspersum_Muller_1774_7.jpg> .
+<http://commons.wikimedia.org/entity/M80312954> <http://schema.org/contentSize> "409922"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M80312954> <http://schema.org/height> "820"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M80312954> <http://schema.org/width> "836"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://commons.wikimedia.org/entity/M80312954> <http://schema.org/caption> "Sinistral (left-handed) snail Cornu aspersum / Helix aspersa Muller 1774"@en .
+<http://commons.wikimedia.org/entity/M80312954> <http://www.w3.org/2000/01/rdf-schema#label> "Sinistral (left-handed) snail Cornu aspersum / Helix aspersa Muller 1774"@en .

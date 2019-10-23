@@ -1,0 +1,149 @@
+From fe0ba5d4fd89003dcdbb761ddf616d973e96c399 Mon Sep 17 00:00:00 2001
+From: Michael Deal <mudcube@gmail.com>
+Date: Tue, 24 Mar 2015 20:37:36 -0700
+Subject: [PATCH] cleanup notes
+
+---
+ Gruntfile.js               |  4 +++-
+ TODO                       | 34 ++++++++++++++++++++--------------
+ js/color/spaceW3.js        | 15 ++++++++-------
+ js/midi/gm.js              |  4 ++--
+ js/midi/plugin.webaudio.js |  6 +++---
+ 5 files changed, 36 insertions(+), 27 deletions(-)
+
+diff --git a/Gruntfile.js b/Gruntfile.js
+index 0067865..f79dd59 100644
+--- a/Gruntfile.js
++++ b/Gruntfile.js
+@@ -1,12 +1,14 @@
+ /*
++	----------------------------------------------------------
+ 	Build environment
+-	----------------------------------------
++	----------------------------------------------------------
+ 	1) Install NodeJS:
+ 		http://nodejs.org/
+ 	2) Install dev dependencies
+ 	  npm install
+ 	3) Install Grunt CLI globally
+ 		npm install grunt-cli -g
++	----------------------------------------------------------
+ */
+ 
+ module.exports = function (grunt) {
+diff --git a/TODO b/TODO
+index 837a522..1d7da63 100644
+--- a/TODO
++++ b/TODO
+@@ -1,15 +1,21 @@
++----------------------------------------------------------
+ TODO
+-* Sound on Android/iOS working? Check various devices
+-* Add browser supports to the project.
+-* Loading progress feedback example.
+-* Document how to support from file://
+-	<script src="./soundfont/acoustic_grand_piano-ogg.js"></script>
+-
+-* better on event listeners for MIDIPlayer, get inspiration from these?
+-	https://github.com/hhromic/midi-utils-js
+-	https://github.com/justinlatimer/node-midi
+-
+-* add some docs on color music history: http://www.musanim.com/
+-
+-* List of Developers who work w/ MIDI.js
+-	???
+\ No newline at end of file
++----------------------------------------------------------
++	* Sound on Android/iOS working? Check various devices
++	------------------------------------------------------
++	* Add browser supports to the project
++	------------------------------------------------------
++	* Loading progress feedback example
++	------------------------------------------------------
++	* Document how to support from file://
++		<script src="./soundfont/acoustic_grand_piano-ogg.js"></script>
++	------------------------------------------------------
++	* better on event listeners for MIDIPlayer, get inspiration from these?
++		https://github.com/hhromic/midi-utils-js
++		https://github.com/justinlatimer/node-midi
++	------------------------------------------------------
++	* add some docs on color music history: http://www.musanim.com/
++	------------------------------------------------------
++	* List of Developers who work w/ MIDI.js
++		???
++	------------------------------------------------------
+\ No newline at end of file
+diff --git a/js/color/spaceW3.js b/js/color/spaceW3.js
+index 46da7f2..409becc 100644
+--- a/js/color/spaceW3.js
++++ b/js/color/spaceW3.js
+@@ -1,23 +1,23 @@
+ /* 
+-	----------------------------------------------------
++	----------------------------------------------------------
+ 	Color Space : 1.2 : 2012.11.06
+-	----------------------------------------------------
++	----------------------------------------------------------
+ 	https://github.com/mudcube/Color.Space.js
+-	----------------------------------------------------
++	----------------------------------------------------------
+ 	RGBA <-> HSLA  <-> W3
+ 	RGBA <-> HSVA
+ 	RGBA <-> CMY   <-> CMYK
+ 	RGBA <-> HEX24 <-> W3
+ 	RGBA <-> HEX32
+ 	RGBA <-> W3
+-	----------------------------------------------------
++	----------------------------------------------------------
+ 	Examples
+-	----------------------------------------------------
++	----------------------------------------------------------
+ 	Color.Space(0x99ff0000, "HEX32>RGBA>HSLA>W3"); // outputs "hsla(60,100%,17%,0.6)"
+ 	Color.Space(0xFF0000, "HEX24>RGB>HSL"); // convert hex24 to HSL object.
+-	----------------------------------------------------
++	----------------------------------------------------------
+ 	W3 values
+-	----------------------------------------------------
++	----------------------------------------------------------
+ 	rgb(255,0,0)
+ 	rgba(255,0,0,1)
+ 	rgb(100%,0%,0%)
+@@ -25,6 +25,7 @@
+ 	hsl(120, 100%, 50%)
+ 	hsla(120, 100%, 50%, 1)
+ 	#000000
++	----------------------------------------------------------
+ */
+ 
+ if (typeof(Color) === "undefined") var Color = {};
+diff --git a/js/midi/gm.js b/js/midi/gm.js
+index 6cac438..2e1278c 100644
+--- a/js/midi/gm.js
++++ b/js/midi/gm.js
+@@ -1,7 +1,7 @@
+ /*
+-	---------------------------------------------------
++	----------------------------------------------------------
+ 	GeneralMIDI
+-	---------------------------------------------------
++	----------------------------------------------------------
+ */
+ 
+ (function(root) { 'use strict';
+diff --git a/js/midi/plugin.webaudio.js b/js/midi/plugin.webaudio.js
+index 4083067..b4e3a70 100644
+--- a/js/midi/plugin.webaudio.js
++++ b/js/midi/plugin.webaudio.js
+@@ -1,9 +1,9 @@
+ /*
+-	----------------------------------------------------------------------
++	----------------------------------------------------------
+ 	Web Audio API - OGG or MPEG Soundbank
+-	----------------------------------------------------------------------
++	----------------------------------------------------------
+ 	http://webaudio.github.io/web-audio-api/
+-	----------------------------------------------------------------------
++	----------------------------------------------------------
+ */
+ 
+ (function(root) { 'use strict';
